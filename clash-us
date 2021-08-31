@@ -5,291 +5,307 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳TW_31572, server: 2.58.241.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳TW_31757, server: 2.58.241.3, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇨🇳TW_31764, server: 2.58.241.3, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇳TW_31944, server: 2.58.241.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇨🇳TW_32558, server: 2.58.241.3, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇨🇳TW_32843, server: 2.58.241.3, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 🇨🇳TW_33148, server: 2.58.241.3, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇨🇳TW_33992, server: 2.58.241.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳TW_33998, server: 2.58.241.3, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇨🇳TW_34687, server: 2.58.241.3, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇨🇳TW_34815, server: 2.58.241.3, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇨🇳TW_35200, server: 2.58.241.3, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 🇨🇳TW_35294, server: 2.58.241.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇨🇳TW_35371, server: 2.58.241.3, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: 🇨🇳TW_36460, server: 2.58.241.3, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 🇨🇳TW_37473, server: 2.58.241.3, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇨🇳TW_37559, server: 2.58.241.3, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
-  - {name: 🇨🇳TW_37588, server: 2.58.241.3, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇨🇳TW_38033, server: 2.58.241.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳TW_38620, server: 2.58.241.3, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇨🇳TW_38742, server: 2.58.241.3, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇨🇳TW_38747, server: 2.58.241.3, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 🇨🇳TW_39556, server: 2.58.241.3, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: 🇨🇳TW_39720, server: 2.58.241.3, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
-  - {name: 🇨🇳TW_39772, server: 2.58.241.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳TW_40093, server: 2.58.241.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇨🇳TW_40220, server: 2.58.241.3, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇨🇳TW_40282, server: 2.58.241.3, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 🇨🇳TW_41372, server: 2.58.241.3, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
-  - {name: 🇨🇳TW_41676, server: 2.58.241.3, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇨🇳TW_41738, server: 2.58.241.3, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: 🇨🇳TW_41992, server: 2.58.241.3, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
-  - {name: 🇨🇳TW_42166, server: 2.58.241.3, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 🇨🇳TW_42304, server: 2.58.241.3, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇨🇳TW_42816, server: 2.58.241.3, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: 🇨🇳TW_44236, server: 2.58.241.3, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇨🇳TW_44539, server: 2.58.241.3, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: 🇨🇳TW_44628, server: 2.58.241.3, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
-  - {name: 🇨🇳TW_44742, server: 2.58.241.3, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
-  - {name: 🇨🇳TW_44745, server: 2.58.241.3, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 🇨🇳TW_44820, server: 2.58.241.3, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇨🇳TW_45329, server: 2.58.241.3, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇨🇳TW_45746, server: 2.58.241.3, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇨🇳TW_45948, server: 2.58.241.3, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇨🇳TW_46412, server: 2.58.241.3, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
-  - {name: 🇨🇳TW_46642, server: 2.58.241.3, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇨🇳TW_46726, server: 2.58.241.3, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
-  - {name: 🇨🇳TW_47027, server: 2.58.241.3, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇨🇳TW_47121, server: 2.58.241.3, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇨🇳TW_47861, server: 2.58.241.3, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: 🇨🇳TW_48089, server: 2.58.241.3, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: 🇨🇳TW_48794, server: 2.58.241.3, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇨🇳TW_48938, server: 2.58.241.3, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇨🇳TW_48970, server: 2.58.241.3, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 🇨🇳TW_49126, server: 2.58.241.3, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇨🇳TW_49202, server: 2.58.241.3, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
-  - {name: 🇨🇳TW_49339, server: 2.58.241.3, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇨🇳TW_49396, server: 2.58.241.3, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇨🇳TW_49468, server: 2.58.241.3, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: 🇨🇳TW_49514, server: 2.58.241.3, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: 🇨🇳TW_49653, server: 2.58.241.3, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
-  - {name: 🇨🇳TW_49719, server: 2.58.241.3, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: 🇨🇳TW_50024, server: 2.58.241.3, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 🇨🇳TW_50168, server: 2.58.241.3, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇨🇳TW_50232, server: 2.58.241.3, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
-  - {name: 🇨🇳TW_50695, server: 2.58.241.3, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 🇨🇳TW_50768, server: 2.58.241.3, port: 50768, type: ss, cipher: aes-256-gcm, password: MgWc3J8tAHsZrVqg4BaBHmGs}
+  - {name: 🇺🇸US_31572, server: 23.82.11.49, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸US_31757, server: 23.82.11.49, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 🇺🇸US_31764, server: 23.82.11.49, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇸US_31944, server: 23.82.11.49, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸US_32558, server: 23.82.11.49, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇺🇸US_32843, server: 23.82.11.49, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 🇺🇸US_33148, server: 23.82.11.49, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸US_33992, server: 23.82.11.49, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸US_33998, server: 23.82.11.49, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸US_34687, server: 23.82.11.49, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇺🇸US_34815, server: 23.82.11.49, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸US_35200, server: 23.82.11.49, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 🇺🇸US_35294, server: 23.82.11.49, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸US_35371, server: 23.82.11.49, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 🇺🇸US_36460, server: 23.82.11.49, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 🇺🇸US_37473, server: 23.82.11.49, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇺🇸US_37559, server: 23.82.11.49, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: 🇺🇸US_37588, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸US_38033, server: 23.82.11.49, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇺🇸US_38620, server: 23.82.11.49, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸US_38742, server: 23.82.11.49, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸US_38747, server: 23.82.11.49, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 🇺🇸US_39556, server: 23.82.11.49, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 🇺🇸US_39720, server: 23.82.11.49, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: 🇺🇸US_39772, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸US_40093, server: 23.82.11.49, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸US_40220, server: 23.82.11.49, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇺🇸US_40282, server: 23.82.11.49, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 🇺🇸US_41372, server: 23.82.11.49, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 🇺🇸US_41676, server: 23.82.11.49, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇸US_41738, server: 23.82.11.49, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 🇺🇸US_41992, server: 23.82.11.49, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 🇺🇸US_42006, server: 23.82.11.49, port: 42006, type: ss, cipher: aes-256-gcm, password: KBKWb873JuC6VqMBJ9zPK8We}
+  - {name: 🇺🇸US_42166, server: 23.82.11.49, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: 🇺🇸US_42185, server: 23.82.11.49, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: 🇺🇸US_42304, server: 23.82.11.49, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: 🇺🇸US_42816, server: 23.82.11.49, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 🇺🇸US_43893, server: 23.82.11.49, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸US_44236, server: 23.82.11.49, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸US_44539, server: 23.82.11.49, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: 🇺🇸US_44628, server: 23.82.11.49, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: 🇺🇸US_44742, server: 23.82.11.49, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: 🇺🇸US_44745, server: 23.82.11.49, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 🇺🇸US_44820, server: 23.82.11.49, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇺🇸US_44945, server: 23.82.11.49, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇺🇸US_45329, server: 23.82.11.49, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇺🇸US_45746, server: 23.82.11.49, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇸US_45948, server: 23.82.11.49, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 🇺🇸US_46412, server: 23.82.11.49, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: 🇺🇸US_46642, server: 23.82.11.49, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇺🇸US_46726, server: 23.82.11.49, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 🇺🇸US_47027, server: 23.82.11.49, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇺🇸US_47121, server: 23.82.11.49, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇺🇸US_47861, server: 23.82.11.49, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 🇺🇸US_48089, server: 23.82.11.49, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 🇺🇸US_48794, server: 23.82.11.49, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇺🇸US_48938, server: 23.82.11.49, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸US_48970, server: 23.82.11.49, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 🇺🇸US_49126, server: 23.82.11.49, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇸US_49202, server: 23.82.11.49, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: 🇺🇸US_49339, server: 23.82.11.49, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸US_49396, server: 23.82.11.49, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸US_49468, server: 23.82.11.49, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: 🇺🇸US_49514, server: 23.82.11.49, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 🇺🇸US_49653, server: 23.82.11.49, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇺🇸US_49719, server: 23.82.11.49, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: 🇺🇸US_50024, server: 23.82.11.49, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 🇺🇸US_50168, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸US_50232, server: 23.82.11.49, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: 🇺🇸US_50695, server: 23.82.11.49, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 🇺🇸US_50768, server: 23.82.11.49, port: 50768, type: ss, cipher: aes-256-gcm, password: MgWc3J8tAHsZrVqg4BaBHmGs}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳TW_31572
-      - 🇨🇳TW_31757
-      - 🇨🇳TW_31764
-      - 🇨🇳TW_31944
-      - 🇨🇳TW_32558
-      - 🇨🇳TW_32843
-      - 🇨🇳TW_33148
-      - 🇨🇳TW_33992
-      - 🇨🇳TW_33998
-      - 🇨🇳TW_34687
-      - 🇨🇳TW_34815
-      - 🇨🇳TW_35200
-      - 🇨🇳TW_35294
-      - 🇨🇳TW_35371
-      - 🇨🇳TW_36460
-      - 🇨🇳TW_37473
-      - 🇨🇳TW_37559
-      - 🇨🇳TW_37588
-      - 🇨🇳TW_38033
-      - 🇨🇳TW_38620
-      - 🇨🇳TW_38742
-      - 🇨🇳TW_38747
-      - 🇨🇳TW_39556
-      - 🇨🇳TW_39720
-      - 🇨🇳TW_39772
-      - 🇨🇳TW_40093
-      - 🇨🇳TW_40220
-      - 🇨🇳TW_40282
-      - 🇨🇳TW_41372
-      - 🇨🇳TW_41676
-      - 🇨🇳TW_41738
-      - 🇨🇳TW_41992
-      - 🇨🇳TW_42166
-      - 🇨🇳TW_42304
-      - 🇨🇳TW_42816
-      - 🇨🇳TW_44236
-      - 🇨🇳TW_44539
-      - 🇨🇳TW_44628
-      - 🇨🇳TW_44742
-      - 🇨🇳TW_44745
-      - 🇨🇳TW_44820
-      - 🇨🇳TW_45329
-      - 🇨🇳TW_45746
-      - 🇨🇳TW_45948
-      - 🇨🇳TW_46412
-      - 🇨🇳TW_46642
-      - 🇨🇳TW_46726
-      - 🇨🇳TW_47027
-      - 🇨🇳TW_47121
-      - 🇨🇳TW_47861
-      - 🇨🇳TW_48089
-      - 🇨🇳TW_48794
-      - 🇨🇳TW_48938
-      - 🇨🇳TW_48970
-      - 🇨🇳TW_49126
-      - 🇨🇳TW_49202
-      - 🇨🇳TW_49339
-      - 🇨🇳TW_49396
-      - 🇨🇳TW_49468
-      - 🇨🇳TW_49514
-      - 🇨🇳TW_49653
-      - 🇨🇳TW_49719
-      - 🇨🇳TW_50024
-      - 🇨🇳TW_50168
-      - 🇨🇳TW_50232
-      - 🇨🇳TW_50695
-      - 🇨🇳TW_50768
+      - 🇺🇸US_31572
+      - 🇺🇸US_31757
+      - 🇺🇸US_31764
+      - 🇺🇸US_31944
+      - 🇺🇸US_32558
+      - 🇺🇸US_32843
+      - 🇺🇸US_33148
+      - 🇺🇸US_33992
+      - 🇺🇸US_33998
+      - 🇺🇸US_34687
+      - 🇺🇸US_34815
+      - 🇺🇸US_35200
+      - 🇺🇸US_35294
+      - 🇺🇸US_35371
+      - 🇺🇸US_36460
+      - 🇺🇸US_37473
+      - 🇺🇸US_37559
+      - 🇺🇸US_37588
+      - 🇺🇸US_38033
+      - 🇺🇸US_38620
+      - 🇺🇸US_38742
+      - 🇺🇸US_38747
+      - 🇺🇸US_39556
+      - 🇺🇸US_39720
+      - 🇺🇸US_39772
+      - 🇺🇸US_40093
+      - 🇺🇸US_40220
+      - 🇺🇸US_40282
+      - 🇺🇸US_41372
+      - 🇺🇸US_41676
+      - 🇺🇸US_41738
+      - 🇺🇸US_41992
+      - 🇺🇸US_42006
+      - 🇺🇸US_42166
+      - 🇺🇸US_42185
+      - 🇺🇸US_42304
+      - 🇺🇸US_42816
+      - 🇺🇸US_43893
+      - 🇺🇸US_44236
+      - 🇺🇸US_44539
+      - 🇺🇸US_44628
+      - 🇺🇸US_44742
+      - 🇺🇸US_44745
+      - 🇺🇸US_44820
+      - 🇺🇸US_44945
+      - 🇺🇸US_45329
+      - 🇺🇸US_45746
+      - 🇺🇸US_45948
+      - 🇺🇸US_46412
+      - 🇺🇸US_46642
+      - 🇺🇸US_46726
+      - 🇺🇸US_47027
+      - 🇺🇸US_47121
+      - 🇺🇸US_47861
+      - 🇺🇸US_48089
+      - 🇺🇸US_48794
+      - 🇺🇸US_48938
+      - 🇺🇸US_48970
+      - 🇺🇸US_49126
+      - 🇺🇸US_49202
+      - 🇺🇸US_49339
+      - 🇺🇸US_49396
+      - 🇺🇸US_49468
+      - 🇺🇸US_49514
+      - 🇺🇸US_49653
+      - 🇺🇸US_49719
+      - 🇺🇸US_50024
+      - 🇺🇸US_50168
+      - 🇺🇸US_50232
+      - 🇺🇸US_50695
+      - 🇺🇸US_50768
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳TW_31572
-      - 🇨🇳TW_31757
-      - 🇨🇳TW_31764
-      - 🇨🇳TW_31944
-      - 🇨🇳TW_32558
-      - 🇨🇳TW_32843
-      - 🇨🇳TW_33148
-      - 🇨🇳TW_33992
-      - 🇨🇳TW_33998
-      - 🇨🇳TW_34687
-      - 🇨🇳TW_34815
-      - 🇨🇳TW_35200
-      - 🇨🇳TW_35294
-      - 🇨🇳TW_35371
-      - 🇨🇳TW_36460
-      - 🇨🇳TW_37473
-      - 🇨🇳TW_37559
-      - 🇨🇳TW_37588
-      - 🇨🇳TW_38033
-      - 🇨🇳TW_38620
-      - 🇨🇳TW_38742
-      - 🇨🇳TW_38747
-      - 🇨🇳TW_39556
-      - 🇨🇳TW_39720
-      - 🇨🇳TW_39772
-      - 🇨🇳TW_40093
-      - 🇨🇳TW_40220
-      - 🇨🇳TW_40282
-      - 🇨🇳TW_41372
-      - 🇨🇳TW_41676
-      - 🇨🇳TW_41738
-      - 🇨🇳TW_41992
-      - 🇨🇳TW_42166
-      - 🇨🇳TW_42304
-      - 🇨🇳TW_42816
-      - 🇨🇳TW_44236
-      - 🇨🇳TW_44539
-      - 🇨🇳TW_44628
-      - 🇨🇳TW_44742
-      - 🇨🇳TW_44745
-      - 🇨🇳TW_44820
-      - 🇨🇳TW_45329
-      - 🇨🇳TW_45746
-      - 🇨🇳TW_45948
-      - 🇨🇳TW_46412
-      - 🇨🇳TW_46642
-      - 🇨🇳TW_46726
-      - 🇨🇳TW_47027
-      - 🇨🇳TW_47121
-      - 🇨🇳TW_47861
-      - 🇨🇳TW_48089
-      - 🇨🇳TW_48794
-      - 🇨🇳TW_48938
-      - 🇨🇳TW_48970
-      - 🇨🇳TW_49126
-      - 🇨🇳TW_49202
-      - 🇨🇳TW_49339
-      - 🇨🇳TW_49396
-      - 🇨🇳TW_49468
-      - 🇨🇳TW_49514
-      - 🇨🇳TW_49653
-      - 🇨🇳TW_49719
-      - 🇨🇳TW_50024
-      - 🇨🇳TW_50168
-      - 🇨🇳TW_50232
-      - 🇨🇳TW_50695
-      - 🇨🇳TW_50768
+      - 🇺🇸US_31572
+      - 🇺🇸US_31757
+      - 🇺🇸US_31764
+      - 🇺🇸US_31944
+      - 🇺🇸US_32558
+      - 🇺🇸US_32843
+      - 🇺🇸US_33148
+      - 🇺🇸US_33992
+      - 🇺🇸US_33998
+      - 🇺🇸US_34687
+      - 🇺🇸US_34815
+      - 🇺🇸US_35200
+      - 🇺🇸US_35294
+      - 🇺🇸US_35371
+      - 🇺🇸US_36460
+      - 🇺🇸US_37473
+      - 🇺🇸US_37559
+      - 🇺🇸US_37588
+      - 🇺🇸US_38033
+      - 🇺🇸US_38620
+      - 🇺🇸US_38742
+      - 🇺🇸US_38747
+      - 🇺🇸US_39556
+      - 🇺🇸US_39720
+      - 🇺🇸US_39772
+      - 🇺🇸US_40093
+      - 🇺🇸US_40220
+      - 🇺🇸US_40282
+      - 🇺🇸US_41372
+      - 🇺🇸US_41676
+      - 🇺🇸US_41738
+      - 🇺🇸US_41992
+      - 🇺🇸US_42006
+      - 🇺🇸US_42166
+      - 🇺🇸US_42185
+      - 🇺🇸US_42304
+      - 🇺🇸US_42816
+      - 🇺🇸US_43893
+      - 🇺🇸US_44236
+      - 🇺🇸US_44539
+      - 🇺🇸US_44628
+      - 🇺🇸US_44742
+      - 🇺🇸US_44745
+      - 🇺🇸US_44820
+      - 🇺🇸US_44945
+      - 🇺🇸US_45329
+      - 🇺🇸US_45746
+      - 🇺🇸US_45948
+      - 🇺🇸US_46412
+      - 🇺🇸US_46642
+      - 🇺🇸US_46726
+      - 🇺🇸US_47027
+      - 🇺🇸US_47121
+      - 🇺🇸US_47861
+      - 🇺🇸US_48089
+      - 🇺🇸US_48794
+      - 🇺🇸US_48938
+      - 🇺🇸US_48970
+      - 🇺🇸US_49126
+      - 🇺🇸US_49202
+      - 🇺🇸US_49339
+      - 🇺🇸US_49396
+      - 🇺🇸US_49468
+      - 🇺🇸US_49514
+      - 🇺🇸US_49653
+      - 🇺🇸US_49719
+      - 🇺🇸US_50024
+      - 🇺🇸US_50168
+      - 🇺🇸US_50232
+      - 🇺🇸US_50695
+      - 🇺🇸US_50768
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳TW_31572
-      - 🇨🇳TW_31757
-      - 🇨🇳TW_31764
-      - 🇨🇳TW_31944
-      - 🇨🇳TW_32558
-      - 🇨🇳TW_32843
-      - 🇨🇳TW_33148
-      - 🇨🇳TW_33992
-      - 🇨🇳TW_33998
-      - 🇨🇳TW_34687
-      - 🇨🇳TW_34815
-      - 🇨🇳TW_35200
-      - 🇨🇳TW_35294
-      - 🇨🇳TW_35371
-      - 🇨🇳TW_36460
-      - 🇨🇳TW_37473
-      - 🇨🇳TW_37559
-      - 🇨🇳TW_37588
-      - 🇨🇳TW_38033
-      - 🇨🇳TW_38620
-      - 🇨🇳TW_38742
-      - 🇨🇳TW_38747
-      - 🇨🇳TW_39556
-      - 🇨🇳TW_39720
-      - 🇨🇳TW_39772
-      - 🇨🇳TW_40093
-      - 🇨🇳TW_40220
-      - 🇨🇳TW_40282
-      - 🇨🇳TW_41372
-      - 🇨🇳TW_41676
-      - 🇨🇳TW_41738
-      - 🇨🇳TW_41992
-      - 🇨🇳TW_42166
-      - 🇨🇳TW_42304
-      - 🇨🇳TW_42816
-      - 🇨🇳TW_44236
-      - 🇨🇳TW_44539
-      - 🇨🇳TW_44628
-      - 🇨🇳TW_44742
-      - 🇨🇳TW_44745
-      - 🇨🇳TW_44820
-      - 🇨🇳TW_45329
-      - 🇨🇳TW_45746
-      - 🇨🇳TW_45948
-      - 🇨🇳TW_46412
-      - 🇨🇳TW_46642
-      - 🇨🇳TW_46726
-      - 🇨🇳TW_47027
-      - 🇨🇳TW_47121
-      - 🇨🇳TW_47861
-      - 🇨🇳TW_48089
-      - 🇨🇳TW_48794
-      - 🇨🇳TW_48938
-      - 🇨🇳TW_48970
-      - 🇨🇳TW_49126
-      - 🇨🇳TW_49202
-      - 🇨🇳TW_49339
-      - 🇨🇳TW_49396
-      - 🇨🇳TW_49468
-      - 🇨🇳TW_49514
-      - 🇨🇳TW_49653
-      - 🇨🇳TW_49719
-      - 🇨🇳TW_50024
-      - 🇨🇳TW_50168
-      - 🇨🇳TW_50232
-      - 🇨🇳TW_50695
-      - 🇨🇳TW_50768
+      - 🇺🇸US_31572
+      - 🇺🇸US_31757
+      - 🇺🇸US_31764
+      - 🇺🇸US_31944
+      - 🇺🇸US_32558
+      - 🇺🇸US_32843
+      - 🇺🇸US_33148
+      - 🇺🇸US_33992
+      - 🇺🇸US_33998
+      - 🇺🇸US_34687
+      - 🇺🇸US_34815
+      - 🇺🇸US_35200
+      - 🇺🇸US_35294
+      - 🇺🇸US_35371
+      - 🇺🇸US_36460
+      - 🇺🇸US_37473
+      - 🇺🇸US_37559
+      - 🇺🇸US_37588
+      - 🇺🇸US_38033
+      - 🇺🇸US_38620
+      - 🇺🇸US_38742
+      - 🇺🇸US_38747
+      - 🇺🇸US_39556
+      - 🇺🇸US_39720
+      - 🇺🇸US_39772
+      - 🇺🇸US_40093
+      - 🇺🇸US_40220
+      - 🇺🇸US_40282
+      - 🇺🇸US_41372
+      - 🇺🇸US_41676
+      - 🇺🇸US_41738
+      - 🇺🇸US_41992
+      - 🇺🇸US_42006
+      - 🇺🇸US_42166
+      - 🇺🇸US_42185
+      - 🇺🇸US_42304
+      - 🇺🇸US_42816
+      - 🇺🇸US_43893
+      - 🇺🇸US_44236
+      - 🇺🇸US_44539
+      - 🇺🇸US_44628
+      - 🇺🇸US_44742
+      - 🇺🇸US_44745
+      - 🇺🇸US_44820
+      - 🇺🇸US_44945
+      - 🇺🇸US_45329
+      - 🇺🇸US_45746
+      - 🇺🇸US_45948
+      - 🇺🇸US_46412
+      - 🇺🇸US_46642
+      - 🇺🇸US_46726
+      - 🇺🇸US_47027
+      - 🇺🇸US_47121
+      - 🇺🇸US_47861
+      - 🇺🇸US_48089
+      - 🇺🇸US_48794
+      - 🇺🇸US_48938
+      - 🇺🇸US_48970
+      - 🇺🇸US_49126
+      - 🇺🇸US_49202
+      - 🇺🇸US_49339
+      - 🇺🇸US_49396
+      - 🇺🇸US_49468
+      - 🇺🇸US_49514
+      - 🇺🇸US_49653
+      - 🇺🇸US_49719
+      - 🇺🇸US_50024
+      - 🇺🇸US_50168
+      - 🇺🇸US_50232
+      - 🇺🇸US_50695
+      - 🇺🇸US_50768
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -300,218 +316,230 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳TW_31572
-      - 🇨🇳TW_31757
-      - 🇨🇳TW_31764
-      - 🇨🇳TW_31944
-      - 🇨🇳TW_32558
-      - 🇨🇳TW_32843
-      - 🇨🇳TW_33148
-      - 🇨🇳TW_33992
-      - 🇨🇳TW_33998
-      - 🇨🇳TW_34687
-      - 🇨🇳TW_34815
-      - 🇨🇳TW_35200
-      - 🇨🇳TW_35294
-      - 🇨🇳TW_35371
-      - 🇨🇳TW_36460
-      - 🇨🇳TW_37473
-      - 🇨🇳TW_37559
-      - 🇨🇳TW_37588
-      - 🇨🇳TW_38033
-      - 🇨🇳TW_38620
-      - 🇨🇳TW_38742
-      - 🇨🇳TW_38747
-      - 🇨🇳TW_39556
-      - 🇨🇳TW_39720
-      - 🇨🇳TW_39772
-      - 🇨🇳TW_40093
-      - 🇨🇳TW_40220
-      - 🇨🇳TW_40282
-      - 🇨🇳TW_41372
-      - 🇨🇳TW_41676
-      - 🇨🇳TW_41738
-      - 🇨🇳TW_41992
-      - 🇨🇳TW_42166
-      - 🇨🇳TW_42304
-      - 🇨🇳TW_42816
-      - 🇨🇳TW_44236
-      - 🇨🇳TW_44539
-      - 🇨🇳TW_44628
-      - 🇨🇳TW_44742
-      - 🇨🇳TW_44745
-      - 🇨🇳TW_44820
-      - 🇨🇳TW_45329
-      - 🇨🇳TW_45746
-      - 🇨🇳TW_45948
-      - 🇨🇳TW_46412
-      - 🇨🇳TW_46642
-      - 🇨🇳TW_46726
-      - 🇨🇳TW_47027
-      - 🇨🇳TW_47121
-      - 🇨🇳TW_47861
-      - 🇨🇳TW_48089
-      - 🇨🇳TW_48794
-      - 🇨🇳TW_48938
-      - 🇨🇳TW_48970
-      - 🇨🇳TW_49126
-      - 🇨🇳TW_49202
-      - 🇨🇳TW_49339
-      - 🇨🇳TW_49396
-      - 🇨🇳TW_49468
-      - 🇨🇳TW_49514
-      - 🇨🇳TW_49653
-      - 🇨🇳TW_49719
-      - 🇨🇳TW_50024
-      - 🇨🇳TW_50168
-      - 🇨🇳TW_50232
-      - 🇨🇳TW_50695
-      - 🇨🇳TW_50768
+      - 🇺🇸US_31572
+      - 🇺🇸US_31757
+      - 🇺🇸US_31764
+      - 🇺🇸US_31944
+      - 🇺🇸US_32558
+      - 🇺🇸US_32843
+      - 🇺🇸US_33148
+      - 🇺🇸US_33992
+      - 🇺🇸US_33998
+      - 🇺🇸US_34687
+      - 🇺🇸US_34815
+      - 🇺🇸US_35200
+      - 🇺🇸US_35294
+      - 🇺🇸US_35371
+      - 🇺🇸US_36460
+      - 🇺🇸US_37473
+      - 🇺🇸US_37559
+      - 🇺🇸US_37588
+      - 🇺🇸US_38033
+      - 🇺🇸US_38620
+      - 🇺🇸US_38742
+      - 🇺🇸US_38747
+      - 🇺🇸US_39556
+      - 🇺🇸US_39720
+      - 🇺🇸US_39772
+      - 🇺🇸US_40093
+      - 🇺🇸US_40220
+      - 🇺🇸US_40282
+      - 🇺🇸US_41372
+      - 🇺🇸US_41676
+      - 🇺🇸US_41738
+      - 🇺🇸US_41992
+      - 🇺🇸US_42006
+      - 🇺🇸US_42166
+      - 🇺🇸US_42185
+      - 🇺🇸US_42304
+      - 🇺🇸US_42816
+      - 🇺🇸US_43893
+      - 🇺🇸US_44236
+      - 🇺🇸US_44539
+      - 🇺🇸US_44628
+      - 🇺🇸US_44742
+      - 🇺🇸US_44745
+      - 🇺🇸US_44820
+      - 🇺🇸US_44945
+      - 🇺🇸US_45329
+      - 🇺🇸US_45746
+      - 🇺🇸US_45948
+      - 🇺🇸US_46412
+      - 🇺🇸US_46642
+      - 🇺🇸US_46726
+      - 🇺🇸US_47027
+      - 🇺🇸US_47121
+      - 🇺🇸US_47861
+      - 🇺🇸US_48089
+      - 🇺🇸US_48794
+      - 🇺🇸US_48938
+      - 🇺🇸US_48970
+      - 🇺🇸US_49126
+      - 🇺🇸US_49202
+      - 🇺🇸US_49339
+      - 🇺🇸US_49396
+      - 🇺🇸US_49468
+      - 🇺🇸US_49514
+      - 🇺🇸US_49653
+      - 🇺🇸US_49719
+      - 🇺🇸US_50024
+      - 🇺🇸US_50168
+      - 🇺🇸US_50232
+      - 🇺🇸US_50695
+      - 🇺🇸US_50768
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳TW_31572
-      - 🇨🇳TW_31757
-      - 🇨🇳TW_31764
-      - 🇨🇳TW_31944
-      - 🇨🇳TW_32558
-      - 🇨🇳TW_32843
-      - 🇨🇳TW_33148
-      - 🇨🇳TW_33992
-      - 🇨🇳TW_33998
-      - 🇨🇳TW_34687
-      - 🇨🇳TW_34815
-      - 🇨🇳TW_35200
-      - 🇨🇳TW_35294
-      - 🇨🇳TW_35371
-      - 🇨🇳TW_36460
-      - 🇨🇳TW_37473
-      - 🇨🇳TW_37559
-      - 🇨🇳TW_37588
-      - 🇨🇳TW_38033
-      - 🇨🇳TW_38620
-      - 🇨🇳TW_38742
-      - 🇨🇳TW_38747
-      - 🇨🇳TW_39556
-      - 🇨🇳TW_39720
-      - 🇨🇳TW_39772
-      - 🇨🇳TW_40093
-      - 🇨🇳TW_40220
-      - 🇨🇳TW_40282
-      - 🇨🇳TW_41372
-      - 🇨🇳TW_41676
-      - 🇨🇳TW_41738
-      - 🇨🇳TW_41992
-      - 🇨🇳TW_42166
-      - 🇨🇳TW_42304
-      - 🇨🇳TW_42816
-      - 🇨🇳TW_44236
-      - 🇨🇳TW_44539
-      - 🇨🇳TW_44628
-      - 🇨🇳TW_44742
-      - 🇨🇳TW_44745
-      - 🇨🇳TW_44820
-      - 🇨🇳TW_45329
-      - 🇨🇳TW_45746
-      - 🇨🇳TW_45948
-      - 🇨🇳TW_46412
-      - 🇨🇳TW_46642
-      - 🇨🇳TW_46726
-      - 🇨🇳TW_47027
-      - 🇨🇳TW_47121
-      - 🇨🇳TW_47861
-      - 🇨🇳TW_48089
-      - 🇨🇳TW_48794
-      - 🇨🇳TW_48938
-      - 🇨🇳TW_48970
-      - 🇨🇳TW_49126
-      - 🇨🇳TW_49202
-      - 🇨🇳TW_49339
-      - 🇨🇳TW_49396
-      - 🇨🇳TW_49468
-      - 🇨🇳TW_49514
-      - 🇨🇳TW_49653
-      - 🇨🇳TW_49719
-      - 🇨🇳TW_50024
-      - 🇨🇳TW_50168
-      - 🇨🇳TW_50232
-      - 🇨🇳TW_50695
-      - 🇨🇳TW_50768
+      - 🇺🇸US_31572
+      - 🇺🇸US_31757
+      - 🇺🇸US_31764
+      - 🇺🇸US_31944
+      - 🇺🇸US_32558
+      - 🇺🇸US_32843
+      - 🇺🇸US_33148
+      - 🇺🇸US_33992
+      - 🇺🇸US_33998
+      - 🇺🇸US_34687
+      - 🇺🇸US_34815
+      - 🇺🇸US_35200
+      - 🇺🇸US_35294
+      - 🇺🇸US_35371
+      - 🇺🇸US_36460
+      - 🇺🇸US_37473
+      - 🇺🇸US_37559
+      - 🇺🇸US_37588
+      - 🇺🇸US_38033
+      - 🇺🇸US_38620
+      - 🇺🇸US_38742
+      - 🇺🇸US_38747
+      - 🇺🇸US_39556
+      - 🇺🇸US_39720
+      - 🇺🇸US_39772
+      - 🇺🇸US_40093
+      - 🇺🇸US_40220
+      - 🇺🇸US_40282
+      - 🇺🇸US_41372
+      - 🇺🇸US_41676
+      - 🇺🇸US_41738
+      - 🇺🇸US_41992
+      - 🇺🇸US_42006
+      - 🇺🇸US_42166
+      - 🇺🇸US_42185
+      - 🇺🇸US_42304
+      - 🇺🇸US_42816
+      - 🇺🇸US_43893
+      - 🇺🇸US_44236
+      - 🇺🇸US_44539
+      - 🇺🇸US_44628
+      - 🇺🇸US_44742
+      - 🇺🇸US_44745
+      - 🇺🇸US_44820
+      - 🇺🇸US_44945
+      - 🇺🇸US_45329
+      - 🇺🇸US_45746
+      - 🇺🇸US_45948
+      - 🇺🇸US_46412
+      - 🇺🇸US_46642
+      - 🇺🇸US_46726
+      - 🇺🇸US_47027
+      - 🇺🇸US_47121
+      - 🇺🇸US_47861
+      - 🇺🇸US_48089
+      - 🇺🇸US_48794
+      - 🇺🇸US_48938
+      - 🇺🇸US_48970
+      - 🇺🇸US_49126
+      - 🇺🇸US_49202
+      - 🇺🇸US_49339
+      - 🇺🇸US_49396
+      - 🇺🇸US_49468
+      - 🇺🇸US_49514
+      - 🇺🇸US_49653
+      - 🇺🇸US_49719
+      - 🇺🇸US_50024
+      - 🇺🇸US_50168
+      - 🇺🇸US_50232
+      - 🇺🇸US_50695
+      - 🇺🇸US_50768
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳TW_31572
-      - 🇨🇳TW_31757
-      - 🇨🇳TW_31764
-      - 🇨🇳TW_31944
-      - 🇨🇳TW_32558
-      - 🇨🇳TW_32843
-      - 🇨🇳TW_33148
-      - 🇨🇳TW_33992
-      - 🇨🇳TW_33998
-      - 🇨🇳TW_34687
-      - 🇨🇳TW_34815
-      - 🇨🇳TW_35200
-      - 🇨🇳TW_35294
-      - 🇨🇳TW_35371
-      - 🇨🇳TW_36460
-      - 🇨🇳TW_37473
-      - 🇨🇳TW_37559
-      - 🇨🇳TW_37588
-      - 🇨🇳TW_38033
-      - 🇨🇳TW_38620
-      - 🇨🇳TW_38742
-      - 🇨🇳TW_38747
-      - 🇨🇳TW_39556
-      - 🇨🇳TW_39720
-      - 🇨🇳TW_39772
-      - 🇨🇳TW_40093
-      - 🇨🇳TW_40220
-      - 🇨🇳TW_40282
-      - 🇨🇳TW_41372
-      - 🇨🇳TW_41676
-      - 🇨🇳TW_41738
-      - 🇨🇳TW_41992
-      - 🇨🇳TW_42166
-      - 🇨🇳TW_42304
-      - 🇨🇳TW_42816
-      - 🇨🇳TW_44236
-      - 🇨🇳TW_44539
-      - 🇨🇳TW_44628
-      - 🇨🇳TW_44742
-      - 🇨🇳TW_44745
-      - 🇨🇳TW_44820
-      - 🇨🇳TW_45329
-      - 🇨🇳TW_45746
-      - 🇨🇳TW_45948
-      - 🇨🇳TW_46412
-      - 🇨🇳TW_46642
-      - 🇨🇳TW_46726
-      - 🇨🇳TW_47027
-      - 🇨🇳TW_47121
-      - 🇨🇳TW_47861
-      - 🇨🇳TW_48089
-      - 🇨🇳TW_48794
-      - 🇨🇳TW_48938
-      - 🇨🇳TW_48970
-      - 🇨🇳TW_49126
-      - 🇨🇳TW_49202
-      - 🇨🇳TW_49339
-      - 🇨🇳TW_49396
-      - 🇨🇳TW_49468
-      - 🇨🇳TW_49514
-      - 🇨🇳TW_49653
-      - 🇨🇳TW_49719
-      - 🇨🇳TW_50024
-      - 🇨🇳TW_50168
-      - 🇨🇳TW_50232
-      - 🇨🇳TW_50695
-      - 🇨🇳TW_50768
+      - 🇺🇸US_31572
+      - 🇺🇸US_31757
+      - 🇺🇸US_31764
+      - 🇺🇸US_31944
+      - 🇺🇸US_32558
+      - 🇺🇸US_32843
+      - 🇺🇸US_33148
+      - 🇺🇸US_33992
+      - 🇺🇸US_33998
+      - 🇺🇸US_34687
+      - 🇺🇸US_34815
+      - 🇺🇸US_35200
+      - 🇺🇸US_35294
+      - 🇺🇸US_35371
+      - 🇺🇸US_36460
+      - 🇺🇸US_37473
+      - 🇺🇸US_37559
+      - 🇺🇸US_37588
+      - 🇺🇸US_38033
+      - 🇺🇸US_38620
+      - 🇺🇸US_38742
+      - 🇺🇸US_38747
+      - 🇺🇸US_39556
+      - 🇺🇸US_39720
+      - 🇺🇸US_39772
+      - 🇺🇸US_40093
+      - 🇺🇸US_40220
+      - 🇺🇸US_40282
+      - 🇺🇸US_41372
+      - 🇺🇸US_41676
+      - 🇺🇸US_41738
+      - 🇺🇸US_41992
+      - 🇺🇸US_42006
+      - 🇺🇸US_42166
+      - 🇺🇸US_42185
+      - 🇺🇸US_42304
+      - 🇺🇸US_42816
+      - 🇺🇸US_43893
+      - 🇺🇸US_44236
+      - 🇺🇸US_44539
+      - 🇺🇸US_44628
+      - 🇺🇸US_44742
+      - 🇺🇸US_44745
+      - 🇺🇸US_44820
+      - 🇺🇸US_44945
+      - 🇺🇸US_45329
+      - 🇺🇸US_45746
+      - 🇺🇸US_45948
+      - 🇺🇸US_46412
+      - 🇺🇸US_46642
+      - 🇺🇸US_46726
+      - 🇺🇸US_47027
+      - 🇺🇸US_47121
+      - 🇺🇸US_47861
+      - 🇺🇸US_48089
+      - 🇺🇸US_48794
+      - 🇺🇸US_48938
+      - 🇺🇸US_48970
+      - 🇺🇸US_49126
+      - 🇺🇸US_49202
+      - 🇺🇸US_49339
+      - 🇺🇸US_49396
+      - 🇺🇸US_49468
+      - 🇺🇸US_49514
+      - 🇺🇸US_49653
+      - 🇺🇸US_49719
+      - 🇺🇸US_50024
+      - 🇺🇸US_50168
+      - 🇺🇸US_50232
+      - 🇺🇸US_50695
+      - 🇺🇸US_50768
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -527,73 +555,77 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳TW_31572
-      - 🇨🇳TW_31757
-      - 🇨🇳TW_31764
-      - 🇨🇳TW_31944
-      - 🇨🇳TW_32558
-      - 🇨🇳TW_32843
-      - 🇨🇳TW_33148
-      - 🇨🇳TW_33992
-      - 🇨🇳TW_33998
-      - 🇨🇳TW_34687
-      - 🇨🇳TW_34815
-      - 🇨🇳TW_35200
-      - 🇨🇳TW_35294
-      - 🇨🇳TW_35371
-      - 🇨🇳TW_36460
-      - 🇨🇳TW_37473
-      - 🇨🇳TW_37559
-      - 🇨🇳TW_37588
-      - 🇨🇳TW_38033
-      - 🇨🇳TW_38620
-      - 🇨🇳TW_38742
-      - 🇨🇳TW_38747
-      - 🇨🇳TW_39556
-      - 🇨🇳TW_39720
-      - 🇨🇳TW_39772
-      - 🇨🇳TW_40093
-      - 🇨🇳TW_40220
-      - 🇨🇳TW_40282
-      - 🇨🇳TW_41372
-      - 🇨🇳TW_41676
-      - 🇨🇳TW_41738
-      - 🇨🇳TW_41992
-      - 🇨🇳TW_42166
-      - 🇨🇳TW_42304
-      - 🇨🇳TW_42816
-      - 🇨🇳TW_44236
-      - 🇨🇳TW_44539
-      - 🇨🇳TW_44628
-      - 🇨🇳TW_44742
-      - 🇨🇳TW_44745
-      - 🇨🇳TW_44820
-      - 🇨🇳TW_45329
-      - 🇨🇳TW_45746
-      - 🇨🇳TW_45948
-      - 🇨🇳TW_46412
-      - 🇨🇳TW_46642
-      - 🇨🇳TW_46726
-      - 🇨🇳TW_47027
-      - 🇨🇳TW_47121
-      - 🇨🇳TW_47861
-      - 🇨🇳TW_48089
-      - 🇨🇳TW_48794
-      - 🇨🇳TW_48938
-      - 🇨🇳TW_48970
-      - 🇨🇳TW_49126
-      - 🇨🇳TW_49202
-      - 🇨🇳TW_49339
-      - 🇨🇳TW_49396
-      - 🇨🇳TW_49468
-      - 🇨🇳TW_49514
-      - 🇨🇳TW_49653
-      - 🇨🇳TW_49719
-      - 🇨🇳TW_50024
-      - 🇨🇳TW_50168
-      - 🇨🇳TW_50232
-      - 🇨🇳TW_50695
-      - 🇨🇳TW_50768
+      - 🇺🇸US_31572
+      - 🇺🇸US_31757
+      - 🇺🇸US_31764
+      - 🇺🇸US_31944
+      - 🇺🇸US_32558
+      - 🇺🇸US_32843
+      - 🇺🇸US_33148
+      - 🇺🇸US_33992
+      - 🇺🇸US_33998
+      - 🇺🇸US_34687
+      - 🇺🇸US_34815
+      - 🇺🇸US_35200
+      - 🇺🇸US_35294
+      - 🇺🇸US_35371
+      - 🇺🇸US_36460
+      - 🇺🇸US_37473
+      - 🇺🇸US_37559
+      - 🇺🇸US_37588
+      - 🇺🇸US_38033
+      - 🇺🇸US_38620
+      - 🇺🇸US_38742
+      - 🇺🇸US_38747
+      - 🇺🇸US_39556
+      - 🇺🇸US_39720
+      - 🇺🇸US_39772
+      - 🇺🇸US_40093
+      - 🇺🇸US_40220
+      - 🇺🇸US_40282
+      - 🇺🇸US_41372
+      - 🇺🇸US_41676
+      - 🇺🇸US_41738
+      - 🇺🇸US_41992
+      - 🇺🇸US_42006
+      - 🇺🇸US_42166
+      - 🇺🇸US_42185
+      - 🇺🇸US_42304
+      - 🇺🇸US_42816
+      - 🇺🇸US_43893
+      - 🇺🇸US_44236
+      - 🇺🇸US_44539
+      - 🇺🇸US_44628
+      - 🇺🇸US_44742
+      - 🇺🇸US_44745
+      - 🇺🇸US_44820
+      - 🇺🇸US_44945
+      - 🇺🇸US_45329
+      - 🇺🇸US_45746
+      - 🇺🇸US_45948
+      - 🇺🇸US_46412
+      - 🇺🇸US_46642
+      - 🇺🇸US_46726
+      - 🇺🇸US_47027
+      - 🇺🇸US_47121
+      - 🇺🇸US_47861
+      - 🇺🇸US_48089
+      - 🇺🇸US_48794
+      - 🇺🇸US_48938
+      - 🇺🇸US_48970
+      - 🇺🇸US_49126
+      - 🇺🇸US_49202
+      - 🇺🇸US_49339
+      - 🇺🇸US_49396
+      - 🇺🇸US_49468
+      - 🇺🇸US_49514
+      - 🇺🇸US_49653
+      - 🇺🇸US_49719
+      - 🇺🇸US_50024
+      - 🇺🇸US_50168
+      - 🇺🇸US_50232
+      - 🇺🇸US_50695
+      - 🇺🇸US_50768
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -2528,7 +2560,7 @@ rules:
  - DOMAIN-SUFFIX,btlaunch.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,btn.onlylady.com,🛑 全球拦截
  - DOMAIN-SUFFIX,btn.pchome.net,🛑 全球拦截
- - DOMAIN-SUFFIX,btr.domywife.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,btr.domywife.com,?? 全球拦截
  - DOMAIN-SUFFIX,bttrack.com,🛑 全球拦截
  - DOMAIN-SUFFIX,btyou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bu01.zybang.com,🛑 全球拦截
