@@ -1,0 +1,331 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇸🇬 SG_0, server: 51.79.177.85, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_1, server: 51.79.177.85, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_2, server: 51.79.177.85, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_3, server: 51.79.177.85, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_4, server: 51.79.177.85, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_5, server: 51.79.177.85, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_6, server: 51.79.177.85, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_7, server: 51.79.177.85, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_8, server: 51.79.177.85, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_9, server: 51.79.177.85, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_10, server: 51.79.177.85, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_11, server: 51.79.177.85, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 SG_12, server: 51.79.177.85, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇸🇬 SG_0
+      - 🇸🇬 SG_1
+      - 🇸🇬 SG_2
+      - 🇸🇬 SG_3
+      - 🇸🇬 SG_4
+      - 🇸🇬 SG_5
+      - 🇸🇬 SG_6
+      - 🇸🇬 SG_7
+      - 🇸🇬 SG_8
+      - 🇸🇬 SG_9
+      - 🇸🇬 SG_10
+      - 🇸🇬 SG_11
+      - 🇸🇬 SG_12
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 SG_0
+      - 🇸🇬 SG_1
+      - 🇸🇬 SG_2
+      - 🇸🇬 SG_3
+      - 🇸🇬 SG_4
+      - 🇸🇬 SG_5
+      - 🇸🇬 SG_6
+      - 🇸🇬 SG_7
+      - 🇸🇬 SG_8
+      - 🇸🇬 SG_9
+      - 🇸🇬 SG_10
+      - 🇸🇬 SG_11
+      - 🇸🇬 SG_12
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇸🇬 SG_0
+      - 🇸🇬 SG_1
+      - 🇸🇬 SG_2
+      - 🇸🇬 SG_3
+      - 🇸🇬 SG_4
+      - 🇸🇬 SG_5
+      - 🇸🇬 SG_6
+      - 🇸🇬 SG_7
+      - 🇸🇬 SG_8
+      - 🇸🇬 SG_9
+      - 🇸🇬 SG_10
+      - 🇸🇬 SG_11
+      - 🇸🇬 SG_12
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇸🇬 SG_0
+      - 🇸🇬 SG_1
+      - 🇸🇬 SG_2
+      - 🇸🇬 SG_3
+      - 🇸🇬 SG_4
+      - 🇸🇬 SG_5
+      - 🇸🇬 SG_6
+      - 🇸🇬 SG_7
+      - 🇸🇬 SG_8
+      - 🇸🇬 SG_9
+      - 🇸🇬 SG_10
+      - 🇸🇬 SG_11
+      - 🇸🇬 SG_12
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 🇸🇬 SG_0
+      - 🇸🇬 SG_1
+      - 🇸🇬 SG_2
+      - 🇸🇬 SG_3
+      - 🇸🇬 SG_4
+      - 🇸🇬 SG_5
+      - 🇸🇬 SG_6
+      - 🇸🇬 SG_7
+      - 🇸🇬 SG_8
+      - 🇸🇬 SG_9
+      - 🇸🇬 SG_10
+      - 🇸🇬 SG_11
+      - 🇸🇬 SG_12
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇸🇬 SG_0
+      - 🇸🇬 SG_1
+      - 🇸🇬 SG_2
+      - 🇸🇬 SG_3
+      - 🇸🇬 SG_4
+      - 🇸🇬 SG_5
+      - 🇸🇬 SG_6
+      - 🇸🇬 SG_7
+      - 🇸🇬 SG_8
+      - 🇸🇬 SG_9
+      - 🇸🇬 SG_10
+      - 🇸🇬 SG_11
+      - 🇸🇬 SG_12
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇸🇬 SG_0
+      - 🇸🇬 SG_1
+      - 🇸🇬 SG_2
+      - 🇸🇬 SG_3
+      - 🇸🇬 SG_4
+      - 🇸🇬 SG_5
+      - 🇸🇬 SG_6
+      - 🇸🇬 SG_7
+      - 🇸🇬 SG_8
+      - 🇸🇬 SG_9
+      - 🇸🇬 SG_10
+      - 🇸🇬 SG_11
+      - 🇸🇬 SG_12
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇸🇬 SG_0
+      - 🇸🇬 SG_1
+      - 🇸🇬 SG_2
+      - 🇸🇬 SG_3
+      - 🇸🇬 SG_4
+      - 🇸🇬 SG_5
+      - 🇸🇬 SG_6
+      - 🇸🇬 SG_7
+      - 🇸🇬 SG_8
+      - 🇸🇬 SG_9
+      - 🇸🇬 SG_10
+      - 🇸🇬 SG_11
+      - 🇸🇬 SG_12
+rules:
+ - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
+ - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
+ - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+ - DOMAIN-SUFFIX,local,🎯 全球直连
+ - DOMAIN-SUFFIX,localhost,🎯 全球直连
+ - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+ - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+ - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+ - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+ - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+ - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+ - DOMAIN,router.asus.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,my.router,🎯 全球直连
+ - DOMAIN-SUFFIX,p.to,🎯 全球直连
+ - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+ - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+ - DOMAIN,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+ - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+ - DOMAIN,livew.l.qq.com,🎯 全球直连
+ - DOMAIN,vd.l.qq.com,🎯 全球直连
+ - DOMAIN,analytics.strava.com,🎯 全球直连
+ - DOMAIN,msg.umeng.com,🎯 全球直连
+ - DOMAIN,msg.umengcloud.com,🎯 全球直连
+ - DOMAIN,tracking.miui.com,🎯 全球直连
+ - DOMAIN,app.adjust.com,🎯 全球直连
+ - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+ - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
+ - DOMAIN-KEYWORD,admaster,🛑 全球拦截
+ - DOMAIN-KEYWORD,adsage,🛑 全球拦截
+ - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
+ - DOMAIN-KEYWORD,adservice,🛑 全球拦截
+ - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
+ - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
+ - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
+ - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
+ - DOMAIN-KEYWORD,adwords,🛑 全球拦截
+ - DOMAIN-KEYWORD,analysis,🛑 全球拦截
+ - DOMAIN-KEYWORD,applovin,🛑 全球拦截
+ - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
+ - DOMAIN-KEYWORD,domob,🛑 全球拦截
+ - DOMAIN-KEYWORD,duomeng,🛑 全球拦截
+ - DOMAIN-KEYWORD,dwtrack,🛑 全球拦截
+ - DOMAIN-KEYWORD,guanggao,🛑 全球拦截
+ - DOMAIN-KEYWORD,omgmta,🛑 全球拦截
+ - DOMAIN-KEYWORD,omniture,🛑 全球拦截
+ - DOMAIN-KEYWORD,openx,🛑 全球拦截
+ - DOMAIN-KEYWORD,partnerad,🛑 全球拦截
+ - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
+ - DOMAIN-KEYWORD,socdm,🛑 全球拦截
+ - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
+ - DOMAIN-KEYWORD,usage,🛑 全球拦截
+ - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
+ - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
+ - DOMAIN-SUFFIX,admob.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ads.gmodules.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ads.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adservice.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,afd.l.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,badad.googleplex.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,csi.gstatic.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,doubleclick.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,doubleclick.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,google-analytics.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,googleadservices.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,googleadsserving.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,googlecommerce.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,googlesyndication.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,mobileads.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pagead-tpc.l.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pagead.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pagead.l.google.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,service.urchin.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,100peng.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,114la.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,123juzi.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,138lm.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,17un.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,2cnt.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,3gmimo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,3xx.vip,🛑 全球拦截
+ - DOMAIN-SUFFIX,51.la,🛑 全球拦截
+ - DOMAIN-SUFFIX,51taifu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,51yes.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,600ad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,6dad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,70e.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,86.cc,🛑 全球拦截
+ - DOMAIN-SUFFIX,8le8le.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,8ox.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,95558000.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,99click.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,99youmeng.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,a3p4.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,acs86.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,acxiom-online.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad-brix.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad-delivery.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad-locus.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad-plus.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad7.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adadapted.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adadvisor.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,adap.tv,🛑 全球拦截
+ - DOMAIN-SUFFIX,adbana.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adchina.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adcome.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ader.mobi,🛑 全球拦截
+ - DOMAIN-SUFFIX,adform.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,adfuture.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,adhouyi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adinfuse.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adirects.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adjust.io,🛑 全球拦截
+ - DOMAIN-SUFFIX,adkmob.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adlive.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,adlocus.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,admaji.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,admin6.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,admon.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,adnyg.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adpolestar.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,adpro.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,adpush.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,adquan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adreal.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ads8.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adsame.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adsmogo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adsmogo.org,
