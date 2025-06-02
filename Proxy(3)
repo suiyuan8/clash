@@ -52,11 +52,11 @@ p: &p  # proxy-providers复用配置
     
 proxy-providers:
   provider1:
-    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/US_283vl"   # 替换订阅地址
+    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/JP_97ss"   # 替换订阅地址
     path: "./Proxy/provider1.yaml"
     <<: *p
     override:
-      additional-prefix: "【283vl】"
+      additional-prefix: "【97ss】"
   provider2:
     url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/102vl(hk)"   # 替换订阅地址
     path: "./Proxy/provider2.yaml"
@@ -64,7 +64,7 @@ proxy-providers:
     override:
       additional-prefix: "【102vl】"
   provider3:
-    url: "https://igdux.top/~Clash"   # 替换订阅地址
+    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/80ssr"   # 替换订阅地址
     path: "./Proxy/provider3.yaml"
     <<: *p
     override:
