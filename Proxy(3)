@@ -1,0 +1,208 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: true
+external-controller: :9090
+unified-delay: true  # 统一延迟
+tcp-concurrent: true  # TCP并发
+use-hosts: true  # 优先本地hosts解析
+cache: true  # DNS缓存
+cache-algorithm: arc  # DNS缓存算法
+ 
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - "+.lan"
+  - "+.local"
+  - "+.msftconnecttest.com"
+  - "+.msftncsi.com"
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - localhost.work.weixin.qq.com
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  - 8.8.8.8
+  nameserver:
+  - https://223.5.5.5/dns-query
+  - https://1.12.12.12/dns-query
+  - https://8.8.8.8/dns-query
+  fallback:
+  - https://1.1.1.1/dns-query
+  - https://1.0.0.1/dns-query
+  - https://doh.opendns.com/dns-query
+#  fallback-filter:
+#     geoip: false
+#     geoip-code: CN
+#     ipcidr:
+#     - 240.0.0.0/4
+ 
+p: &p  # proxy-providers复用配置
+  type: http
+  interval: 3600
+  health-check:
+    enable: true
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    
+proxy-providers:
+  provider1:
+    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/US_283vl"   # 替换订阅地址
+    path: "./Proxy/provider1.yaml"
+    <<: *p
+    override:
+      additional-prefix: "【283vl】"
+  provider2:
+    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/102vl(hk)"   # 替换订阅地址
+    path: "./Proxy/provider2.yaml"
+    <<: *p
+    override:
+      additional-prefix: "【102vl】"
+  provider3:
+    url: "https://igdux.top/~Clash"   # 替换订阅地址
+    path: "./Proxy/provider3.yaml"
+    <<: *p
+    override:
+      additional-prefix: "【80ssr】"    
+      
+proxies: # 直连配置/不修改
+  - {name: 🌏 直连,type: direct}
+
+u: &u # 调用proxy-providers
+  use:
+  - provider1
+  - provider2
+  - provider3
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies: [♻️ 自动选择, 🌏 直连]
+    <<: *u
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    <<: *u
+  - name: 📽 国外媒体
+    type: select
+    proxies: [♻️ 自动选择, 🚀 节点选择]
+    <<: *u
+  - name: 📲 Telegram
+    type: select
+    proxies: [♻️ 自动选择, 🚀 节点选择]
+    <<: *u
+  - name: 💬 ChatAi
+    type: select
+    proxies: [♻️ 自动选择, 🚀 节点选择]
+    <<: *u
+  - name: 🛡 网络净化
+    type: select
+    proxies: [REJECT, 🌏 直连]
+  - name: 🌏 全球直连
+    type: select
+    proxies: [🌏 直连, 🚀 节点选择]
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: [🚀 节点选择, 🌏 直连]
+ 
+c: &c  # rule-providers复用配置
+  type: http
+  behavior: classical
+  format: text
+  interval: 86400
+ym: &ym
+  type: http
+  behavior: domain
+  format: yaml
+  interval: 86400
+ip: &ip
+  type: http
+  behavior: ipcidr
+  format: yaml
+  interval: 86400
+ 
+rule-providers:
+  GoogleCNProxyIP: # 谷歌中国服务
+    <<: *c
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+    path: ./rule/GoogleCNProxyIP.txt
+  LANIP: # 局域网
+    <<: *c
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rule/LANIP.txt
+  BanEasyPrivacy: # 屏蔽隐私追踪
+    <<: *c
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+    path: ./rule/BanEasyPrivacy.txt
+  OpenAi: # OpenAi
+    <<: *c
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+    path: ./rule/OpenAi.txt
+  ChatBot: # ChatBot
+    <<: *c
+    url: https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/ChatBot.list
+    path: ./rule/ChatBot.txt
+  ProxyMedia: # 国外媒体
+    <<: *c
+    url: https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ProxyMedia.list
+    path: ./rule/ProxyMedia.txt
+  Download: # 下载直连
+    <<: *c
+    url: https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Download.list
+    path: ./rule/Download.txt
+  Telegram: # 电报IP
+    <<: *ip
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
+    path: ./rule/Telegram.txt
+  ChinaIp: # 中国IP段
+    <<: *ip
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt
+    path: ./rule/ChinaIp.txt
+  Proxy: # 代理域名
+    <<: *ym
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
+    path: ./rule/Proxy.txt
+  GFWList: # GFWList域名
+    <<: *ym
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt
+    path: ./rule/GFWList.txt
+  direct: # 直连域名
+    <<: *ym
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt
+    path: ./rule/direct.txt
+  LoyalsGG: # Loyalsoldier广告域名
+    <<: *ym
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
+    path: ./rule/LoyalsGG.txt
+  AppGG: # 秋风App广告域名
+    <<: *ym
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml
+    path: ./rule/AppGG.txt
+  
+rules:
+  - DOMAIN-SUFFIX,googleapis.cn,🚀 节点选择
+  - DOMAIN-SUFFIX,gstatic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
+  - RULE-SET,GoogleCNProxyIP,🚀 节点选择
+  - RULE-SET,LANIP,🌏 全球直连
+  - RULE-SET,LoyalsGG,🛡 网络净化
+  - RULE-SET,AppGG,🛡 网络净化
+  - RULE-SET,BanEasyPrivacy,🛡 网络净化
+  - RULE-SET,Telegram,📲 Telegram,no-resolve
+  - RULE-SET,OpenAi,💬 ChatAi
+  - RULE-SET,ChatBot,💬 ChatAi
+  - RULE-SET,ProxyMedia,📽 国外媒体
+  - RULE-SET,Proxy,🚀 节点选择
+  - RULE-SET,GFWList,🚀 节点选择
+  - RULE-SET,direct,🌏 全球直连
+  - RULE-SET,ChinaIp,🌏 全球直连,no-resolve
+  - RULE-SET,Download,🌏 全球直连
+  - GEOIP,LAN,🌏 全球直连,no-resolve
+  - GEOIP,CN,🌏 全球直连,no-resolve
+  - MATCH,🐟 漏网之鱼
