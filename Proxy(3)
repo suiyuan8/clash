@@ -58,7 +58,7 @@ proxy-providers:
     override:
       additional-prefix: "【97ss】"
   provider2:
-    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/102vl(hk)"   # 替换订阅地址
+    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/US_18vl"   # 替换订阅地址
     path: "./Proxy/provider2.yaml"
     <<: *p
     override:
