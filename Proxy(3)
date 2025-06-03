@@ -62,7 +62,7 @@ proxy-providers:
     path: "./Proxy/provider2.yaml"
     <<: *p
     override:
-      additional-prefix: "【102vl】"
+      additional-prefix: "【18vl】"
   provider3:
     url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/80ssr"   # 替换订阅地址
     path: "./Proxy/provider3.yaml"
