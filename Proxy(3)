@@ -52,19 +52,19 @@ p: &p  # proxy-providers复用配置
     
 proxy-providers:
   provider1:
-    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/81ss"   # 替换订阅地址
+    url: "https://tt.vg/ss"   # 替换订阅地址
     path: "./Proxy/provider1.yaml"
     <<: *p
     override:
       additional-prefix: "【81ss】"
   provider2:
-    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/US_18vl"   # 替换订阅地址
+    url: "https://tt.vg/vless"   # 替换订阅地址
     path: "./Proxy/provider2.yaml"
     <<: *p
     override:
-      additional-prefix: "【18vl】"
+      additional-prefix: "【102vl】"
   provider3:
-    url: "https://raw.githubusercontent.com/suiyuan8/clash/refs/heads/main/80ssr"   # 替换订阅地址
+    url: "https://tt.vg/ssr"   # 替换订阅地址
     path: "./Proxy/provider3.yaml"
     <<: *p
     override:
