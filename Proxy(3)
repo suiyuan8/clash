@@ -52,11 +52,11 @@ p: &p  # proxy-providers复用配置
     
 proxy-providers:
   provider1:
-    url: "https://tt.vg/trojan"   # 替换订阅地址
+    url: "https://tt.vg/US-18vl"   # 替换订阅地址
     path: "./Proxy/provider1.yaml"
     <<: *p
     override:
-      additional-prefix: "【130tj】"
+      additional-prefix: "【18vl】"
   provider2:
     url: "https://tt.vg/vless"   # 替换订阅地址
     path: "./Proxy/provider2.yaml"
