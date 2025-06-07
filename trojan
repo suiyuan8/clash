@@ -43,1398 +43,1398 @@ dns:
 
 
 proxies:
-  - name: WangCai_1
+  - name: 🇨🇳TW_WangCai_1
     type: trojan
     server: 60.249.14.38
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_2
+  - name: 🇨🇳TW_WangCai_2
     type: trojan
     server: 60.249.14.39
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_3
+  - name: 🇨🇳TW_WangCai_3
     type: trojan
     server: 60.249.14.94
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_4
+  - name: 🇨🇳TW_WangCai_4
     type: trojan
     server: 60.249.14.95
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_5
+  - name: 🇨🇳TW_WangCai_5
     type: trojan
     server: 60.249.14.96
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_6
+  - name: 🇨🇳TW_WangCai_6
     type: trojan
     server: 118.163.198.42
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_7
+  - name: 🇨🇳TW_WangCai_7
     type: trojan
     server: 118.163.198.43
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_8
+  - name: 🇨🇳TW_WangCai_8
     type: trojan
     server: 118.163.198.44
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_9
+  - name: 🇨🇳TW_WangCai_9
     type: trojan
     server: 118.163.198.45
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_10
+  - name: 🇨🇳TW_WangCai_10
     type: trojan
     server: 118.163.198.46
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_11
+  - name: 🇨🇳TW_WangCai_11
     type: trojan
     server: 60.249.39.170
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_12
+  - name: 🇨🇳TW_WangCai_12
     type: trojan
     server: 60.249.39.171
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_13
+  - name: 🇨🇳TW_WangCai_13
     type: trojan
     server: 60.249.39.202
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_14
+  - name: 🇨🇳TW_WangCai_14
     type: trojan
     server: 60.249.39.203
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_15
+  - name: 🇨🇳TW_WangCai_15
     type: trojan
     server: 60.249.39.204
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_16
+  - name: 🇨🇳TW_WangCai_16
     type: trojan
     server: 211.75.210.20
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_17
+  - name: 🇨🇳TW_WangCai_17
     type: trojan
     server: 59.125.62.188
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_18
+  - name: 🇨🇳TW_WangCai_18
     type: trojan
     server: 59.125.62.189
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_19
+  - name: 🇨🇳TW_WangCai_19
     type: trojan
     server: 59.125.62.190
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_20
+  - name: 🇨🇳TW_WangCai_20
     type: trojan
     server: 59.125.62.191
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_21
+  - name: 🇨🇳TW_WangCai_21
     type: trojan
     server: 59.125.62.192
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_22
+  - name: 🇨🇳TW_WangCai_22
     type: trojan
     server: 210.61.187.236
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_23
+  - name: 🇨🇳TW_WangCai_23
     type: trojan
     server: 210.61.187.237
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_24
+  - name: 🇨🇳TW_WangCai_24
     type: trojan
     server: 210.61.187.238
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_25
+  - name: 🇨🇳TW_WangCai_25
     type: trojan
     server: 210.61.187.239
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_26
+  - name: 🇨🇳TW_WangCai_26
     type: trojan
     server: 210.61.187.240
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_27
+  - name: 🇨🇳TW_WangCai_27
     type: trojan
     server: 118.163.200.38
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_28
+  - name: 🇨🇳TW_WangCai_28
     type: trojan
     server: 118.163.200.39
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_29
+  - name: 🇨🇳TW_WangCai_29
     type: trojan
     server: 118.163.200.40
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_30
+  - name: 🇨🇳TW_WangCai_30
     type: trojan
     server: 118.163.200.41
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_31
+  - name: 🇨🇳TW_WangCai_31
     type: trojan
     server: 118.163.200.42
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_32
+  - name: 🇨🇳TW_WangCai_32
     type: trojan
     server: 125.227.86.44
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_33
+  - name: 🇨🇳TW_WangCai_33
     type: trojan
     server: 125.227.86.47
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_34
+  - name: 🇨🇳TW_WangCai_34
     type: trojan
     server: 125.227.86.48
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_35
+  - name: 🇨🇳TW_WangCai_35
     type: trojan
     server: 211.22.161.134
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_36
+  - name: 🇨🇳TW_WangCai_36
     type: trojan
     server: 211.22.161.135
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_37
+  - name: 🇨🇳TW_WangCai_37
     type: trojan
     server: 60.248.221.26
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_38
+  - name: 🇨🇳TW_WangCai_38
     type: trojan
     server: 60.248.221.27
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_39
+  - name: 🇨🇳TW_WangCai_39
     type: trojan
     server: 60.248.221.28
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_40
+  - name: 🇨🇳TW_WangCai_40
     type: trojan
     server: 60.248.221.29
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_41
+  - name: 🇨🇳TW_WangCai_41
     type: trojan
     server: 60.248.221.30
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_42
+  - name: 🇨🇳TW_WangCai_42
     type: trojan
     server: 60.249.28.59
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_43
+  - name: 🇨🇳TW_WangCai_43
     type: trojan
     server: 60.249.28.60
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_44
+  - name: 🇨🇳TW_WangCai_44
     type: trojan
     server: 60.249.28.136
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_45
+  - name: 🇨🇳TW_WangCai_45
     type: trojan
     server: 60.249.28.137
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_46
+  - name: 🇨🇳TW_WangCai_46
     type: trojan
     server: 60.249.28.138
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_47
+  - name: 🇨🇳TW_WangCai_47
     type: trojan
     server: 60.249.35.2
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_48
+  - name: 🇨🇳TW_WangCai_48
     type: trojan
     server: 60.249.35.3
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_49
+  - name: 🇨🇳TW_WangCai_49
     type: trojan
     server: 60.249.35.37
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_50
+  - name: 🇨🇳TW_WangCai_50
     type: trojan
     server: 60.249.35.38
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_51
+  - name: 🇨🇳TW_WangCai_51
     type: trojan
     server: 60.249.35.39
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_52
+  - name: 🇨🇳TW_WangCai_52
     type: trojan
     server: 60.249.35.59
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_53
+  - name: 🇨🇳TW_WangCai_53
     type: trojan
     server: 60.249.35.60
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_54
+  - name: 🇨🇳TW_WangCai_54
     type: trojan
     server: 60.249.35.94
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_55
+  - name: 🇨🇳TW_WangCai_55
     type: trojan
     server: 60.249.35.95
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_56
+  - name: 🇨🇳TW_WangCai_56
     type: trojan
     server: 60.249.35.96
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_57
+  - name: 🇨🇳TW_WangCai_57
     type: trojan
     server: 61.216.165.29
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_58
+  - name: 🇨🇳TW_WangCai_58
     type: trojan
     server: 61.216.165.232
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_59
+  - name: 🇨🇳TW_WangCai_59
     type: trojan
     server: 61.216.165.234
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_60
+  - name: 🇨🇳TW_WangCai_60
     type: trojan
     server: 211.72.214.20
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_61
+  - name: 🇨🇳TW_WangCai_61
     type: trojan
     server: 211.72.214.21
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_62
+  - name: 🇨🇳TW_WangCai_62
     type: trojan
     server: 211.72.214.64
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_63
+  - name: 🇨🇳TW_WangCai_63
     type: trojan
     server: 211.72.214.65
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_64
+  - name: 🇨🇳TW_WangCai_64
     type: trojan
     server: 211.72.214.66
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_65
+  - name: 🇨🇳TW_WangCai_65
     type: trojan
     server: 59.125.75.110
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_66
+  - name: 🇨🇳TW_WangCai_66
     type: trojan
     server: 59.125.75.111
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_67
+  - name: 🇨🇳TW_WangCai_67
     type: trojan
     server: 59.125.75.115
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_68
+  - name: 🇨🇳TW_WangCai_68
     type: trojan
     server: 59.125.75.116
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_69
+  - name: 🇨🇳TW_WangCai_69
     type: trojan
     server: 59.125.75.117
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_70
+  - name: 🇸🇬SG_WangCai_70
     type: trojan
     server: 172.236.144.61
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_71
+  - name: 🇸🇬SG_WangCai_71
     type: trojan
     server: 47.129.107.95
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_72
+  - name: 🇸🇬SG_WangCai_72
     type: trojan
     server: 13.229.249.124
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_73
+  - name: 🇸🇬SG_WangCai_73
     type: trojan
     server: 13.215.227.70
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_74
+  - name: 🇸🇬SG_WangCai_74
     type: trojan
     server: 18.141.181.229
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_75
+  - name: 🇸🇬SG_WangCai_75
     type: trojan
     server: 54.254.210.13
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_76
+  - name: 🇸🇬SG_WangCai_76
     type: trojan
     server: 52.77.216.160
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_77
+  - name: 🇸🇬SG_WangCai_77
     type: trojan
     server: 18.140.54.43
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_78
+  - name: 🇸🇬SG_WangCai_78
     type: trojan
     server: 54.169.51.68
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_79
+  - name: 🇸🇬SG_WangCai_79
     type: trojan
     server: 5.44.249.42
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_80
+  - name: 🇸🇬SG_WangCai_80
     type: trojan
     server: 5.44.249.43
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_81
+  - name: 🇯🇵JP_WangCai_81
     type: trojan
     server: 172.237.11.141
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_82
+  - name: 🇯🇵JP_WangCai_82
     type: trojan
     server: 172.237.11.224
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_83
+  - name: 🇯🇵JP_WangCai_83
     type: trojan
     server: 172.237.11.230
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_84
+  - name: 🇯🇵JP_WangCai_84
     type: trojan
     server: 18.177.142.32
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_85
+  - name: 🇯🇵JP_WangCai_85
     type: trojan
     server: 18.179.16.135
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_86
+  - name: 🇯🇵JP_WangCai_86
     type: trojan
     server: 18.179.37.79
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_87
+  - name: 🇯🇵JP_WangCai_87
     type: trojan
     server: 18.179.58.237
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_88
+  - name: 🇯🇵JP_WangCai_88
     type: trojan
     server: 52.199.164.162
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_89
+  - name: 🇯🇵JP_WangCai_89
     type: trojan
     server: 52.199.249.206
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_90
+  - name: 🇯🇵JP_WangCai_90
     type: trojan
     server: 13.114.31.41
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_91
+  - name: 🇯🇵JP_WangCai_91
     type: trojan
     server: 13.231.106.60
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_92
+  - name: 🇯🇵JP_WangCai_92
     type: trojan
     server: 18.183.87.73
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_93
+  - name: 🇯🇵JP_WangCai_93
     type: trojan
     server: 54.178.71.192
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_94
+  - name: 🇯🇵JP_WangCai_94
     type: trojan
     server: 18.181.146.122
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_95
+  - name: 🇯🇵JP_WangCai_95
     type: trojan
     server: 43.207.207.206
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_96
+  - name: 🇯🇵JP_WangCai_96
     type: trojan
     server: 54.64.148.82
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_97
+  - name: 🇯🇵JP_WangCai_97
     type: trojan
     server: 54.249.79.143
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_98
+  - name: 🇯🇵JP_WangCai_98
     type: trojan
     server: 18.176.215.63
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_99
+  - name: 🇯🇵JP_WangCai_99
     type: trojan
     server: 18.179.197.162
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_100
+  - name: 🇯🇵JP_WangCai_100
     type: trojan
     server: 52.195.228.139
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_101
+  - name: 🇯🇵JP_WangCai_101
     type: trojan
     server: 13.231.105.239
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_102
+  - name: 🇯🇵JP_WangCai_102
     type: trojan
     server: 205.198.65.61
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_103
+  - name: 🇺🇸US_WangCai_103
     type: trojan
     server: 134.195.101.80
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_104
+  - name: 🇺🇸US_WangCai_104
     type: trojan
     server: 134.195.101.81
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_105
+  - name: 🇺🇸US_WangCai_105
     type: trojan
     server: 134.195.101.83
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_106
+  - name: 🇺🇸US_WangCai_106
     type: trojan
     server: 134.195.101.84
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_107
+  - name: 🇺🇸US_WangCai_107
     type: trojan
     server: 134.195.101.85
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_108
+  - name: 🇺🇸US_WangCai_108
     type: trojan
     server: 23.247.137.64
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_109
+  - name: 🇺🇸US_WangCai_109
     type: trojan
     server: 23.247.137.67
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_110
+  - name: 🇺🇸US_WangCai_110
     type: trojan
     server: 23.247.137.68
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_111
+  - name: 🇺🇸US_WangCai_111
     type: trojan
     server: 23.247.137.72
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_112
+  - name: 🇺🇸US_WangCai_112
     type: trojan
     server: 23.247.137.73
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_113
+  - name: 🇺🇸US_WangCai_113
     type: trojan
     server: 23.247.137.74
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_114
+  - name: 🇺🇸US_WangCai_114
     type: trojan
     server: 23.247.137.76
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_115
+  - name: 🇺🇸US_WangCai_115
     type: trojan
     server: 23.247.137.158
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_116
+  - name: 🇺🇸US_WangCai_116
     type: trojan
     server: 23.247.137.159
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_117
+  - name: 🇺🇸US_WangCai_117
     type: trojan
     server: 23.247.137.160
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_118
+  - name: 🇺🇸US_WangCai_118
     type: trojan
     server: 23.247.137.161
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_119
+  - name: 🇺🇸US_WangCai_119
     type: trojan
     server: 23.247.137.162
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_120
+  - name: 🇺🇸US_WangCai_120
     type: trojan
     server: 88.210.36.106
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_121
+  - name: 🇺🇸US_WangCai_121
     type: trojan
     server: 88.210.36.107
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_122
+  - name: 🇺🇸US_WangCai_122
     type: trojan
     server: 88.210.36.108
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_123
+  - name: 🇺🇸US_WangCai_123
     type: trojan
     server: 88.210.36.109
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_124
+  - name: 🇺🇸US_WangCai_124
     type: trojan
     server: 95.174.71.96
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_125
+  - name: 🇺🇸US_WangCai_125
     type: trojan
     server: 95.174.71.98
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_126
+  - name: 🇺🇸US_WangCai_126
     type: trojan
     server: 95.174.71.99
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
     grpc-opts:
       grpc-service-name: db
-  - name: WangCai_127
+  - name: 🇺🇸US_WangCai_127
     type: trojan
     server: 95.174.71.101
     port: 443
     sni: n2.gladns.com
-    password: "0cc6b4268dea0ba8"
+    password: "0df6b9c4e7d58d84"
     udp: true
     network: grpc
     alpn: ["h2"]
@@ -1451,72 +1451,72 @@ proxy-groups:
     interval: 120
     tolerance: 40
     proxies:
-        - WangCai_1
-        - WangCai_2
-        - WangCai_3
-        - WangCai_5
-        - WangCai_5
-        - WangCai_6
-        - WangCai_7
-        - WangCai_8
-        - WangCai_9
-        - WangCai_10
-        - WangCai_11
-        - WangCai_12
-        - WangCai_13
-        - WangCai_14
-        - WangCai_15
-        - WangCai_16
-        - WangCai_17
-        - WangCai_18
-        - WangCai_19
-        - WangCai_20
-        - WangCai_21
-        - WangCai_22
-        - WangCai_23
-        - WangCai_24
-        - WangCai_25
-        - WangCai_26
+        - 🇨🇳TW_WangCai_1
+        - 🇨🇳TW_WangCai_2
+        - 🇨🇳TW_WangCai_3
+        - 🇨🇳TW_WangCai_5
+        - 🇨🇳TW_WangCai_5
+        - 🇨🇳TW_WangCai_6
+        - 🇨🇳TW_WangCai_7
+        - 🇨🇳TW_WangCai_8
+        - 🇨🇳TW_WangCai_9
+        - 🇨🇳TW_WangCai_10
+        - 🇨🇳TW_WangCai_11
+        - 🇨🇳TW_WangCai_12
+        - 🇨🇳TW_WangCai_13
+        - 🇨🇳TW_WangCai_14
+        - 🇨🇳TW_WangCai_15
+        - 🇨🇳TW_WangCai_16
+        - 🇨🇳TW_WangCai_17
+        - 🇨🇳TW_WangCai_18
+        - 🇨🇳TW_WangCai_19
+        - 🇨🇳TW_WangCai_20
+        - 🇨🇳TW_WangCai_21
+        - 🇨🇳TW_WangCai_22
+        - 🇨🇳TW_WangCai_23
+        - 🇨🇳TW_WangCai_24
+        - 🇨🇳TW_WangCai_25
+        - 🇨🇳TW_WangCai_26
   - name: Auto-Edge
     type: "url-test"
     url: "http://www.gstatic.cn/generate_204"
     interval: 600
     tolerance: 50
     proxies:
-        - WangCai_70
-        - WangCai_71
-        - WangCai_72
-        - WangCai_73
-        - WangCai_74
-        - WangCai_75
-        - WangCai_76
-        - WangCai_77
-        - WangCai_78
-        - WangCai_79
-        - WangCai_80
-        - WangCai_81
-        - WangCai_82
-        - WangCai_83
-        - WangCai_84
-        - WangCai_84
+        - 🇸🇬SG_WangCai_70
+        - 🇸🇬SG_WangCai_71
+        - 🇸🇬SG_WangCai_72
+        - 🇸🇬SG_WangCai_73
+        - 🇸🇬SG_WangCai_74
+        - 🇸🇬SG_WangCai_75
+        - 🇸🇬SG_WangCai_76
+        - 🇸🇬SG_WangCai_77
+        - 🇸🇬SG_WangCai_78
+        - 🇸🇬SG_WangCai_79
+        - 🇸🇬SG_WangCai_80
+        - 🇯🇵JP_WangCai_81
+        - 🇯🇵JP_WangCai_82
+        - 🇯🇵JP_WangCai_83
+        - 🇯🇵JP_WangCai_84
+        - 🇯🇵JP_WangCai_84
   - name: Auto-Failover
     type: "url-test"
     url: "http://www.gstatic.cn/generate_204"
     interval: 300
     tolerance: 30
     proxies:
-        - WangCai_90
-        - WangCai_91
-        - WangCai_92
-        - WangCai_93
-        - WangCai_94
-        - WangCai_95
-        - WangCai_95
-        - WangCai_97
-        - WangCai_98
-        - WangCai_99
-        - WangCai_100
-        - WangCai_101
+        - 🇯🇵JP_WangCai_90
+        - 🇯🇵JP_WangCai_91
+        - 🇯🇵JP_WangCai_92
+        - 🇯🇵JP_WangCai_93
+        - 🇯🇵JP_WangCai_94
+        - 🇯🇵JP_WangCai_95
+        - 🇯🇵JP_WangCai_95
+        - 🇯🇵JP_WangCai_97
+        - 🇯🇵JP_WangCai_98
+        - 🇯🇵JP_WangCai_99
+        - 🇯🇵JP_WangCai_100
+        - 🇯🇵JP_WangCai_101
   - name: Express
     type: "fallback"
     url: "http://www.gstatic.cn/generate_204"
@@ -1538,165 +1538,165 @@ proxy-groups:
     type: "select"
     proxies:
         - "Auto"
-        - WangCai_1
-        - WangCai_2
-        - WangCai_3
-        - WangCai_5
-        - WangCai_5
-        - WangCai_6
-        - WangCai_7
-        - WangCai_8
-        - WangCai_9
-        - WangCai_10
-        - WangCai_11
-        - WangCai_12
-        - WangCai_13
-        - WangCai_15
-        - WangCai_15
-        - WangCai_16
-        - WangCai_17
-        - WangCai_18
-        - WangCai_19        
-        - WangCai_20
-        - WangCai_21
-        - WangCai_22
-        - WangCai_23
-        - WangCai_25
-        - WangCai_25
-        - WangCai_26
-        - WangCai_27
-        - WangCai_28
-        - WangCai_29
-        - WangCai_30
-        - WangCai_31
-        - WangCai_32
-        - WangCai_33
-        - WangCai_35
-        - WangCai_35
-        - WangCai_36
-        - WangCai_37
-        - WangCai_38
-        - WangCai_39
-        - WangCai_40
-        - WangCai_41
-        - WangCai_42
-        - WangCai_43
-        - WangCai_45
-        - WangCai_45
-        - WangCai_46
-        - WangCai_47
-        - WangCai_48
-        - WangCai_49
-        - WangCai_50
-        - WangCai_51
-        - WangCai_52
-        - WangCai_53
-        - WangCai_55
-        - WangCai_55
-        - WangCai_56
-        - WangCai_57
-        - WangCai_58
-        - WangCai_59
-        - WangCai_60
-        - WangCai_61
-        - WangCai_62
-        - WangCai_63
-        - WangCai_65
-        - WangCai_65
-        - WangCai_66
-        - WangCai_67
-        - WangCai_68
-        - WangCai_69
-        - WangCai_70
-        - WangCai_71
-        - WangCai_72
-        - WangCai_73
-        - WangCai_75
-        - WangCai_75
-        - WangCai_76
-        - WangCai_77
-        - WangCai_78
-        - WangCai_79
-        - WangCai_80
-        - WangCai_81
-        - WangCai_82
-        - WangCai_83
-        - WangCai_85
-        - WangCai_85
-        - WangCai_86
-        - WangCai_87
-        - WangCai_88
-        - WangCai_89
-        - WangCai_90
-        - WangCai_91
-        - WangCai_92
-        - WangCai_93
-        - WangCai_95
-        - WangCai_95
-        - WangCai_96
-        - WangCai_97
-        - WangCai_98
-        - WangCai_99
-        - WangCai_100
-        - WangCai_101
-        - WangCai_102
-        - WangCai_103
-        - WangCai_105
-        - WangCai_105
-        - WangCai_106
-        - WangCai_107
-        - WangCai_108
-        - WangCai_109
-        - WangCai_110
-        - WangCai_111
-        - WangCai_112
-        - WangCai_113
-        - WangCai_115
-        - WangCai_115
-        - WangCai_116
-        - WangCai_117
-        - WangCai_118
-        - WangCai_119
-        - WangCai_120
-        - WangCai_121
-        - WangCai_122
-        - WangCai_123
-        - WangCai_125
-        - WangCai_125
-        - WangCai_126
-        - WangCai_127
+        - 🇨🇳TW_WangCai_1
+        - 🇨🇳TW_WangCai_2
+        - 🇨🇳TW_WangCai_3
+        - 🇨🇳TW_WangCai_5
+        - 🇨🇳TW_WangCai_5
+        - 🇨🇳TW_WangCai_6
+        - 🇨🇳TW_WangCai_7
+        - 🇨🇳TW_WangCai_8
+        - 🇨🇳TW_WangCai_9
+        - 🇨🇳TW_WangCai_10
+        - 🇨🇳TW_WangCai_11
+        - 🇨🇳TW_WangCai_12
+        - 🇨🇳TW_WangCai_13
+        - 🇨🇳TW_WangCai_15
+        - 🇨🇳TW_WangCai_15
+        - 🇨🇳TW_WangCai_16
+        - 🇨🇳TW_WangCai_17
+        - 🇨🇳TW_WangCai_18
+        - 🇨🇳TW_WangCai_19        
+        - 🇨🇳TW_WangCai_20
+        - 🇨🇳TW_WangCai_21
+        - 🇨🇳TW_WangCai_22
+        - 🇨🇳TW_WangCai_23
+        - 🇨🇳TW_WangCai_25
+        - 🇨🇳TW_WangCai_25
+        - 🇨🇳TW_WangCai_26
+        - 🇨🇳TW_WangCai_27
+        - 🇨🇳TW_WangCai_28
+        - 🇨🇳TW_WangCai_29
+        - 🇨🇳TW_WangCai_30
+        - 🇨🇳TW_WangCai_31
+        - 🇨🇳TW_WangCai_32
+        - 🇨🇳TW_WangCai_33
+        - 🇨🇳TW_WangCai_35
+        - 🇨🇳TW_WangCai_35
+        - 🇨🇳TW_WangCai_36
+        - 🇨🇳TW_WangCai_37
+        - 🇨🇳TW_WangCai_38
+        - 🇨🇳TW_WangCai_39
+        - 🇨🇳TW_WangCai_40
+        - 🇨🇳TW_WangCai_41
+        - 🇨🇳TW_WangCai_42
+        - 🇨🇳TW_WangCai_43
+        - 🇨🇳TW_WangCai_45
+        - 🇨🇳TW_WangCai_45
+        - 🇨🇳TW_WangCai_46
+        - 🇨🇳TW_WangCai_47
+        - 🇨🇳TW_WangCai_48
+        - 🇨🇳TW_WangCai_49
+        - 🇨🇳TW_WangCai_50
+        - 🇨🇳TW_WangCai_51
+        - 🇨🇳TW_WangCai_52
+        - 🇨🇳TW_WangCai_53
+        - 🇨🇳TW_WangCai_55
+        - 🇨🇳TW_WangCai_55
+        - 🇨🇳TW_WangCai_56
+        - 🇨🇳TW_WangCai_57
+        - 🇨🇳TW_WangCai_58
+        - 🇨🇳TW_WangCai_59
+        - 🇨🇳TW_WangCai_60
+        - 🇨🇳TW_WangCai_61
+        - 🇨🇳TW_WangCai_62
+        - 🇨🇳TW_WangCai_63
+        - 🇨🇳TW_WangCai_65
+        - 🇨🇳TW_WangCai_65
+        - 🇨🇳TW_WangCai_66
+        - 🇨🇳TW_WangCai_67
+        - 🇨🇳TW_WangCai_68
+        - 🇨🇳TW_WangCai_69
+        - 🇸🇬SG_WangCai_70
+        - 🇸🇬SG_WangCai_71
+        - 🇸🇬SG_WangCai_72
+        - 🇸🇬SG_WangCai_73
+        - 🇸🇬SG_WangCai_75
+        - 🇸🇬SG_WangCai_75
+        - 🇸🇬SG_WangCai_76
+        - 🇸🇬SG_WangCai_77
+        - 🇸🇬SG_WangCai_78
+        - 🇸🇬SG_WangCai_79
+        - 🇸🇬SG_WangCai_80
+        - 🇯🇵JP_WangCai_81
+        - 🇯🇵JP_WangCai_82
+        - 🇯🇵JP_WangCai_83
+        - 🇯🇵JP_WangCai_85
+        - 🇯🇵JP_WangCai_85
+        - 🇯🇵JP_WangCai_86
+        - 🇯🇵JP_WangCai_87
+        - 🇯🇵JP_WangCai_88
+        - 🇯🇵JP_WangCai_89
+        - 🇯🇵JP_WangCai_90
+        - 🇯🇵JP_WangCai_91
+        - 🇯🇵JP_WangCai_92
+        - 🇯🇵JP_WangCai_93
+        - 🇯🇵JP_WangCai_95
+        - 🇯🇵JP_WangCai_95
+        - 🇯🇵JP_WangCai_96
+        - 🇯🇵JP_WangCai_97
+        - 🇯🇵JP_WangCai_98
+        - 🇯🇵JP_WangCai_99
+        - 🇯🇵JP_WangCai_100
+        - 🇯🇵JP_WangCai_101
+        - 🇯🇵JP_WangCai_102
+        - 🇺🇸US_WangCai_103
+        - 🇺🇸US_WangCai_105
+        - 🇺🇸US_WangCai_105
+        - 🇺🇸US_WangCai_106
+        - 🇺🇸US_WangCai_107
+        - 🇺🇸US_WangCai_108
+        - 🇺🇸US_WangCai_109
+        - 🇺🇸US_WangCai_110
+        - 🇺🇸US_WangCai_111
+        - 🇺🇸US_WangCai_112
+        - 🇺🇸US_WangCai_113
+        - 🇺🇸US_WangCai_115
+        - 🇺🇸US_WangCai_115
+        - 🇺🇸US_WangCai_116
+        - 🇺🇸US_WangCai_117
+        - 🇺🇸US_WangCai_118
+        - 🇺🇸US_WangCai_119
+        - 🇺🇸US_WangCai_120
+        - 🇺🇸US_WangCai_121
+        - 🇺🇸US_WangCai_122
+        - 🇺🇸US_WangCai_123
+        - 🇺🇸US_WangCai_125
+        - 🇺🇸US_WangCai_125
+        - 🇺🇸US_WangCai_126
+        - 🇺🇸US_WangCai_127
   - name: Video
     type: "select"
     interval: 900
     url: "http://www.gstatic.cn/generate_204"
     proxies:
         - Express
-        - WangCai_110
-        - WangCai_111
-        - WangCai_112
-        - WangCai_113
-        - WangCai_114
-        - WangCai_115
-        - WangCai_116
-        - WangCai_117
-        - WangCai_118
-        - WangCai_119
-        - WangCai_120
-        - WangCai_121
-        - WangCai_122
-        - WangCai_123
-        - WangCai_124
-        - WangCai_125
-        - WangCai_126
-        - WangCai_127
+        - 🇺🇸US_WangCai_110
+        - 🇺🇸US_WangCai_111
+        - 🇺🇸US_WangCai_112
+        - 🇺🇸US_WangCai_113
+        - 🇺🇸US_WangCai_114
+        - 🇺🇸US_WangCai_115
+        - 🇺🇸US_WangCai_116
+        - 🇺🇸US_WangCai_117
+        - 🇺🇸US_WangCai_118
+        - 🇺🇸US_WangCai_119
+        - 🇺🇸US_WangCai_120
+        - 🇺🇸US_WangCai_121
+        - 🇺🇸US_WangCai_122
+        - 🇺🇸US_WangCai_123
+        - 🇺🇸US_WangCai_124
+        - 🇺🇸US_WangCai_125
+        - 🇺🇸US_WangCai_126
+        - 🇺🇸US_WangCai_127
   - name: Netflix
     type: "select"
     url: "http://www.gstatic.cn/generate_204"
     interval: 1200
     proxies:
-        - WangCai_123
-        - WangCai_124
-        - WangCai_125
+        - 🇺🇸US_WangCai_123
+        - 🇺🇸US_WangCai_124
+        - 🇺🇸US_WangCai_125
         - Auto-Edge
         - DIRECT
   - name: Scholar
@@ -1705,17 +1705,17 @@ proxy-groups:
     interval: 300
     tolerance: 40
     proxies:
-        - WangCai_118
-        - WangCai_119
-        - WangCai_120
+        - 🇺🇸US_WangCai_118
+        - 🇺🇸US_WangCai_119
+        - 🇺🇸US_WangCai_120
         - Proxy
         - DIRECT
   - name: Steam
     type: "select"
     proxies:
-        - WangCai_123
-        - WangCai_124
-        - WangCai_125
+        - 🇺🇸US_WangCai_123
+        - 🇺🇸US_WangCai_124
+        - 🇺🇸US_WangCai_125
         - Auto-Edge
         - DIRECT
 
@@ -1788,13 +1788,13 @@ rules:
 - DOMAIN-SUFFIX,bing.com,Proxy
 
 ##tiktok
-- DOMAIN-SUFFIX,byteoversea.com,WangCai_1
-- DOMAIN-SUFFIX,muscdn.com,WangCai_1
-- DOMAIN-SUFFIX,musical.ly,WangCai_1
-- DOMAIN-SUFFIX,tik-tokapi.com,WangCai_1
-- DOMAIN-SUFFIX,tiktokcdn.com,WangCai_1
-- DOMAIN-SUFFIX,tiktok.com,WangCai_1
-- DOMAIN-SUFFIX,tiktokv.com,WangCai_1
+- DOMAIN-SUFFIX,byteoversea.com,🇺🇸US_WangCai_120
+- DOMAIN-SUFFIX,muscdn.com,🇺🇸US_WangCai_120
+- DOMAIN-SUFFIX,musical.ly,🇺🇸US_WangCai_120
+- DOMAIN-SUFFIX,tik-tokapi.com,🇺🇸US_WangCai_120
+- DOMAIN-SUFFIX,tiktokcdn.com,🇺🇸US_WangCai_120
+- DOMAIN-SUFFIX,tiktok.com,🇺🇸US_WangCai_120
+- DOMAIN-SUFFIX,tiktokv.com,🇺🇸US_WangCai_120
 
 #specific scholar services
 - DOMAIN-KEYWORD,scholar,Scholar
