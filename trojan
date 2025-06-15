@@ -15,15 +15,15 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵JP_@WangCai_8, server: 223.111.144.12, port: 43196, type: trojan, password: HrTsLJvh, sni: TG.WangCai2, skip-cert-verify: false}
-  - {name: 🇸🇬SG_@WangCai_8, server: 36.151.251.62, port: 38632, type: trojan, password: HrTsLJvh, sni: TG.WangCai2, skip-cert-verify: false}
-  - {name: 🇸🇬SG_@WangCai_8 2, server: 36.151.251.62, port: 38632, type: trojan, password: xHiFGGTy, sni: TG.WangCai2, skip-cert-verify: false}
-  - {name: 🇺🇸US_@WangCai_8, server: 36.151.251.62, port: 23770, type: trojan, password: xHiFGGTy, sni: TG.WangCai2, skip-cert-verify: false}
-  - {name: 🇯🇵JP_@WangCai_8 2, server: 223.111.144.12, port: 43196, type: trojan, password: LfcDJuqe, sni: TG.WangCai2, skip-cert-verify: false}
-  - {name: 🇸🇬SG_@WangCai_8 3, server: 36.151.251.62, port: 38632, type: trojan, password: LfcDJuqe, sni: TG.WangCai2, skip-cert-verify: false}
-  - {name: 🇯🇵JP_@WangCai_8 3, server: 223.111.144.12, port: 43196, type: trojan, password: RlzoEILU, sni: TG.WangCai2, skip-cert-verify: false}
-  - {name: 🇸🇬SG_@WangCai_8 4, server: 36.151.251.62, port: 38632, type: trojan, password: RlzoEILU, sni: TG.WangCai2, skip-cert-verify: false}
-  - {name: 🇺🇸US_@WangCai_8 2, server: 36.151.251.62, port: 23770, type: trojan, password: VdWBGFmg, sni: TG.WangCai2, skip-cert-verify: false}
+  - {name: 🇯🇵JP_@WangCai_8, server: 223.111.144.12, port: 43196, type: trojan, password: HrTsLJvh, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇸🇬SG_@WangCai_8, server: 36.151.251.62, port: 38632, type: trojan, password: HrTsLJvh, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇸🇬SG_@WangCai_8 2, server: 36.151.251.62, port: 38632, type: trojan, password: xHiFGGTy, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇺🇸US_@WangCai_8, server: 36.151.251.62, port: 23770, type: trojan, password: xHiFGGTy, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇯🇵JP_@WangCai_8 2, server: 223.111.144.12, port: 43196, type: trojan, password: LfcDJuqe, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇸🇬SG_@WangCai_8 3, server: 36.151.251.62, port: 38632, type: trojan, password: LfcDJuqe, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇯🇵JP_@WangCai_8 3, server: 223.111.144.12, port: 43196, type: trojan, password: RlzoEILU, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇸🇬SG_@WangCai_8 4, server: 36.151.251.62, port: 38632, type: trojan, password: RlzoEILU, sni: TG.WangCai2, skip-cert-verify: true}
+  - {name: 🇺🇸US_@WangCai_8 2, server: 36.151.251.62, port: 23770, type: trojan, password: VdWBGFmg, sni: TG.WangCai2, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
