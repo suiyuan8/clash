@@ -72,7 +72,7 @@ proxy-providers:
     path: "./Proxy/provider2.yaml"
     <<: *p
     override:
-      additional-prefix: "【102vl】"
+      additional-prefix: "【283vl】"
   provider3:
     url: "https://tt.vg/ssr"   # 替换订阅地址
     path: "./Proxy/provider3.yaml"
