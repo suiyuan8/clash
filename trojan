@@ -25,13 +25,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇯🇵JP_@WangCai_8, server: 223.111.144.12, port: 43196, client-fingerprint: chrome, type: trojan, password: HrTsLJvh, sni: TG.WangCai2, skip-cert-verify: true}
-  - {name: 🇯🇵JP_@WangCai_8 2, server: 223.111.144.12, port: 43196, client-fingerprint: chrome, type: trojan, password: LfcDJuqe, sni: TG.WangCai2, skip-cert-verify: true}
-  - {name: 🇯🇵JP_@WangCai_8 3, server: 223.111.144.12, port: 43196, client-fingerprint: chrome, type: trojan, password: NreuDUGR, sni: TG.WangCai2, skip-cert-verify: true}
-  - {name: 🇯🇵JP_@WangCai_8 4, server: 223.111.144.12, port: 43196, client-fingerprint: chrome, type: trojan, password: RDprOFnw, sni: TG.WangCai2, skip-cert-verify: true}
-  - {name: 🇯🇵JP_@WangCai_8 5, server: 223.111.144.12, port: 43196, client-fingerprint: chrome, type: trojan, password: RlzoEILU, sni: TG.WangCai2, skip-cert-verify: true}
-  - {name: 🇯🇵JP_@WangCai_8 6, server: 223.111.144.12, port: 43196, client-fingerprint: chrome, type: trojan, password: tchclyTK, sni: TG.WangCai2, skip-cert-verify: true}
-  - {name: 🇯🇵JP_@WangCai_8 7, server: 223.111.144.12, port: 43196, client-fingerprint: chrome, type: trojan, password: uEojZUUK, sni: TG.WangCai2, skip-cert-verify: true}
   - {name: 🇸🇬SG_@WangCai_8, server: 36.151.251.62, port: 38632, client-fingerprint: chrome, type: trojan, password: HrTsLJvh, sni: TG.WangCai2, skip-cert-verify: true}
   - {name: 🇸🇬SG_@WangCai_8 2, server: 36.151.251.62, port: 38632, client-fingerprint: chrome, type: trojan, password: LfcDJuqe, sni: TG.WangCai2, skip-cert-verify: true}
   - {name: 🇸🇬SG_@WangCai_8 3, server: 36.151.251.62, port: 38632, client-fingerprint: chrome, type: trojan, password: NreuDUGR, sni: TG.WangCai2, skip-cert-verify: true}
@@ -47,13 +40,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵JP_@WangCai_8
-      - 🇯🇵JP_@WangCai_8 2
-      - 🇯🇵JP_@WangCai_8 3
-      - 🇯🇵JP_@WangCai_8 4
-      - 🇯🇵JP_@WangCai_8 5
-      - 🇯🇵JP_@WangCai_8 6
-      - 🇯🇵JP_@WangCai_8 7
       - 🇸🇬SG_@WangCai_8
       - 🇸🇬SG_@WangCai_8 2
       - 🇸🇬SG_@WangCai_8 3
@@ -69,13 +55,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵JP_@WangCai_8
-      - 🇯🇵JP_@WangCai_8 2
-      - 🇯🇵JP_@WangCai_8 3
-      - 🇯🇵JP_@WangCai_8 4
-      - 🇯🇵JP_@WangCai_8 5
-      - 🇯🇵JP_@WangCai_8 6
-      - 🇯🇵JP_@WangCai_8 7
       - 🇸🇬SG_@WangCai_8
       - 🇸🇬SG_@WangCai_8 2
       - 🇸🇬SG_@WangCai_8 3
@@ -102,13 +81,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵JP_@WangCai_8
-      - 🇯🇵JP_@WangCai_8 2
-      - 🇯🇵JP_@WangCai_8 3
-      - 🇯🇵JP_@WangCai_8 4
-      - 🇯🇵JP_@WangCai_8 5
-      - 🇯🇵JP_@WangCai_8 6
-      - 🇯🇵JP_@WangCai_8 7
       - 🇸🇬SG_@WangCai_8
       - 🇸🇬SG_@WangCai_8 2
       - 🇸🇬SG_@WangCai_8 3
