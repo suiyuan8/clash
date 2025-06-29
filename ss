@@ -13,36 +13,80 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
-dns:
-  enable: true
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬SG_@WangCai_8, server: gdgs.tarioblink.me, port: 30003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a2c25d38-44dc-4b53-9377-9f98bd8d7e2b, tfo: false}
-  - {name: 🇨🇳TW_@WangCai_8, server: gdgs.tarioblink.me, port: 30002, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a2c25d38-44dc-4b53-9377-9f98bd8d7e2b, tfo: false}
+  - {name: 🇯🇵JP, server: 52.199.0.140, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
+  - {name: 🇯🇵JP 2, server: 52.195.227.31, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
+  - {name: 🇯🇵JP 3, server: 13.113.240.255, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
+  - {name: 🇯🇵JP 4, server: 13.230.12.217, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
+  - {name: 🇯🇵JP 5, server: 52.194.252.154, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
+  - {name: 🇸🇬SG, server: 54.179.129.122, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
+  - {name: 🇸🇬SG 2, server: 52.77.215.9, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
+  - {name: 🇸🇬SG 3, server: 13.250.20.204, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
+  - {name: 🇸🇬SG 4, server: 18.141.240.194, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
+  - {name: 🇸🇬SG 5, server: 13.229.243.5, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
+  - {name: 🇸🇬SG 6, server: 13.229.107.111, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123}
+  - {name: 🇰🇷KR, server: 3.35.170.238, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇰🇷KR 2, server: 15.165.15.142, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇰🇷KR 3, server: 222.112.15.140, port: 56780, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷KR 4, server: 43.202.58.164, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇰🇷KR 5, server: 54.180.137.195, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇰🇷KR 6, server: 13.209.12.170, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇰🇷KR 7, server: 43.203.253.73, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇰🇷KR 8, server: 43.203.255.63, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
+  - {name: 🇰🇷KR 9, server: 43.203.122.135, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬SG_@WangCai_8
-      - 🇨🇳TW_@WangCai_8
+      - 🇯🇵JP
+      - 🇯🇵JP 2
+      - 🇯🇵JP 3
+      - 🇯🇵JP 4
+      - 🇯🇵JP 5
+      - 🇸🇬SG
+      - 🇸🇬SG 2
+      - 🇸🇬SG 3
+      - 🇸🇬SG 4
+      - 🇸🇬SG 5
+      - 🇸🇬SG 6
+      - 🇰🇷KR
+      - 🇰🇷KR 2
+      - 🇰🇷KR 3
+      - 🇰🇷KR 4
+      - 🇰🇷KR 5
+      - 🇰🇷KR 6
+      - 🇰🇷KR 7
+      - 🇰🇷KR 8
+      - 🇰🇷KR 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬SG_@WangCai_8
-      - 🇨🇳TW_@WangCai_8
+      - 🇯🇵JP
+      - 🇯🇵JP 2
+      - 🇯🇵JP 3
+      - 🇯🇵JP 4
+      - 🇯🇵JP 5
+      - 🇸🇬SG
+      - 🇸🇬SG 2
+      - 🇸🇬SG 3
+      - 🇸🇬SG 4
+      - 🇸🇬SG 5
+      - 🇸🇬SG 6
+      - 🇰🇷KR
+      - 🇰🇷KR 2
+      - 🇰🇷KR 3
+      - 🇰🇷KR 4
+      - 🇰🇷KR 5
+      - 🇰🇷KR 6
+      - 🇰🇷KR 7
+      - 🇰🇷KR 8
+      - 🇰🇷KR 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -60,8 +104,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬SG_@WangCai_8
-      - 🇨🇳TW_@WangCai_8
+      - 🇯🇵JP
+      - 🇯🇵JP 2
+      - 🇯🇵JP 3
+      - 🇯🇵JP 4
+      - 🇯🇵JP 5
+      - 🇸🇬SG
+      - 🇸🇬SG 2
+      - 🇸🇬SG 3
+      - 🇸🇬SG 4
+      - 🇸🇬SG 5
+      - 🇸🇬SG 6
+      - 🇰🇷KR
+      - 🇰🇷KR 2
+      - 🇰🇷KR 3
+      - 🇰🇷KR 4
+      - 🇰🇷KR 5
+      - 🇰🇷KR 6
+      - 🇰🇷KR 7
+      - 🇰🇷KR 8
+      - 🇰🇷KR 9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
