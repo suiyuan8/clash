@@ -26,7 +26,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇸🇬SG_1 @WangCai_8, server: 36.141.40.20, port: 16001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: AUW0BXCP643P34FE, tfo: false}
-  - {name: 🇸🇬SG_2 @WangCai_8, server: 36.141.40.20, port: 16001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ARR0QDKO48ZLH4N3, tfo: false}
+  - {name: 🇸🇬SG_2 @WangCai_8, server: 36.141.40.20, port: 16008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ARR0QDKO48ZLH4N3, tfo: false}
   - {name: 🇯🇵JP_1 @WangCai_8, server: 36.141.40.20, port: 18014, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FM2M9W9AFMG3QFRS, tfo: false}
   - {name: 🇯🇵JP_2 @WangCai_8, server: 36.141.40.20, port: 18015, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 14B4BU7A5RYD9H3H, tfo: false}
 proxy-groups:
