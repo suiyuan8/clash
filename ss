@@ -25,24 +25,27 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇸🇬SG_@WangCai_8, server: gdgs.tarioblink.me, port: 30003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a2c25d38-44dc-4b53-9377-9f98bd8d7e2b, tfo: false}
-  - {name: 🇨🇳TW_@WangCai_8, server: gdgs.tarioblink.me, port: 30002, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a2c25d38-44dc-4b53-9377-9f98bd8d7e2b, tfo: false}
+  - {name: 🇸🇬SG_1 @WangCai_8, server: 36.141.40.20, port: 16001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Z01K6WJJI3BEVKP4, tfo: false}
+  - {name: 🇯🇵JP_1 @WangCai_8, server: 36.141.40.20, port: 18014, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FM2M9W9AFMG3QFRS, tfo: false}
+  - {name: 🇯🇵JP_2 @WangCai_8, server: 36.141.40.20, port: 18015, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 14B4BU7A5RYD9H3H, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬SG_@WangCai_8
-      - 🇨🇳TW_@WangCai_8
+      - 🇸🇬SG_1 @WangCai_8
+      - 🇯🇵JP_1 @WangCai_8
+      - 🇯🇵JP_2 @WangCai_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬SG_@WangCai_8
-      - 🇨🇳TW_@WangCai_8
+      - 🇸🇬SG_1 @WangCai_8
+      - 🇯🇵JP_1 @WangCai_8
+      - 🇯🇵JP_2 @WangCai_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -60,8 +63,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬SG_@WangCai_8
-      - 🇨🇳TW_@WangCai_8
+      - 🇸🇬SG_1 @WangCai_8
+      - 🇯🇵JP_1 @WangCai_8
+      - 🇯🇵JP_2 @WangCai_8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
