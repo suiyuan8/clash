@@ -25,314 +25,201 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇯🇵JP_194 @WangCai_8, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_138 @WangCai_8, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_53 @WangCai_8, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_228 @WangCai_8, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_141 @WangCai_8, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_224 @WangCai_8, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_230 @WangCai_8, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_32 @WangCai_8, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_135 @WangCai_8, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_79 @WangCai_8, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_237 @WangCai_8, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_162 @WangCai_8, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_206 @WangCai_8, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_105 @WangCai_8, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_208 @WangCai_8, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_221 @WangCai_8, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_125 @WangCai_8, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_41 @WangCai_8, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_60 @WangCai_8, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_73 @WangCai_8, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_192 @WangCai_8, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_154 @WangCai_8, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_122 @WangCai_8, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_29 @WangCai_8, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_206 @WangCai_8 2, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_82 @WangCai_8, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_143 @WangCai_8, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_162 @WangCai_8 2, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)875a101:110453}}
-  - {name: 🇯🇵JP_194 @WangCai_8 2, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_138 @WangCai_8 2, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_53 @WangCai_8 2, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_228 @WangCai_8 2, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_141 @WangCai_8 2, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_224 @WangCai_8 2, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_230 @WangCai_8 2, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_32 @WangCai_8 2, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_135 @WangCai_8 2, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_79 @WangCai_8 2, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_237 @WangCai_8 2, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_162 @WangCai_8 3, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_206 @WangCai_8 3, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_105 @WangCai_8 2, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_208 @WangCai_8 2, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_221 @WangCai_8 2, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_125 @WangCai_8 2, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_41 @WangCai_8 2, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_60 @WangCai_8 2, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_73 @WangCai_8 2, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_192 @WangCai_8 2, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_154 @WangCai_8 2, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_122 @WangCai_8 2, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_29 @WangCai_8 2, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_206 @WangCai_8 4, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_82 @WangCai_8 2, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_143 @WangCai_8 2, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_162 @WangCai_8 4, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
-  - {name: 🇯🇵JP_194 @WangCai_8 3, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_138 @WangCai_8 3, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_53 @WangCai_8 3, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_228 @WangCai_8 3, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_141 @WangCai_8 3, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_224 @WangCai_8 3, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_230 @WangCai_8 3, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_32 @WangCai_8 3, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_135 @WangCai_8 3, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_79 @WangCai_8 3, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_237 @WangCai_8 3, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_162 @WangCai_8 5, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_206 @WangCai_8 5, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_105 @WangCai_8 3, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_208 @WangCai_8 3, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_221 @WangCai_8 3, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_125 @WangCai_8 3, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_41 @WangCai_8 3, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_60 @WangCai_8 3, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_73 @WangCai_8 3, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_192 @WangCai_8 3, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_154 @WangCai_8 3, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_122 @WangCai_8 3, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_29 @WangCai_8 3, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_206 @WangCai_8 6, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_82 @WangCai_8 3, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_143 @WangCai_8 3, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_162 @WangCai_8 6, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
-  - {name: 🇯🇵JP_194 @WangCai_8 4, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_138 @WangCai_8 4, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_53 @WangCai_8 4, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_228 @WangCai_8 4, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_141 @WangCai_8 4, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_224 @WangCai_8 4, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_230 @WangCai_8 4, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_32 @WangCai_8 4, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_135 @WangCai_8 4, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_79 @WangCai_8 4, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_237 @WangCai_8 4, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_162 @WangCai_8 7, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_206 @WangCai_8 7, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_105 @WangCai_8 4, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_208 @WangCai_8 4, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_221 @WangCai_8 4, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_125 @WangCai_8 4, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_41 @WangCai_8 4, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_60 @WangCai_8 4, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_73 @WangCai_8 4, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_192 @WangCai_8 4, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_154 @WangCai_8 4, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_122 @WangCai_8 4, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_29 @WangCai_8 4, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_206 @WangCai_8 8, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_82 @WangCai_8 4, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_143 @WangCai_8 4, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_162 @WangCai_8 8, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)407738b:154938}}
-  - {name: 🇯🇵JP_194 @WangCai_8 5, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_138 @WangCai_8 5, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_53 @WangCai_8 5, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_228 @WangCai_8 5, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_141 @WangCai_8 5, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_224 @WangCai_8 5, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_230 @WangCai_8 5, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_32 @WangCai_8 5, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_135 @WangCai_8 5, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_79 @WangCai_8 5, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_237 @WangCai_8 5, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_162 @WangCai_8 9, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_206 @WangCai_8 9, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_105 @WangCai_8 5, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_208 @WangCai_8 5, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_221 @WangCai_8 5, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_125 @WangCai_8 5, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_41 @WangCai_8 5, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_60 @WangCai_8 5, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_73 @WangCai_8 5, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_192 @WangCai_8 5, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_154 @WangCai_8 5, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_122 @WangCai_8 5, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_29 @WangCai_8 5, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_206 @WangCai_8 10, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_82 @WangCai_8 5, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_143 @WangCai_8 5, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_162 @WangCai_8 10, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
-  - {name: 🇯🇵JP_194 @WangCai_8 6, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_138 @WangCai_8 6, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_53 @WangCai_8 6, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_228 @WangCai_8 6, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_141 @WangCai_8 6, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_224 @WangCai_8 6, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_230 @WangCai_8 6, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_32 @WangCai_8 6, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_135 @WangCai_8 6, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_79 @WangCai_8 6, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_237 @WangCai_8 6, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_162 @WangCai_8 11, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_206 @WangCai_8 11, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_105 @WangCai_8 6, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_208 @WangCai_8 6, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_221 @WangCai_8 6, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_125 @WangCai_8 6, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_41 @WangCai_8 6, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_60 @WangCai_8 6, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_73 @WangCai_8 6, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_192 @WangCai_8 6, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_154 @WangCai_8 6, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_122 @WangCai_8 6, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_29 @WangCai_8 6, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_206 @WangCai_8 12, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_82 @WangCai_8 6, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_143 @WangCai_8 6, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_162 @WangCai_8 12, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
-  - {name: 🇯🇵JP_194 @WangCai_8 7, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_138 @WangCai_8 7, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_53 @WangCai_8 7, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_228 @WangCai_8 7, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_141 @WangCai_8 7, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_224 @WangCai_8 7, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_230 @WangCai_8 7, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_32 @WangCai_8 7, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_135 @WangCai_8 7, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_79 @WangCai_8 7, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_237 @WangCai_8 7, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_162 @WangCai_8 13, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_206 @WangCai_8 13, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_105 @WangCai_8 7, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_208 @WangCai_8 7, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_221 @WangCai_8 7, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_125 @WangCai_8 7, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_41 @WangCai_8 7, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_60 @WangCai_8 7, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_73 @WangCai_8 7, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_192 @WangCai_8 7, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_154 @WangCai_8 7, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_122 @WangCai_8 7, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_29 @WangCai_8 7, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_206 @WangCai_8 14, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_82 @WangCai_8 7, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_143 @WangCai_8 7, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_162 @WangCai_8 14, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
-  - {name: 🇯🇵JP_194 @WangCai_8 8, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_138 @WangCai_8 8, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_53 @WangCai_8 8, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_228 @WangCai_8 8, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_141 @WangCai_8 8, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_224 @WangCai_8 8, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_230 @WangCai_8 8, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_32 @WangCai_8 8, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_135 @WangCai_8 8, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_79 @WangCai_8 8, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_237 @WangCai_8 8, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_162 @WangCai_8 15, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_206 @WangCai_8 15, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_105 @WangCai_8 8, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_208 @WangCai_8 8, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_221 @WangCai_8 8, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_125 @WangCai_8 8, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_41 @WangCai_8 8, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_60 @WangCai_8 8, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_73 @WangCai_8 8, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_192 @WangCai_8 8, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_154 @WangCai_8 8, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_122 @WangCai_8 8, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_29 @WangCai_8 8, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_206 @WangCai_8 16, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_82 @WangCai_8 8, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_143 @WangCai_8 8, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_162 @WangCai_8 16, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
-  - {name: 🇯🇵JP_194 @WangCai_8 9, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_138 @WangCai_8 9, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_53 @WangCai_8 9, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_228 @WangCai_8 9, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_141 @WangCai_8 9, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_224 @WangCai_8 9, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_230 @WangCai_8 9, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_32 @WangCai_8 9, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_135 @WangCai_8 9, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_79 @WangCai_8 9, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_237 @WangCai_8 9, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_162 @WangCai_8 17, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_206 @WangCai_8 17, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_105 @WangCai_8 9, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_208 @WangCai_8 9, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_221 @WangCai_8 9, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_125 @WangCai_8 9, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_41 @WangCai_8 9, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_60 @WangCai_8 9, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_73 @WangCai_8 9, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_192 @WangCai_8 9, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_154 @WangCai_8 9, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_122 @WangCai_8 9, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_29 @WangCai_8 9, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_206 @WangCai_8 18, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_82 @WangCai_8 9, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_143 @WangCai_8 9, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_162 @WangCai_8 18, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)16a89ef:154955}}
-  - {name: 🇯🇵JP_194 @WangCai_8 10, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_138 @WangCai_8 10, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_53 @WangCai_8 10, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_228 @WangCai_8 10, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_141 @WangCai_8 10, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_224 @WangCai_8 10, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_230 @WangCai_8 10, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_32 @WangCai_8 10, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_135 @WangCai_8 10, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_79 @WangCai_8 10, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_237 @WangCai_8 10, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_162 @WangCai_8 19, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_206 @WangCai_8 19, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_105 @WangCai_8 10, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_208 @WangCai_8 10, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_221 @WangCai_8 10, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_125 @WangCai_8 10, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_41 @WangCai_8 10, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_60 @WangCai_8 10, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_73 @WangCai_8 10, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_192 @WangCai_8 10, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_154 @WangCai_8 10, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_122 @WangCai_8 10, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_29 @WangCai_8 10, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_206 @WangCai_8 20, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_82 @WangCai_8 10, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_143 @WangCai_8 10, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_162 @WangCai_8 20, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)10805ea:185672}}
-  - {name: 🇯🇵JP_194 @WangCai_8 11, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_138 @WangCai_8 11, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_53 @WangCai_8 11, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_228 @WangCai_8 11, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_141 @WangCai_8 11, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_224 @WangCai_8 11, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_230 @WangCai_8 11, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_32 @WangCai_8 11, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_135 @WangCai_8 11, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_79 @WangCai_8 11, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_237 @WangCai_8 11, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_162 @WangCai_8 21, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_206 @WangCai_8 21, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_105 @WangCai_8 11, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_208 @WangCai_8 11, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_221 @WangCai_8 11, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_125 @WangCai_8 11, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_41 @WangCai_8 11, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_60 @WangCai_8 11, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_73 @WangCai_8 11, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_192 @WangCai_8 11, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_154 @WangCai_8 11, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_122 @WangCai_8 11, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_29 @WangCai_8 11, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_206 @WangCai_8 22, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_82 @WangCai_8 11, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_143 @WangCai_8 11, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
-  - {name: 🇯🇵JP_162 @WangCai_8 22, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_194 @WangCai_8, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_138 @WangCai_8, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_53 @WangCai_8, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_228 @WangCai_8, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_141 @WangCai_8, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_224 @WangCai_8, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_230 @WangCai_8, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_32 @WangCai_8, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_135 @WangCai_8, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_79 @WangCai_8, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_237 @WangCai_8, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_162 @WangCai_8, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_206 @WangCai_8, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_105 @WangCai_8, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_208 @WangCai_8, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_221 @WangCai_8, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_125 @WangCai_8, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_41 @WangCai_8, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_60 @WangCai_8, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_73 @WangCai_8, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_192 @WangCai_8, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_154 @WangCai_8, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_122 @WangCai_8, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_29 @WangCai_8, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_206 @WangCai_8 2, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_82 @WangCai_8, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_143 @WangCai_8, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_162 @WangCai_8 2, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a6df15f:137873}}
+  - {name: 🇯🇵JP_194 @WangCai_8 2, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_138 @WangCai_8 2, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_53 @WangCai_8 2, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_228 @WangCai_8 2, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_141 @WangCai_8 2, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_224 @WangCai_8 2, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_230 @WangCai_8 2, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_32 @WangCai_8 2, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_135 @WangCai_8 2, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_79 @WangCai_8 2, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_237 @WangCai_8 2, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_162 @WangCai_8 3, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_206 @WangCai_8 3, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_105 @WangCai_8 2, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_208 @WangCai_8 2, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_221 @WangCai_8 2, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_125 @WangCai_8 2, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_41 @WangCai_8 2, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_60 @WangCai_8 2, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_73 @WangCai_8 2, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_192 @WangCai_8 2, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_154 @WangCai_8 2, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_122 @WangCai_8 2, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_206 @WangCai_8 4, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_82 @WangCai_8 2, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_143 @WangCai_8 2, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_162 @WangCai_8 4, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9f6b1e7:141612}}
+  - {name: 🇯🇵JP_194 @WangCai_8 3, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_138 @WangCai_8 3, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_53 @WangCai_8 3, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_228 @WangCai_8 3, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_141 @WangCai_8 3, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_224 @WangCai_8 3, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_230 @WangCai_8 3, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_32 @WangCai_8 3, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_135 @WangCai_8 3, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_79 @WangCai_8 3, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_237 @WangCai_8 3, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_162 @WangCai_8 5, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_206 @WangCai_8 5, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_105 @WangCai_8 3, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_208 @WangCai_8 3, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_221 @WangCai_8 3, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_125 @WangCai_8 3, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_41 @WangCai_8 3, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_60 @WangCai_8 3, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_73 @WangCai_8 3, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_192 @WangCai_8 3, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_154 @WangCai_8 3, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_122 @WangCai_8 3, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_29 @WangCai_8 2, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_206 @WangCai_8 6, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_82 @WangCai_8 3, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_143 @WangCai_8 3, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_162 @WangCai_8 6, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)5dfbdfc:154942}}
+  - {name: 🇯🇵JP_194 @WangCai_8 4, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_138 @WangCai_8 4, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_53 @WangCai_8 4, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_228 @WangCai_8 4, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_141 @WangCai_8 4, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_224 @WangCai_8 4, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_230 @WangCai_8 4, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_32 @WangCai_8 4, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_135 @WangCai_8 4, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_79 @WangCai_8 4, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_237 @WangCai_8 4, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_162 @WangCai_8 7, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_206 @WangCai_8 7, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_105 @WangCai_8 4, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_208 @WangCai_8 4, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_221 @WangCai_8 4, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_125 @WangCai_8 4, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_41 @WangCai_8 4, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_60 @WangCai_8 4, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_73 @WangCai_8 4, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_192 @WangCai_8 4, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_154 @WangCai_8 4, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_122 @WangCai_8 4, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_29 @WangCai_8 3, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_206 @WangCai_8 8, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_82 @WangCai_8 4, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_143 @WangCai_8 4, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_162 @WangCai_8 8, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)53b5157:154944}}
+  - {name: 🇯🇵JP_194 @WangCai_8 5, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_138 @WangCai_8 5, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_53 @WangCai_8 5, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_228 @WangCai_8 5, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_141 @WangCai_8 5, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_224 @WangCai_8 5, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_230 @WangCai_8 5, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_32 @WangCai_8 5, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_135 @WangCai_8 5, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_79 @WangCai_8 5, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_237 @WangCai_8 5, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_162 @WangCai_8 9, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_206 @WangCai_8 9, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_105 @WangCai_8 5, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_208 @WangCai_8 5, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_221 @WangCai_8 5, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_125 @WangCai_8 5, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_41 @WangCai_8 5, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_60 @WangCai_8 5, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_73 @WangCai_8 5, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_192 @WangCai_8 5, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_154 @WangCai_8 5, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_122 @WangCai_8 5, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_29 @WangCai_8 4, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_206 @WangCai_8 10, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_82 @WangCai_8 5, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_143 @WangCai_8 5, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_162 @WangCai_8 10, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)4aa81ac:154946}}
+  - {name: 🇯🇵JP_194 @WangCai_8 6, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_138 @WangCai_8 6, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_53 @WangCai_8 6, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_228 @WangCai_8 6, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_141 @WangCai_8 6, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_224 @WangCai_8 6, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_230 @WangCai_8 6, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_32 @WangCai_8 6, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_135 @WangCai_8 6, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_79 @WangCai_8 6, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_237 @WangCai_8 6, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_162 @WangCai_8 11, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_206 @WangCai_8 11, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_105 @WangCai_8 6, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_208 @WangCai_8 6, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_221 @WangCai_8 6, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_125 @WangCai_8 6, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_41 @WangCai_8 6, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_60 @WangCai_8 6, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_73 @WangCai_8 6, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_192 @WangCai_8 6, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_154 @WangCai_8 6, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_122 @WangCai_8 6, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_29 @WangCai_8 5, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_206 @WangCai_8 12, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_82 @WangCai_8 6, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_143 @WangCai_8 6, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_162 @WangCai_8 12, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feb7fa9:154948}}
+  - {name: 🇯🇵JP_194 @WangCai_8 7, server: 13.115.154.194, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_138 @WangCai_8 7, server: 35.74.22.138, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_53 @WangCai_8 7, server: 172.237.6.53, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_228 @WangCai_8 7, server: 52.195.160.228, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_141 @WangCai_8 7, server: 172.237.11.141, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_224 @WangCai_8 7, server: 172.237.11.224, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_230 @WangCai_8 7, server: 172.237.11.230, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_32 @WangCai_8 7, server: 18.177.142.32, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_135 @WangCai_8 7, server: 18.179.16.135, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_79 @WangCai_8 7, server: 18.179.37.79, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_237 @WangCai_8 7, server: 18.179.58.237, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_162 @WangCai_8 13, server: 52.199.164.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_206 @WangCai_8 13, server: 52.199.249.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_105 @WangCai_8 7, server: 54.178.26.105, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_208 @WangCai_8 7, server: 54.249.220.208, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_221 @WangCai_8 7, server: 54.250.34.221, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_125 @WangCai_8 7, server: 54.95.215.125, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_41 @WangCai_8 7, server: 13.114.31.41, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_60 @WangCai_8 7, server: 13.231.106.60, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_73 @WangCai_8 7, server: 18.183.87.73, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_192 @WangCai_8 7, server: 54.178.71.192, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_154 @WangCai_8 7, server: 13.230.213.154, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_122 @WangCai_8 7, server: 18.181.146.122, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_29 @WangCai_8 6, server: 35.72.184.29, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_206 @WangCai_8 14, server: 43.207.207.206, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_82 @WangCai_8 7, server: 54.64.148.82, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_143 @WangCai_8 7, server: 54.249.79.143, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
+  - {name: 🇯🇵JP_162 @WangCai_8 14, server: 18.179.197.162, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, tfo: false, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)db5fe62:193531}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -390,7 +277,6 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 2
       - 🇯🇵JP_154 @WangCai_8 2
       - 🇯🇵JP_122 @WangCai_8 2
-      - 🇯🇵JP_29 @WangCai_8 2
       - 🇯🇵JP_206 @WangCai_8 4
       - 🇯🇵JP_82 @WangCai_8 2
       - 🇯🇵JP_143 @WangCai_8 2
@@ -418,7 +304,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 3
       - 🇯🇵JP_154 @WangCai_8 3
       - 🇯🇵JP_122 @WangCai_8 3
-      - 🇯🇵JP_29 @WangCai_8 3
+      - 🇯🇵JP_29 @WangCai_8 2
       - 🇯🇵JP_206 @WangCai_8 6
       - 🇯🇵JP_82 @WangCai_8 3
       - 🇯🇵JP_143 @WangCai_8 3
@@ -446,7 +332,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 4
       - 🇯🇵JP_154 @WangCai_8 4
       - 🇯🇵JP_122 @WangCai_8 4
-      - 🇯🇵JP_29 @WangCai_8 4
+      - 🇯🇵JP_29 @WangCai_8 3
       - 🇯🇵JP_206 @WangCai_8 8
       - 🇯🇵JP_82 @WangCai_8 4
       - 🇯🇵JP_143 @WangCai_8 4
@@ -474,7 +360,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 5
       - 🇯🇵JP_154 @WangCai_8 5
       - 🇯🇵JP_122 @WangCai_8 5
-      - 🇯🇵JP_29 @WangCai_8 5
+      - 🇯🇵JP_29 @WangCai_8 4
       - 🇯🇵JP_206 @WangCai_8 10
       - 🇯🇵JP_82 @WangCai_8 5
       - 🇯🇵JP_143 @WangCai_8 5
@@ -502,7 +388,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 6
       - 🇯🇵JP_154 @WangCai_8 6
       - 🇯🇵JP_122 @WangCai_8 6
-      - 🇯🇵JP_29 @WangCai_8 6
+      - 🇯🇵JP_29 @WangCai_8 5
       - 🇯🇵JP_206 @WangCai_8 12
       - 🇯🇵JP_82 @WangCai_8 6
       - 🇯🇵JP_143 @WangCai_8 6
@@ -530,123 +416,11 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 7
       - 🇯🇵JP_154 @WangCai_8 7
       - 🇯🇵JP_122 @WangCai_8 7
-      - 🇯🇵JP_29 @WangCai_8 7
+      - 🇯🇵JP_29 @WangCai_8 6
       - 🇯🇵JP_206 @WangCai_8 14
       - 🇯🇵JP_82 @WangCai_8 7
       - 🇯🇵JP_143 @WangCai_8 7
       - 🇯🇵JP_162 @WangCai_8 14
-      - 🇯🇵JP_194 @WangCai_8 8
-      - 🇯🇵JP_138 @WangCai_8 8
-      - 🇯🇵JP_53 @WangCai_8 8
-      - 🇯🇵JP_228 @WangCai_8 8
-      - 🇯🇵JP_141 @WangCai_8 8
-      - 🇯🇵JP_224 @WangCai_8 8
-      - 🇯🇵JP_230 @WangCai_8 8
-      - 🇯🇵JP_32 @WangCai_8 8
-      - 🇯🇵JP_135 @WangCai_8 8
-      - 🇯🇵JP_79 @WangCai_8 8
-      - 🇯🇵JP_237 @WangCai_8 8
-      - 🇯🇵JP_162 @WangCai_8 15
-      - 🇯🇵JP_206 @WangCai_8 15
-      - 🇯🇵JP_105 @WangCai_8 8
-      - 🇯🇵JP_208 @WangCai_8 8
-      - 🇯🇵JP_221 @WangCai_8 8
-      - 🇯🇵JP_125 @WangCai_8 8
-      - 🇯🇵JP_41 @WangCai_8 8
-      - 🇯🇵JP_60 @WangCai_8 8
-      - 🇯🇵JP_73 @WangCai_8 8
-      - 🇯🇵JP_192 @WangCai_8 8
-      - 🇯🇵JP_154 @WangCai_8 8
-      - 🇯🇵JP_122 @WangCai_8 8
-      - 🇯🇵JP_29 @WangCai_8 8
-      - 🇯🇵JP_206 @WangCai_8 16
-      - 🇯🇵JP_82 @WangCai_8 8
-      - 🇯🇵JP_143 @WangCai_8 8
-      - 🇯🇵JP_162 @WangCai_8 16
-      - 🇯🇵JP_194 @WangCai_8 9
-      - 🇯🇵JP_138 @WangCai_8 9
-      - 🇯🇵JP_53 @WangCai_8 9
-      - 🇯🇵JP_228 @WangCai_8 9
-      - 🇯🇵JP_141 @WangCai_8 9
-      - 🇯🇵JP_224 @WangCai_8 9
-      - 🇯🇵JP_230 @WangCai_8 9
-      - 🇯🇵JP_32 @WangCai_8 9
-      - 🇯🇵JP_135 @WangCai_8 9
-      - 🇯🇵JP_79 @WangCai_8 9
-      - 🇯🇵JP_237 @WangCai_8 9
-      - 🇯🇵JP_162 @WangCai_8 17
-      - 🇯🇵JP_206 @WangCai_8 17
-      - 🇯🇵JP_105 @WangCai_8 9
-      - 🇯🇵JP_208 @WangCai_8 9
-      - 🇯🇵JP_221 @WangCai_8 9
-      - 🇯🇵JP_125 @WangCai_8 9
-      - 🇯🇵JP_41 @WangCai_8 9
-      - 🇯🇵JP_60 @WangCai_8 9
-      - 🇯🇵JP_73 @WangCai_8 9
-      - 🇯🇵JP_192 @WangCai_8 9
-      - 🇯🇵JP_154 @WangCai_8 9
-      - 🇯🇵JP_122 @WangCai_8 9
-      - 🇯🇵JP_29 @WangCai_8 9
-      - 🇯🇵JP_206 @WangCai_8 18
-      - 🇯🇵JP_82 @WangCai_8 9
-      - 🇯🇵JP_143 @WangCai_8 9
-      - 🇯🇵JP_162 @WangCai_8 18
-      - 🇯🇵JP_194 @WangCai_8 10
-      - 🇯🇵JP_138 @WangCai_8 10
-      - 🇯🇵JP_53 @WangCai_8 10
-      - 🇯🇵JP_228 @WangCai_8 10
-      - 🇯🇵JP_141 @WangCai_8 10
-      - 🇯🇵JP_224 @WangCai_8 10
-      - 🇯🇵JP_230 @WangCai_8 10
-      - 🇯🇵JP_32 @WangCai_8 10
-      - 🇯🇵JP_135 @WangCai_8 10
-      - 🇯🇵JP_79 @WangCai_8 10
-      - 🇯🇵JP_237 @WangCai_8 10
-      - 🇯🇵JP_162 @WangCai_8 19
-      - 🇯🇵JP_206 @WangCai_8 19
-      - 🇯🇵JP_105 @WangCai_8 10
-      - 🇯🇵JP_208 @WangCai_8 10
-      - 🇯🇵JP_221 @WangCai_8 10
-      - 🇯🇵JP_125 @WangCai_8 10
-      - 🇯🇵JP_41 @WangCai_8 10
-      - 🇯🇵JP_60 @WangCai_8 10
-      - 🇯🇵JP_73 @WangCai_8 10
-      - 🇯🇵JP_192 @WangCai_8 10
-      - 🇯🇵JP_154 @WangCai_8 10
-      - 🇯🇵JP_122 @WangCai_8 10
-      - 🇯🇵JP_29 @WangCai_8 10
-      - 🇯🇵JP_206 @WangCai_8 20
-      - 🇯🇵JP_82 @WangCai_8 10
-      - 🇯🇵JP_143 @WangCai_8 10
-      - 🇯🇵JP_162 @WangCai_8 20
-      - 🇯🇵JP_194 @WangCai_8 11
-      - 🇯🇵JP_138 @WangCai_8 11
-      - 🇯🇵JP_53 @WangCai_8 11
-      - 🇯🇵JP_228 @WangCai_8 11
-      - 🇯🇵JP_141 @WangCai_8 11
-      - 🇯🇵JP_224 @WangCai_8 11
-      - 🇯🇵JP_230 @WangCai_8 11
-      - 🇯🇵JP_32 @WangCai_8 11
-      - 🇯🇵JP_135 @WangCai_8 11
-      - 🇯🇵JP_79 @WangCai_8 11
-      - 🇯🇵JP_237 @WangCai_8 11
-      - 🇯🇵JP_162 @WangCai_8 21
-      - 🇯🇵JP_206 @WangCai_8 21
-      - 🇯🇵JP_105 @WangCai_8 11
-      - 🇯🇵JP_208 @WangCai_8 11
-      - 🇯🇵JP_221 @WangCai_8 11
-      - 🇯🇵JP_125 @WangCai_8 11
-      - 🇯🇵JP_41 @WangCai_8 11
-      - 🇯🇵JP_60 @WangCai_8 11
-      - 🇯🇵JP_73 @WangCai_8 11
-      - 🇯🇵JP_192 @WangCai_8 11
-      - 🇯🇵JP_154 @WangCai_8 11
-      - 🇯🇵JP_122 @WangCai_8 11
-      - 🇯🇵JP_29 @WangCai_8 11
-      - 🇯🇵JP_206 @WangCai_8 22
-      - 🇯🇵JP_82 @WangCai_8 11
-      - 🇯🇵JP_143 @WangCai_8 11
-      - 🇯🇵JP_162 @WangCai_8 22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -704,7 +478,6 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 2
       - 🇯🇵JP_154 @WangCai_8 2
       - 🇯🇵JP_122 @WangCai_8 2
-      - 🇯🇵JP_29 @WangCai_8 2
       - 🇯🇵JP_206 @WangCai_8 4
       - 🇯🇵JP_82 @WangCai_8 2
       - 🇯🇵JP_143 @WangCai_8 2
@@ -732,7 +505,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 3
       - 🇯🇵JP_154 @WangCai_8 3
       - 🇯🇵JP_122 @WangCai_8 3
-      - 🇯🇵JP_29 @WangCai_8 3
+      - 🇯🇵JP_29 @WangCai_8 2
       - 🇯🇵JP_206 @WangCai_8 6
       - 🇯🇵JP_82 @WangCai_8 3
       - 🇯🇵JP_143 @WangCai_8 3
@@ -760,7 +533,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 4
       - 🇯🇵JP_154 @WangCai_8 4
       - 🇯🇵JP_122 @WangCai_8 4
-      - 🇯🇵JP_29 @WangCai_8 4
+      - 🇯🇵JP_29 @WangCai_8 3
       - 🇯🇵JP_206 @WangCai_8 8
       - 🇯🇵JP_82 @WangCai_8 4
       - 🇯🇵JP_143 @WangCai_8 4
@@ -788,7 +561,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 5
       - 🇯🇵JP_154 @WangCai_8 5
       - 🇯🇵JP_122 @WangCai_8 5
-      - 🇯🇵JP_29 @WangCai_8 5
+      - 🇯🇵JP_29 @WangCai_8 4
       - 🇯🇵JP_206 @WangCai_8 10
       - 🇯🇵JP_82 @WangCai_8 5
       - 🇯🇵JP_143 @WangCai_8 5
@@ -816,7 +589,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 6
       - 🇯🇵JP_154 @WangCai_8 6
       - 🇯🇵JP_122 @WangCai_8 6
-      - 🇯🇵JP_29 @WangCai_8 6
+      - 🇯🇵JP_29 @WangCai_8 5
       - 🇯🇵JP_206 @WangCai_8 12
       - 🇯🇵JP_82 @WangCai_8 6
       - 🇯🇵JP_143 @WangCai_8 6
@@ -844,123 +617,11 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 7
       - 🇯🇵JP_154 @WangCai_8 7
       - 🇯🇵JP_122 @WangCai_8 7
-      - 🇯🇵JP_29 @WangCai_8 7
+      - 🇯🇵JP_29 @WangCai_8 6
       - 🇯🇵JP_206 @WangCai_8 14
       - 🇯🇵JP_82 @WangCai_8 7
       - 🇯🇵JP_143 @WangCai_8 7
       - 🇯🇵JP_162 @WangCai_8 14
-      - 🇯🇵JP_194 @WangCai_8 8
-      - 🇯🇵JP_138 @WangCai_8 8
-      - 🇯🇵JP_53 @WangCai_8 8
-      - 🇯🇵JP_228 @WangCai_8 8
-      - 🇯🇵JP_141 @WangCai_8 8
-      - 🇯🇵JP_224 @WangCai_8 8
-      - 🇯🇵JP_230 @WangCai_8 8
-      - 🇯🇵JP_32 @WangCai_8 8
-      - 🇯🇵JP_135 @WangCai_8 8
-      - 🇯🇵JP_79 @WangCai_8 8
-      - 🇯🇵JP_237 @WangCai_8 8
-      - 🇯🇵JP_162 @WangCai_8 15
-      - 🇯🇵JP_206 @WangCai_8 15
-      - 🇯🇵JP_105 @WangCai_8 8
-      - 🇯🇵JP_208 @WangCai_8 8
-      - 🇯🇵JP_221 @WangCai_8 8
-      - 🇯🇵JP_125 @WangCai_8 8
-      - 🇯🇵JP_41 @WangCai_8 8
-      - 🇯🇵JP_60 @WangCai_8 8
-      - 🇯🇵JP_73 @WangCai_8 8
-      - 🇯🇵JP_192 @WangCai_8 8
-      - 🇯🇵JP_154 @WangCai_8 8
-      - 🇯🇵JP_122 @WangCai_8 8
-      - 🇯🇵JP_29 @WangCai_8 8
-      - 🇯🇵JP_206 @WangCai_8 16
-      - 🇯🇵JP_82 @WangCai_8 8
-      - 🇯🇵JP_143 @WangCai_8 8
-      - 🇯🇵JP_162 @WangCai_8 16
-      - 🇯🇵JP_194 @WangCai_8 9
-      - 🇯🇵JP_138 @WangCai_8 9
-      - 🇯🇵JP_53 @WangCai_8 9
-      - 🇯🇵JP_228 @WangCai_8 9
-      - 🇯🇵JP_141 @WangCai_8 9
-      - 🇯🇵JP_224 @WangCai_8 9
-      - 🇯🇵JP_230 @WangCai_8 9
-      - 🇯🇵JP_32 @WangCai_8 9
-      - 🇯🇵JP_135 @WangCai_8 9
-      - 🇯🇵JP_79 @WangCai_8 9
-      - 🇯🇵JP_237 @WangCai_8 9
-      - 🇯🇵JP_162 @WangCai_8 17
-      - 🇯🇵JP_206 @WangCai_8 17
-      - 🇯🇵JP_105 @WangCai_8 9
-      - 🇯🇵JP_208 @WangCai_8 9
-      - 🇯🇵JP_221 @WangCai_8 9
-      - 🇯🇵JP_125 @WangCai_8 9
-      - 🇯🇵JP_41 @WangCai_8 9
-      - 🇯🇵JP_60 @WangCai_8 9
-      - 🇯🇵JP_73 @WangCai_8 9
-      - 🇯🇵JP_192 @WangCai_8 9
-      - 🇯🇵JP_154 @WangCai_8 9
-      - 🇯🇵JP_122 @WangCai_8 9
-      - 🇯🇵JP_29 @WangCai_8 9
-      - 🇯🇵JP_206 @WangCai_8 18
-      - 🇯🇵JP_82 @WangCai_8 9
-      - 🇯🇵JP_143 @WangCai_8 9
-      - 🇯🇵JP_162 @WangCai_8 18
-      - 🇯🇵JP_194 @WangCai_8 10
-      - 🇯🇵JP_138 @WangCai_8 10
-      - 🇯🇵JP_53 @WangCai_8 10
-      - 🇯🇵JP_228 @WangCai_8 10
-      - 🇯🇵JP_141 @WangCai_8 10
-      - 🇯🇵JP_224 @WangCai_8 10
-      - 🇯🇵JP_230 @WangCai_8 10
-      - 🇯🇵JP_32 @WangCai_8 10
-      - 🇯🇵JP_135 @WangCai_8 10
-      - 🇯🇵JP_79 @WangCai_8 10
-      - 🇯🇵JP_237 @WangCai_8 10
-      - 🇯🇵JP_162 @WangCai_8 19
-      - 🇯🇵JP_206 @WangCai_8 19
-      - 🇯🇵JP_105 @WangCai_8 10
-      - 🇯🇵JP_208 @WangCai_8 10
-      - 🇯🇵JP_221 @WangCai_8 10
-      - 🇯🇵JP_125 @WangCai_8 10
-      - 🇯🇵JP_41 @WangCai_8 10
-      - 🇯🇵JP_60 @WangCai_8 10
-      - 🇯🇵JP_73 @WangCai_8 10
-      - 🇯🇵JP_192 @WangCai_8 10
-      - 🇯🇵JP_154 @WangCai_8 10
-      - 🇯🇵JP_122 @WangCai_8 10
-      - 🇯🇵JP_29 @WangCai_8 10
-      - 🇯🇵JP_206 @WangCai_8 20
-      - 🇯🇵JP_82 @WangCai_8 10
-      - 🇯🇵JP_143 @WangCai_8 10
-      - 🇯🇵JP_162 @WangCai_8 20
-      - 🇯🇵JP_194 @WangCai_8 11
-      - 🇯🇵JP_138 @WangCai_8 11
-      - 🇯🇵JP_53 @WangCai_8 11
-      - 🇯🇵JP_228 @WangCai_8 11
-      - 🇯🇵JP_141 @WangCai_8 11
-      - 🇯🇵JP_224 @WangCai_8 11
-      - 🇯🇵JP_230 @WangCai_8 11
-      - 🇯🇵JP_32 @WangCai_8 11
-      - 🇯🇵JP_135 @WangCai_8 11
-      - 🇯🇵JP_79 @WangCai_8 11
-      - 🇯🇵JP_237 @WangCai_8 11
-      - 🇯🇵JP_162 @WangCai_8 21
-      - 🇯🇵JP_206 @WangCai_8 21
-      - 🇯🇵JP_105 @WangCai_8 11
-      - 🇯🇵JP_208 @WangCai_8 11
-      - 🇯🇵JP_221 @WangCai_8 11
-      - 🇯🇵JP_125 @WangCai_8 11
-      - 🇯🇵JP_41 @WangCai_8 11
-      - 🇯🇵JP_60 @WangCai_8 11
-      - 🇯🇵JP_73 @WangCai_8 11
-      - 🇯🇵JP_192 @WangCai_8 11
-      - 🇯🇵JP_154 @WangCai_8 11
-      - 🇯🇵JP_122 @WangCai_8 11
-      - 🇯🇵JP_29 @WangCai_8 11
-      - 🇯🇵JP_206 @WangCai_8 22
-      - 🇯🇵JP_82 @WangCai_8 11
-      - 🇯🇵JP_143 @WangCai_8 11
-      - 🇯🇵JP_162 @WangCai_8 22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1029,7 +690,6 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 2
       - 🇯🇵JP_154 @WangCai_8 2
       - 🇯🇵JP_122 @WangCai_8 2
-      - 🇯🇵JP_29 @WangCai_8 2
       - 🇯🇵JP_206 @WangCai_8 4
       - 🇯🇵JP_82 @WangCai_8 2
       - 🇯🇵JP_143 @WangCai_8 2
@@ -1057,7 +717,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 3
       - 🇯🇵JP_154 @WangCai_8 3
       - 🇯🇵JP_122 @WangCai_8 3
-      - 🇯🇵JP_29 @WangCai_8 3
+      - 🇯🇵JP_29 @WangCai_8 2
       - 🇯🇵JP_206 @WangCai_8 6
       - 🇯🇵JP_82 @WangCai_8 3
       - 🇯🇵JP_143 @WangCai_8 3
@@ -1085,7 +745,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 4
       - 🇯🇵JP_154 @WangCai_8 4
       - 🇯🇵JP_122 @WangCai_8 4
-      - 🇯🇵JP_29 @WangCai_8 4
+      - 🇯🇵JP_29 @WangCai_8 3
       - 🇯🇵JP_206 @WangCai_8 8
       - 🇯🇵JP_82 @WangCai_8 4
       - 🇯🇵JP_143 @WangCai_8 4
@@ -1113,7 +773,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 5
       - 🇯🇵JP_154 @WangCai_8 5
       - 🇯🇵JP_122 @WangCai_8 5
-      - 🇯🇵JP_29 @WangCai_8 5
+      - 🇯🇵JP_29 @WangCai_8 4
       - 🇯🇵JP_206 @WangCai_8 10
       - 🇯🇵JP_82 @WangCai_8 5
       - 🇯🇵JP_143 @WangCai_8 5
@@ -1141,7 +801,7 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 6
       - 🇯🇵JP_154 @WangCai_8 6
       - 🇯🇵JP_122 @WangCai_8 6
-      - 🇯🇵JP_29 @WangCai_8 6
+      - 🇯🇵JP_29 @WangCai_8 5
       - 🇯🇵JP_206 @WangCai_8 12
       - 🇯🇵JP_82 @WangCai_8 6
       - 🇯🇵JP_143 @WangCai_8 6
@@ -1169,123 +829,11 @@ proxy-groups:
       - 🇯🇵JP_192 @WangCai_8 7
       - 🇯🇵JP_154 @WangCai_8 7
       - 🇯🇵JP_122 @WangCai_8 7
-      - 🇯🇵JP_29 @WangCai_8 7
+      - 🇯🇵JP_29 @WangCai_8 6
       - 🇯🇵JP_206 @WangCai_8 14
       - 🇯🇵JP_82 @WangCai_8 7
       - 🇯🇵JP_143 @WangCai_8 7
       - 🇯🇵JP_162 @WangCai_8 14
-      - 🇯🇵JP_194 @WangCai_8 8
-      - 🇯🇵JP_138 @WangCai_8 8
-      - 🇯🇵JP_53 @WangCai_8 8
-      - 🇯🇵JP_228 @WangCai_8 8
-      - 🇯🇵JP_141 @WangCai_8 8
-      - 🇯🇵JP_224 @WangCai_8 8
-      - 🇯🇵JP_230 @WangCai_8 8
-      - 🇯🇵JP_32 @WangCai_8 8
-      - 🇯🇵JP_135 @WangCai_8 8
-      - 🇯🇵JP_79 @WangCai_8 8
-      - 🇯🇵JP_237 @WangCai_8 8
-      - 🇯🇵JP_162 @WangCai_8 15
-      - 🇯🇵JP_206 @WangCai_8 15
-      - 🇯🇵JP_105 @WangCai_8 8
-      - 🇯🇵JP_208 @WangCai_8 8
-      - 🇯🇵JP_221 @WangCai_8 8
-      - 🇯🇵JP_125 @WangCai_8 8
-      - 🇯🇵JP_41 @WangCai_8 8
-      - 🇯🇵JP_60 @WangCai_8 8
-      - 🇯🇵JP_73 @WangCai_8 8
-      - 🇯🇵JP_192 @WangCai_8 8
-      - 🇯🇵JP_154 @WangCai_8 8
-      - 🇯🇵JP_122 @WangCai_8 8
-      - 🇯🇵JP_29 @WangCai_8 8
-      - 🇯🇵JP_206 @WangCai_8 16
-      - 🇯🇵JP_82 @WangCai_8 8
-      - 🇯🇵JP_143 @WangCai_8 8
-      - 🇯🇵JP_162 @WangCai_8 16
-      - 🇯🇵JP_194 @WangCai_8 9
-      - 🇯🇵JP_138 @WangCai_8 9
-      - 🇯🇵JP_53 @WangCai_8 9
-      - 🇯🇵JP_228 @WangCai_8 9
-      - 🇯🇵JP_141 @WangCai_8 9
-      - 🇯🇵JP_224 @WangCai_8 9
-      - 🇯🇵JP_230 @WangCai_8 9
-      - 🇯🇵JP_32 @WangCai_8 9
-      - 🇯🇵JP_135 @WangCai_8 9
-      - 🇯🇵JP_79 @WangCai_8 9
-      - 🇯🇵JP_237 @WangCai_8 9
-      - 🇯🇵JP_162 @WangCai_8 17
-      - 🇯🇵JP_206 @WangCai_8 17
-      - 🇯🇵JP_105 @WangCai_8 9
-      - 🇯🇵JP_208 @WangCai_8 9
-      - 🇯🇵JP_221 @WangCai_8 9
-      - 🇯🇵JP_125 @WangCai_8 9
-      - 🇯🇵JP_41 @WangCai_8 9
-      - 🇯🇵JP_60 @WangCai_8 9
-      - 🇯🇵JP_73 @WangCai_8 9
-      - 🇯🇵JP_192 @WangCai_8 9
-      - 🇯🇵JP_154 @WangCai_8 9
-      - 🇯🇵JP_122 @WangCai_8 9
-      - 🇯🇵JP_29 @WangCai_8 9
-      - 🇯🇵JP_206 @WangCai_8 18
-      - 🇯🇵JP_82 @WangCai_8 9
-      - 🇯🇵JP_143 @WangCai_8 9
-      - 🇯🇵JP_162 @WangCai_8 18
-      - 🇯🇵JP_194 @WangCai_8 10
-      - 🇯🇵JP_138 @WangCai_8 10
-      - 🇯🇵JP_53 @WangCai_8 10
-      - 🇯🇵JP_228 @WangCai_8 10
-      - 🇯🇵JP_141 @WangCai_8 10
-      - 🇯🇵JP_224 @WangCai_8 10
-      - 🇯🇵JP_230 @WangCai_8 10
-      - 🇯🇵JP_32 @WangCai_8 10
-      - 🇯🇵JP_135 @WangCai_8 10
-      - 🇯🇵JP_79 @WangCai_8 10
-      - 🇯🇵JP_237 @WangCai_8 10
-      - 🇯🇵JP_162 @WangCai_8 19
-      - 🇯🇵JP_206 @WangCai_8 19
-      - 🇯🇵JP_105 @WangCai_8 10
-      - 🇯🇵JP_208 @WangCai_8 10
-      - 🇯🇵JP_221 @WangCai_8 10
-      - 🇯🇵JP_125 @WangCai_8 10
-      - 🇯🇵JP_41 @WangCai_8 10
-      - 🇯🇵JP_60 @WangCai_8 10
-      - 🇯🇵JP_73 @WangCai_8 10
-      - 🇯🇵JP_192 @WangCai_8 10
-      - 🇯🇵JP_154 @WangCai_8 10
-      - 🇯🇵JP_122 @WangCai_8 10
-      - 🇯🇵JP_29 @WangCai_8 10
-      - 🇯🇵JP_206 @WangCai_8 20
-      - 🇯🇵JP_82 @WangCai_8 10
-      - 🇯🇵JP_143 @WangCai_8 10
-      - 🇯🇵JP_162 @WangCai_8 20
-      - 🇯🇵JP_194 @WangCai_8 11
-      - 🇯🇵JP_138 @WangCai_8 11
-      - 🇯🇵JP_53 @WangCai_8 11
-      - 🇯🇵JP_228 @WangCai_8 11
-      - 🇯🇵JP_141 @WangCai_8 11
-      - 🇯🇵JP_224 @WangCai_8 11
-      - 🇯🇵JP_230 @WangCai_8 11
-      - 🇯🇵JP_32 @WangCai_8 11
-      - 🇯🇵JP_135 @WangCai_8 11
-      - 🇯🇵JP_79 @WangCai_8 11
-      - 🇯🇵JP_237 @WangCai_8 11
-      - 🇯🇵JP_162 @WangCai_8 21
-      - 🇯🇵JP_206 @WangCai_8 21
-      - 🇯🇵JP_105 @WangCai_8 11
-      - 🇯🇵JP_208 @WangCai_8 11
-      - 🇯🇵JP_221 @WangCai_8 11
-      - 🇯🇵JP_125 @WangCai_8 11
-      - 🇯🇵JP_41 @WangCai_8 11
-      - 🇯🇵JP_60 @WangCai_8 11
-      - 🇯🇵JP_73 @WangCai_8 11
-      - 🇯🇵JP_192 @WangCai_8 11
-      - 🇯🇵JP_154 @WangCai_8 11
-      - 🇯🇵JP_122 @WangCai_8 11
-      - 🇯🇵JP_29 @WangCai_8 11
-      - 🇯🇵JP_206 @WangCai_8 22
-      - 🇯🇵JP_82 @WangCai_8 11
-      - 🇯🇵JP_143 @WangCai_8 11
-      - 🇯🇵JP_162 @WangCai_8 22
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
