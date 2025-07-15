@@ -25,7 +25,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇯🇵JP_1 https://tt.vg/ssr 于7.16始停更, server: 120.232.153.50, port: 50132, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
+  - {name: https://tt.vg/ssr 于7.16始停更, server: 120.232.153.50, port: 50132, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
   - {name: 🇯🇵JP_2 @wangcai_8, server: 120.232.153.50, port: 50133, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
   - {name: 🇯🇵JP_3 @wangcai_8, server: 120.232.153.50, port: 50134, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
   - {name: 🇯🇵JP_4 @wangcai_8, server: 120.232.153.50, port: 50135, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
@@ -39,7 +39,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵JP_1 https://tt.vg/ssr 于7.16始停更
+      - https://tt.vg/ssr 于7.16始停更
       - 🇯🇵JP_2 @wangcai_8
       - 🇯🇵JP_3 @wangcai_8
       - 🇯🇵JP_4 @wangcai_8
@@ -53,7 +53,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵JP_1 https://tt.vg/ssr 于7.16始停更
+      - https://tt.vg/ssr 于7.16始停更
       - 🇯🇵JP_2 @wangcai_8
       - 🇯🇵JP_3 @wangcai_8
       - 🇯🇵JP_4 @wangcai_8
@@ -78,7 +78,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵JP_1 @wangcai_8
+      - https://tt.vg/ssr 于7.16始停更
       - 🇯🇵JP_2 @wangcai_8
       - 🇯🇵JP_3 @wangcai_8
       - 🇯🇵JP_4 @wangcai_8
