@@ -25,37 +25,21 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇯🇵JP_1 @wangcai_8, server: 120.232.153.49, port: 50132, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_2 @wangcai_8, server: 120.232.153.49, port: 50133, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_3 @wangcai_8, server: 120.232.153.49, port: 50134, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_4 @wangcai_8, server: 120.232.153.49, port: 50135, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_1 @wangcai_8, server: 120.232.153.49, port: 50136, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_2 @wangcai_8, server: 120.232.153.49, port: 50137, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_3 @wangcai_8, server: 120.232.153.49, port: 50138, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_4 @wangcai_8, server: 120.232.153.49, port: 50139, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_1 @wangcai_8 2, server: 120.232.153.50, port: 50132, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_2 @wangcai_8 2, server: 120.232.153.50, port: 50133, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_3 @wangcai_8 2, server: 120.232.153.50, port: 50134, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_4 @wangcai_8 2, server: 120.232.153.50, port: 50135, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_1 @wangcai_8 2, server: 120.232.153.50, port: 50136, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_2 @wangcai_8 2, server: 120.232.153.50, port: 50137, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_3 @wangcai_8 2, server: 120.232.153.50, port: 50138, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_4 @wangcai_8 2, server: 120.232.153.50, port: 50139, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_1 @wangcai_8 3, server: 120.232.153.56, port: 50132, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_2 @wangcai_8 3, server: 120.232.153.56, port: 50133, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_3 @wangcai_8 3, server: 120.232.153.56, port: 50134, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇯🇵JP_4 @wangcai_8 3, server: 120.232.153.56, port: 50135, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_1 @wangcai_8 3, server: 120.232.153.56, port: 50136, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_2 @wangcai_8 3, server: 120.232.153.56, port: 50137, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_3 @wangcai_8 3, server: 120.232.153.56, port: 50138, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
-  - {name: 🇸🇬SG_4 @wangcai_8 3, server: 120.232.153.56, port: 50139, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
+  - {name: 🇯🇵JP_1 https://tt.vg/ssr 于7.16始停更, server: 120.232.153.50, port: 50132, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
+  - {name: 🇯🇵JP_2 @wangcai_8, server: 120.232.153.50, port: 50133, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
+  - {name: 🇯🇵JP_3 @wangcai_8, server: 120.232.153.50, port: 50134, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
+  - {name: 🇯🇵JP_4 @wangcai_8, server: 120.232.153.50, port: 50135, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
+  - {name: 🇸🇬SG_1 @wangcai_8, server: 120.232.153.50, port: 50136, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
+  - {name: 🇸🇬SG_2 @wangcai_8, server: 120.232.153.50, port: 50137, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
+  - {name: 🇸🇬SG_3 @wangcai_8, server: 120.232.153.50, port: 50138, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
+  - {name: 🇸🇬SG_4 @wangcai_8, server: 120.232.153.50, port: 50139, client-fingerprint: chrome, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 63615424:hJ7syr, obfs-param: TG.WangCai2}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵JP_1 @wangcai_8
+      - 🇯🇵JP_1 https://tt.vg/ssr 于7.16始停更
       - 🇯🇵JP_2 @wangcai_8
       - 🇯🇵JP_3 @wangcai_8
       - 🇯🇵JP_4 @wangcai_8
@@ -63,29 +47,13 @@ proxy-groups:
       - 🇸🇬SG_2 @wangcai_8
       - 🇸🇬SG_3 @wangcai_8
       - 🇸🇬SG_4 @wangcai_8
-      - 🇯🇵JP_1 @wangcai_8 2
-      - 🇯🇵JP_2 @wangcai_8 2
-      - 🇯🇵JP_3 @wangcai_8 2
-      - 🇯🇵JP_4 @wangcai_8 2
-      - 🇸🇬SG_1 @wangcai_8 2
-      - 🇸🇬SG_2 @wangcai_8 2
-      - 🇸🇬SG_3 @wangcai_8 2
-      - 🇸🇬SG_4 @wangcai_8 2
-      - 🇯🇵JP_1 @wangcai_8 3
-      - 🇯🇵JP_2 @wangcai_8 3
-      - 🇯🇵JP_3 @wangcai_8 3
-      - 🇯🇵JP_4 @wangcai_8 3
-      - 🇸🇬SG_1 @wangcai_8 3
-      - 🇸🇬SG_2 @wangcai_8 3
-      - 🇸🇬SG_3 @wangcai_8 3
-      - 🇸🇬SG_4 @wangcai_8 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵JP_1 @wangcai_8
+      - 🇯🇵JP_1 https://tt.vg/ssr 于7.16始停更
       - 🇯🇵JP_2 @wangcai_8
       - 🇯🇵JP_3 @wangcai_8
       - 🇯🇵JP_4 @wangcai_8
@@ -93,22 +61,6 @@ proxy-groups:
       - 🇸🇬SG_2 @wangcai_8
       - 🇸🇬SG_3 @wangcai_8
       - 🇸🇬SG_4 @wangcai_8
-      - 🇯🇵JP_1 @wangcai_8 2
-      - 🇯🇵JP_2 @wangcai_8 2
-      - 🇯🇵JP_3 @wangcai_8 2
-      - 🇯🇵JP_4 @wangcai_8 2
-      - 🇸🇬SG_1 @wangcai_8 2
-      - 🇸🇬SG_2 @wangcai_8 2
-      - 🇸🇬SG_3 @wangcai_8 2
-      - 🇸🇬SG_4 @wangcai_8 2
-      - 🇯🇵JP_1 @wangcai_8 3
-      - 🇯🇵JP_2 @wangcai_8 3
-      - 🇯🇵JP_3 @wangcai_8 3
-      - 🇯🇵JP_4 @wangcai_8 3
-      - 🇸🇬SG_1 @wangcai_8 3
-      - 🇸🇬SG_2 @wangcai_8 3
-      - 🇸🇬SG_3 @wangcai_8 3
-      - 🇸🇬SG_4 @wangcai_8 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -134,22 +86,6 @@ proxy-groups:
       - 🇸🇬SG_2 @wangcai_8
       - 🇸🇬SG_3 @wangcai_8
       - 🇸🇬SG_4 @wangcai_8
-      - 🇯🇵JP_1 @wangcai_8 2
-      - 🇯🇵JP_2 @wangcai_8 2
-      - 🇯🇵JP_3 @wangcai_8 2
-      - 🇯🇵JP_4 @wangcai_8 2
-      - 🇸🇬SG_1 @wangcai_8 2
-      - 🇸🇬SG_2 @wangcai_8 2
-      - 🇸🇬SG_3 @wangcai_8 2
-      - 🇸🇬SG_4 @wangcai_8 2
-      - 🇯🇵JP_1 @wangcai_8 3
-      - 🇯🇵JP_2 @wangcai_8 3
-      - 🇯🇵JP_3 @wangcai_8 3
-      - 🇯🇵JP_4 @wangcai_8 3
-      - 🇸🇬SG_1 @wangcai_8 3
-      - 🇸🇬SG_2 @wangcai_8 3
-      - 🇸🇬SG_3 @wangcai_8 3
-      - 🇸🇬SG_4 @wangcai_8 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
