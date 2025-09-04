@@ -15,6 +15,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇺🇸US_@WangCai_8, server: jio.sandeshsahu.tech, port: 8880, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: cf.vless.sandesh.fr}}}
+proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
@@ -45,6 +46,7 @@ proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸US_@WangCai_8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -99,6 +101,19 @@ rules:
   - DOMAIN,rewards.hypixel.net,🎯 全球直连
   - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
+  - DOMAIN-SUFFIX,synology.me,🎯 全球直连
+  - DOMAIN-SUFFIX,DiskStation.me,🎯 全球直连
+  - DOMAIN-SUFFIX,i234.me,🎯 全球直连
+  - DOMAIN-SUFFIX,myDS.me,🎯 全球直连
+  - DOMAIN-SUFFIX,DSCloud.biz,🎯 全球直连
+  - DOMAIN-SUFFIX,DSCloud.me,🎯 全球直连
+  - DOMAIN-SUFFIX,DSCloud.mobi,🎯 全球直连
+  - DOMAIN-SUFFIX,DSmyNAS.com,🎯 全球直连
+  - DOMAIN-SUFFIX,DSmyNAS.net,🎯 全球直连
+  - DOMAIN-SUFFIX,DSmyNAS.org,🎯 全球直连
+  - DOMAIN-SUFFIX,FamilyDS.com,🎯 全球直连
+  - DOMAIN-SUFFIX,FamilyDS.net,🎯 全球直连
+  - DOMAIN-SUFFIX,FamilyDS.org,🎯 全球直连
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -1208,7 +1223,6 @@ rules:
   - DOMAIN-SUFFIX,shenghuo.xiaomi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,union.mi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad.api.moji.com,🛑 全球拦截
   - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦截
   - DOMAIN-SUFFIX,cdn.moji002.com,🛑 全球拦截
@@ -1775,6 +1789,7 @@ rules:
   - DOMAIN-KEYWORD,claude,🚀 节点选择
   - DOMAIN-KEYWORD,openai,🚀 节点选择
   - DOMAIN,ai.google.dev,🚀 节点选择
+  - DOMAIN,aistudio.google.com,🚀 节点选择
   - DOMAIN,api.githubcopilot.com,🚀 节点选择
   - DOMAIN,api.groq.com,🚀 节点选择
   - DOMAIN,api.together.xyz,🚀 节点选择
@@ -1790,9 +1805,12 @@ rules:
   - DOMAIN-SUFFIX,bard.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
   - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,claudeusercontent.com,🚀 节点选择
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
   - DOMAIN-SUFFIX,copilot.cloud.microsoft,🚀 节点选择
   - DOMAIN-SUFFIX,copilot.microsoft.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cursor.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cursor.sh,🚀 节点选择
   - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
   - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
   - DOMAIN-SUFFIX,gemini.google.com,🚀 节点选择
@@ -2647,6 +2665,7 @@ rules:
   - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
   - DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,youku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qwen.ai,🎯 全球直连
   - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
   - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
   - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
