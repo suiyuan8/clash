@@ -14,361 +14,345 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇻🇳VN_16 @WangCai_8, server: 103.186.154.16, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_39 @WangCai_8, server: 103.186.154.39, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_40 @WangCai_8, server: 103.186.154.40, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_42 @WangCai_8, server: 103.186.154.42, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_43 @WangCai_8, server: 103.186.154.43, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_45 @WangCai_8, server: 103.186.154.45, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_46 @WangCai_8, server: 103.186.154.46, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_4 @WangCai_8, server: 103.186.154.4, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_9 @WangCai_8, server: 103.186.154.9, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_12 @WangCai_8, server: 103.186.154.12, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_14 @WangCai_8, server: 103.186.154.14, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_15 @WangCai_8, server: 103.186.154.15, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_27 @WangCai_8, server: 103.186.154.27, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_34 @WangCai_8, server: 103.186.154.34, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_35 @WangCai_8, server: 103.186.154.35, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_41 @WangCai_8, server: 103.186.154.41, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_44 @WangCai_8, server: 103.186.154.44, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_48 @WangCai_8, server: 103.186.154.48, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_52 @WangCai_8, server: 103.186.154.52, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_54 @WangCai_8, server: 103.186.154.54, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_55 @WangCai_8, server: 103.186.154.55, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_56 @WangCai_8, server: 103.186.154.56, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_57 @WangCai_8, server: 103.186.154.57, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_61 @WangCai_8, server: 103.186.154.61, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_62 @WangCai_8, server: 103.186.154.62, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_64 @WangCai_8, server: 103.186.154.64, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_65 @WangCai_8, server: 103.186.154.65, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_68 @WangCai_8, server: 103.186.154.68, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_69 @WangCai_8, server: 103.186.154.69, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_59 @WangCai_8, server: 103.186.154.59, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_60 @WangCai_8, server: 103.186.154.60, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_63 @WangCai_8, server: 103.186.154.63, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_66 @WangCai_8, server: 103.186.154.66, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_67 @WangCai_8, server: 103.186.154.67, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_70 @WangCai_8, server: 103.186.154.70, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_73 @WangCai_8, server: 103.186.154.73, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_74 @WangCai_8, server: 103.186.154.74, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_76 @WangCai_8, server: 103.186.154.76, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_78 @WangCai_8, server: 103.186.154.78, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_77 @WangCai_8, server: 103.186.154.77, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_79 @WangCai_8, server: 103.186.154.79, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_80 @WangCai_8, server: 103.186.154.80, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_140 @WangCai_8, server: 103.186.154.140, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_141 @WangCai_8, server: 103.186.154.141, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_142 @WangCai_8, server: 103.186.154.142, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_144 @WangCai_8, server: 103.186.154.144, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_145 @WangCai_8, server: 103.186.154.145, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_146 @WangCai_8, server: 103.186.154.146, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_147 @WangCai_8, server: 103.186.154.147, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_151 @WangCai_8, server: 103.186.154.151, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_152 @WangCai_8, server: 103.186.154.152, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_153 @WangCai_8, server: 103.186.154.153, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_154 @WangCai_8, server: 103.186.154.154, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_155 @WangCai_8, server: 103.186.154.155, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_149 @WangCai_8, server: 103.186.154.149, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_150 @WangCai_8, server: 103.186.154.150, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_156 @WangCai_8, server: 103.186.154.156, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_157 @WangCai_8, server: 103.186.154.157, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_159 @WangCai_8, server: 103.186.154.159, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_162 @WangCai_8, server: 103.186.154.162, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_158 @WangCai_8, server: 103.186.154.158, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_161 @WangCai_8, server: 103.186.154.161, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_163 @WangCai_8, server: 103.186.154.163, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_164 @WangCai_8, server: 103.186.154.164, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_165 @WangCai_8, server: 103.186.154.165, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_169 @WangCai_8, server: 103.186.154.169, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_166 @WangCai_8, server: 103.186.154.166, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_168 @WangCai_8, server: 103.186.154.168, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_170 @WangCai_8, server: 103.186.154.170, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_172 @WangCai_8, server: 103.186.154.172, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_173 @WangCai_8, server: 103.186.154.173, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_174 @WangCai_8, server: 103.186.154.174, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_175 @WangCai_8, server: 103.186.154.175, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_178 @WangCai_8, server: 103.186.154.178, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_179 @WangCai_8, server: 103.186.154.179, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_180 @WangCai_8, server: 103.186.154.180, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_181 @WangCai_8, server: 103.186.154.181, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_183 @WangCai_8, server: 103.186.154.183, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_182 @WangCai_8, server: 103.186.154.182, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_184 @WangCai_8, server: 103.186.154.184, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_185 @WangCai_8, server: 103.186.154.185, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_186 @WangCai_8, server: 103.186.154.186, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_187 @WangCai_8, server: 103.186.154.187, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_188 @WangCai_8, server: 103.186.154.188, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_190 @WangCai_8, server: 103.186.154.190, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_191 @WangCai_8, server: 103.186.154.191, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_192 @WangCai_8, server: 103.186.154.192, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_193 @WangCai_8, server: 103.186.154.193, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_195 @WangCai_8, server: 103.186.154.195, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_200 @WangCai_8, server: 103.186.154.200, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_202 @WangCai_8, server: 103.186.154.202, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_203 @WangCai_8, server: 103.186.154.203, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_205 @WangCai_8, server: 103.186.154.205, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_206 @WangCai_8, server: 103.186.154.206, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_207 @WangCai_8, server: 103.186.154.207, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_208 @WangCai_8, server: 103.186.154.208, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_210 @WangCai_8, server: 103.186.154.210, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_211 @WangCai_8, server: 103.186.154.211, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_209 @WangCai_8, server: 103.186.154.209, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_213 @WangCai_8, server: 103.186.154.213, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_214 @WangCai_8, server: 103.186.154.214, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_216 @WangCai_8, server: 103.186.154.216, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_217 @WangCai_8, server: 103.186.154.217, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_218 @WangCai_8, server: 103.186.154.218, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_219 @WangCai_8, server: 103.186.154.219, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_220 @WangCai_8, server: 103.186.154.220, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_221 @WangCai_8, server: 103.186.154.221, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_222 @WangCai_8, server: 103.186.154.222, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_224 @WangCai_8, server: 103.186.154.224, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_227 @WangCai_8, server: 103.186.154.227, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_228 @WangCai_8, server: 103.186.154.228, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_229 @WangCai_8, server: 103.186.154.229, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_230 @WangCai_8, server: 103.186.154.230, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_232 @WangCai_8, server: 103.186.154.232, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_234 @WangCai_8, server: 103.186.154.234, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_235 @WangCai_8, server: 103.186.154.235, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_236 @WangCai_8, server: 103.186.154.236, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_237 @WangCai_8, server: 103.186.154.237, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_239 @WangCai_8, server: 103.186.154.239, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_240 @WangCai_8, server: 103.186.154.240, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_238 @WangCai_8, server: 103.186.154.238, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_241 @WangCai_8, server: 103.186.154.241, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_242 @WangCai_8, server: 103.186.154.242, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_243 @WangCai_8, server: 103.186.154.243, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_244 @WangCai_8, server: 103.186.154.244, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_245 @WangCai_8, server: 103.186.154.245, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_246 @WangCai_8, server: 103.186.154.246, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_247 @WangCai_8, server: 103.186.154.247, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_249 @WangCai_8, server: 103.186.154.249, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_250 @WangCai_8, server: 103.186.154.250, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_251 @WangCai_8, server: 103.186.154.251, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_252 @WangCai_8, server: 103.186.154.252, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_254 @WangCai_8, server: 103.186.154.254, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_4 @WangCai_8, server: 103.186.155.4, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_12 @WangCai_8, server: 103.186.155.12, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_16 @WangCai_8 2, server: 103.186.155.16, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_17 @WangCai_8, server: 103.186.155.17, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_27 @WangCai_8, server: 103.186.155.27, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_253 @WangCai_8, server: 103.186.154.253, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_2 @WangCai_8, server: 103.186.155.2, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_5 @WangCai_8, server: 103.186.155.5, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_9 @WangCai_8 2, server: 103.186.155.9, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_10 @WangCai_8, server: 103.186.155.10, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_13 @WangCai_8, server: 103.186.155.13, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_16 @WangCai_8, server: 103.186.155.16, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_21 @WangCai_8, server: 103.186.155.21, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_28 @WangCai_8, server: 103.186.155.28, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_29 @WangCai_8, server: 103.186.155.29, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_30 @WangCai_8, server: 103.186.155.30, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_34 @WangCai_8, server: 103.186.155.34, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_35 @WangCai_8, server: 103.186.155.35, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_32 @WangCai_8, server: 103.186.155.32, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_33 @WangCai_8, server: 103.186.155.33, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_34 @WangCai_8 2, server: 103.186.155.34, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_36 @WangCai_8, server: 103.186.155.36, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_38 @WangCai_8, server: 103.186.155.38, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_40 @WangCai_8 2, server: 103.186.155.40, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_43 @WangCai_8 2, server: 103.186.155.43, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_45 @WangCai_8 2, server: 103.186.155.45, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_40 @WangCai_8, server: 103.186.155.40, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_42 @WangCai_8, server: 103.186.155.42, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_43 @WangCai_8, server: 103.186.155.43, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_47 @WangCai_8, server: 103.186.155.47, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_48 @WangCai_8 2, server: 103.186.155.48, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_49 @WangCai_8, server: 103.186.155.49, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_50 @WangCai_8, server: 103.186.155.50, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_51 @WangCai_8, server: 103.186.155.51, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_52 @WangCai_8 2, server: 103.186.155.52, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_55 @WangCai_8 2, server: 103.186.155.55, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_58 @WangCai_8, server: 103.186.155.58, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_59 @WangCai_8, server: 103.186.155.59, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_61 @WangCai_8 2, server: 103.186.155.61, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_64 @WangCai_8 2, server: 103.186.155.64, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_68 @WangCai_8 2, server: 103.186.155.68, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_69 @WangCai_8 2, server: 103.186.155.69, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_52 @WangCai_8, server: 103.186.155.52, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_54 @WangCai_8, server: 103.186.155.54, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_57 @WangCai_8, server: 103.186.155.57, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_59 @WangCai_8 2, server: 103.186.155.59, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_61 @WangCai_8, server: 103.186.155.61, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_63 @WangCai_8 2, server: 103.186.155.63, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_65 @WangCai_8, server: 103.186.155.65, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_66 @WangCai_8 2, server: 103.186.155.66, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_67 @WangCai_8 2, server: 103.186.155.67, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_69 @WangCai_8, server: 103.186.155.69, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_75 @WangCai_8, server: 103.186.155.75, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_76 @WangCai_8 2, server: 103.186.155.76, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_78 @WangCai_8 2, server: 103.186.155.78, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_79 @WangCai_8, server: 103.186.155.79, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_84 @WangCai_8, server: 103.186.155.84, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_76 @WangCai_8, server: 103.186.155.76, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_77 @WangCai_8 2, server: 103.186.155.77, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_79 @WangCai_8 2, server: 103.186.155.79, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_80 @WangCai_8 2, server: 103.186.155.80, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_82 @WangCai_8, server: 103.186.155.82, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_85 @WangCai_8, server: 103.186.155.85, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_104 @WangCai_8, server: 103.186.155.104, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_101 @WangCai_8, server: 103.186.155.101, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_105 @WangCai_8, server: 103.186.155.105, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_109 @WangCai_8, server: 103.186.155.109, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_108 @WangCai_8, server: 103.186.155.108, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_111 @WangCai_8, server: 103.186.155.111, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_112 @WangCai_8, server: 103.186.155.112, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_113 @WangCai_8, server: 103.186.155.113, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_114 @WangCai_8, server: 103.186.155.114, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_115 @WangCai_8, server: 103.186.155.115, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_116 @WangCai_8, server: 103.186.155.116, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_117 @WangCai_8, server: 103.186.155.117, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_118 @WangCai_8, server: 103.186.155.118, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_119 @WangCai_8, server: 103.186.155.119, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_120 @WangCai_8, server: 103.186.155.120, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_121 @WangCai_8, server: 103.186.155.121, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_122 @WangCai_8, server: 103.186.155.122, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_123 @WangCai_8, server: 103.186.155.123, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_126 @WangCai_8, server: 103.186.155.126, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_124 @WangCai_8, server: 103.186.155.124, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_125 @WangCai_8, server: 103.186.155.125, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_127 @WangCai_8, server: 103.186.155.127, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_128 @WangCai_8, server: 103.186.155.128, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_129 @WangCai_8, server: 103.186.155.129, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_132 @WangCai_8, server: 103.186.155.132, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_133 @WangCai_8, server: 103.186.155.133, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_130 @WangCai_8, server: 103.186.155.130, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_131 @WangCai_8, server: 103.186.155.131, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_134 @WangCai_8, server: 103.186.155.134, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_136 @WangCai_8, server: 103.186.155.136, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_137 @WangCai_8, server: 103.186.155.137, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_138 @WangCai_8, server: 103.186.155.138, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_139 @WangCai_8, server: 103.186.155.139, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_140 @WangCai_8 2, server: 103.186.155.140, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_141 @WangCai_8 2, server: 103.186.155.141, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_142 @WangCai_8 2, server: 103.186.155.142, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_143 @WangCai_8, server: 103.186.155.143, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_144 @WangCai_8 2, server: 103.186.155.144, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_154 @WangCai_8 2, server: 103.186.155.154, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_183 @WangCai_8 2, server: 103.186.155.183, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_147 @WangCai_8 2, server: 103.186.155.147, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_148 @WangCai_8, server: 103.186.155.148, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_149 @WangCai_8 2, server: 103.186.155.149, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_150 @WangCai_8 2, server: 103.186.155.150, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_154 @WangCai_8, server: 103.186.155.154, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_156 @WangCai_8 2, server: 103.186.155.156, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_202 @WangCai_8 2, server: 103.186.155.202, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_203 @WangCai_8, server: 103.186.155.203, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_205 @WangCai_8, server: 103.186.155.205, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_206 @WangCai_8 2, server: 103.186.155.206, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_211 @WangCai_8 2, server: 103.186.155.211, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_220 @WangCai_8 2, server: 103.186.155.220, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_224 @WangCai_8 2, server: 103.186.155.224, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_226 @WangCai_8, server: 103.186.155.226, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_228 @WangCai_8 2, server: 103.186.155.228, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_229 @WangCai_8, server: 103.186.155.229, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_203 @WangCai_8 2, server: 103.186.155.203, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_209 @WangCai_8 2, server: 103.186.155.209, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_214 @WangCai_8, server: 103.186.155.214, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_215 @WangCai_8, server: 103.186.155.215, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_220 @WangCai_8, server: 103.186.155.220, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_221 @WangCai_8, server: 103.186.155.221, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_229 @WangCai_8 2, server: 103.186.155.229, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_233 @WangCai_8, server: 103.186.155.233, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_234 @WangCai_8 2, server: 103.186.155.234, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_236 @WangCai_8, server: 103.186.155.236, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_235 @WangCai_8 2, server: 103.186.155.235, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
   - {name: 🇻🇳VN_237 @WangCai_8 2, server: 103.186.155.237, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_238 @WangCai_8, server: 103.186.155.238, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_239 @WangCai_8 2, server: 103.186.155.239, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
-  - {name: 🇻🇳VN_240 @WangCai_8 2, server: 103.186.155.240, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
+  - {name: 🇻🇳VN_240 @WangCai_8, server: 103.186.155.240, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇻🇳VN_16 @WangCai_8
-      - 🇻🇳VN_39 @WangCai_8
-      - 🇻🇳VN_40 @WangCai_8
-      - 🇻🇳VN_42 @WangCai_8
-      - 🇻🇳VN_43 @WangCai_8
-      - 🇻🇳VN_45 @WangCai_8
-      - 🇻🇳VN_46 @WangCai_8
+      - 🇻🇳VN_4 @WangCai_8
+      - 🇻🇳VN_9 @WangCai_8
+      - 🇻🇳VN_12 @WangCai_8
+      - 🇻🇳VN_14 @WangCai_8
+      - 🇻🇳VN_15 @WangCai_8
+      - 🇻🇳VN_27 @WangCai_8
+      - 🇻🇳VN_34 @WangCai_8
+      - 🇻🇳VN_35 @WangCai_8
+      - 🇻🇳VN_41 @WangCai_8
+      - 🇻🇳VN_44 @WangCai_8
       - 🇻🇳VN_48 @WangCai_8
-      - 🇻🇳VN_52 @WangCai_8
-      - 🇻🇳VN_54 @WangCai_8
-      - 🇻🇳VN_55 @WangCai_8
       - 🇻🇳VN_56 @WangCai_8
-      - 🇻🇳VN_57 @WangCai_8
-      - 🇻🇳VN_61 @WangCai_8
-      - 🇻🇳VN_62 @WangCai_8
-      - 🇻🇳VN_64 @WangCai_8
-      - 🇻🇳VN_65 @WangCai_8
-      - 🇻🇳VN_68 @WangCai_8
-      - 🇻🇳VN_69 @WangCai_8
+      - 🇻🇳VN_59 @WangCai_8
+      - 🇻🇳VN_60 @WangCai_8
+      - 🇻🇳VN_63 @WangCai_8
+      - 🇻🇳VN_66 @WangCai_8
+      - 🇻🇳VN_67 @WangCai_8
+      - 🇻🇳VN_70 @WangCai_8
       - 🇻🇳VN_73 @WangCai_8
       - 🇻🇳VN_74 @WangCai_8
-      - 🇻🇳VN_76 @WangCai_8
-      - 🇻🇳VN_78 @WangCai_8
+      - 🇻🇳VN_77 @WangCai_8
+      - 🇻🇳VN_79 @WangCai_8
+      - 🇻🇳VN_80 @WangCai_8
       - 🇻🇳VN_140 @WangCai_8
       - 🇻🇳VN_141 @WangCai_8
       - 🇻🇳VN_142 @WangCai_8
       - 🇻🇳VN_144 @WangCai_8
       - 🇻🇳VN_145 @WangCai_8
+      - 🇻🇳VN_146 @WangCai_8
       - 🇻🇳VN_147 @WangCai_8
-      - 🇻🇳VN_151 @WangCai_8
-      - 🇻🇳VN_152 @WangCai_8
-      - 🇻🇳VN_153 @WangCai_8
-      - 🇻🇳VN_154 @WangCai_8
-      - 🇻🇳VN_155 @WangCai_8
+      - 🇻🇳VN_149 @WangCai_8
+      - 🇻🇳VN_150 @WangCai_8
       - 🇻🇳VN_156 @WangCai_8
-      - 🇻🇳VN_157 @WangCai_8
-      - 🇻🇳VN_159 @WangCai_8
-      - 🇻🇳VN_162 @WangCai_8
+      - 🇻🇳VN_158 @WangCai_8
+      - 🇻🇳VN_161 @WangCai_8
+      - 🇻🇳VN_163 @WangCai_8
       - 🇻🇳VN_164 @WangCai_8
       - 🇻🇳VN_165 @WangCai_8
-      - 🇻🇳VN_169 @WangCai_8
+      - 🇻🇳VN_166 @WangCai_8
+      - 🇻🇳VN_168 @WangCai_8
       - 🇻🇳VN_170 @WangCai_8
-      - 🇻🇳VN_172 @WangCai_8
+      - 🇻🇳VN_173 @WangCai_8
       - 🇻🇳VN_174 @WangCai_8
-      - 🇻🇳VN_175 @WangCai_8
-      - 🇻🇳VN_178 @WangCai_8
+      - 🇻🇳VN_179 @WangCai_8
+      - 🇻🇳VN_180 @WangCai_8
       - 🇻🇳VN_181 @WangCai_8
-      - 🇻🇳VN_183 @WangCai_8
+      - 🇻🇳VN_182 @WangCai_8
       - 🇻🇳VN_184 @WangCai_8
       - 🇻🇳VN_185 @WangCai_8
-      - 🇻🇳VN_186 @WangCai_8
       - 🇻🇳VN_187 @WangCai_8
       - 🇻🇳VN_188 @WangCai_8
-      - 🇻🇳VN_190 @WangCai_8
-      - 🇻🇳VN_191 @WangCai_8
       - 🇻🇳VN_192 @WangCai_8
       - 🇻🇳VN_193 @WangCai_8
-      - 🇻🇳VN_195 @WangCai_8
-      - 🇻🇳VN_200 @WangCai_8
       - 🇻🇳VN_202 @WangCai_8
+      - 🇻🇳VN_203 @WangCai_8
+      - 🇻🇳VN_205 @WangCai_8
       - 🇻🇳VN_206 @WangCai_8
-      - 🇻🇳VN_207 @WangCai_8
       - 🇻🇳VN_208 @WangCai_8
-      - 🇻🇳VN_210 @WangCai_8
-      - 🇻🇳VN_211 @WangCai_8
+      - 🇻🇳VN_209 @WangCai_8
       - 🇻🇳VN_213 @WangCai_8
-      - 🇻🇳VN_214 @WangCai_8
+      - 🇻🇳VN_216 @WangCai_8
       - 🇻🇳VN_217 @WangCai_8
-      - 🇻🇳VN_218 @WangCai_8
-      - 🇻🇳VN_219 @WangCai_8
-      - 🇻🇳VN_220 @WangCai_8
-      - 🇻🇳VN_221 @WangCai_8
-      - 🇻🇳VN_222 @WangCai_8
-      - 🇻🇳VN_224 @WangCai_8
-      - 🇻🇳VN_227 @WangCai_8
       - 🇻🇳VN_228 @WangCai_8
+      - 🇻🇳VN_229 @WangCai_8
       - 🇻🇳VN_230 @WangCai_8
+      - 🇻🇳VN_232 @WangCai_8
       - 🇻🇳VN_234 @WangCai_8
       - 🇻🇳VN_235 @WangCai_8
+      - 🇻🇳VN_236 @WangCai_8
       - 🇻🇳VN_237 @WangCai_8
-      - 🇻🇳VN_239 @WangCai_8
-      - 🇻🇳VN_240 @WangCai_8
+      - 🇻🇳VN_238 @WangCai_8
       - 🇻🇳VN_241 @WangCai_8
-      - 🇻🇳VN_242 @WangCai_8
       - 🇻🇳VN_243 @WangCai_8
       - 🇻🇳VN_244 @WangCai_8
       - 🇻🇳VN_245 @WangCai_8
-      - 🇻🇳VN_246 @WangCai_8
       - 🇻🇳VN_247 @WangCai_8
+      - 🇻🇳VN_249 @WangCai_8
       - 🇻🇳VN_250 @WangCai_8
-      - 🇻🇳VN_251 @WangCai_8
       - 🇻🇳VN_252 @WangCai_8
-      - 🇻🇳VN_254 @WangCai_8
-      - 🇻🇳VN_4 @WangCai_8
-      - 🇻🇳VN_12 @WangCai_8
-      - 🇻🇳VN_16 @WangCai_8 2
-      - 🇻🇳VN_17 @WangCai_8
-      - 🇻🇳VN_27 @WangCai_8
+      - 🇻🇳VN_253 @WangCai_8
+      - 🇻🇳VN_2 @WangCai_8
+      - 🇻🇳VN_5 @WangCai_8
+      - 🇻🇳VN_9 @WangCai_8 2
+      - 🇻🇳VN_10 @WangCai_8
+      - 🇻🇳VN_13 @WangCai_8
+      - 🇻🇳VN_16 @WangCai_8
+      - 🇻🇳VN_21 @WangCai_8
       - 🇻🇳VN_28 @WangCai_8
       - 🇻🇳VN_29 @WangCai_8
-      - 🇻🇳VN_30 @WangCai_8
-      - 🇻🇳VN_34 @WangCai_8
-      - 🇻🇳VN_35 @WangCai_8
+      - 🇻🇳VN_32 @WangCai_8
+      - 🇻🇳VN_33 @WangCai_8
+      - 🇻🇳VN_34 @WangCai_8 2
+      - 🇻🇳VN_36 @WangCai_8
       - 🇻🇳VN_38 @WangCai_8
-      - 🇻🇳VN_40 @WangCai_8 2
-      - 🇻🇳VN_43 @WangCai_8 2
-      - 🇻🇳VN_45 @WangCai_8 2
+      - 🇻🇳VN_40 @WangCai_8
+      - 🇻🇳VN_42 @WangCai_8
+      - 🇻🇳VN_43 @WangCai_8
+      - 🇻🇳VN_47 @WangCai_8
+      - 🇻🇳VN_48 @WangCai_8 2
+      - 🇻🇳VN_49 @WangCai_8
       - 🇻🇳VN_50 @WangCai_8
       - 🇻🇳VN_51 @WangCai_8
-      - 🇻🇳VN_52 @WangCai_8 2
-      - 🇻🇳VN_55 @WangCai_8 2
-      - 🇻🇳VN_58 @WangCai_8
-      - 🇻🇳VN_59 @WangCai_8
-      - 🇻🇳VN_61 @WangCai_8 2
-      - 🇻🇳VN_64 @WangCai_8 2
-      - 🇻🇳VN_68 @WangCai_8 2
-      - 🇻🇳VN_69 @WangCai_8 2
+      - 🇻🇳VN_52 @WangCai_8
+      - 🇻🇳VN_54 @WangCai_8
+      - 🇻🇳VN_57 @WangCai_8
+      - 🇻🇳VN_59 @WangCai_8 2
+      - 🇻🇳VN_61 @WangCai_8
+      - 🇻🇳VN_63 @WangCai_8 2
+      - 🇻🇳VN_65 @WangCai_8
+      - 🇻🇳VN_66 @WangCai_8 2
+      - 🇻🇳VN_67 @WangCai_8 2
+      - 🇻🇳VN_69 @WangCai_8
       - 🇻🇳VN_75 @WangCai_8
-      - 🇻🇳VN_76 @WangCai_8 2
-      - 🇻🇳VN_78 @WangCai_8 2
-      - 🇻🇳VN_79 @WangCai_8
-      - 🇻🇳VN_84 @WangCai_8
+      - 🇻🇳VN_76 @WangCai_8
+      - 🇻🇳VN_77 @WangCai_8 2
+      - 🇻🇳VN_79 @WangCai_8 2
+      - 🇻🇳VN_80 @WangCai_8 2
+      - 🇻🇳VN_82 @WangCai_8
       - 🇻🇳VN_85 @WangCai_8
-      - 🇻🇳VN_104 @WangCai_8
+      - 🇻🇳VN_101 @WangCai_8
       - 🇻🇳VN_105 @WangCai_8
-      - 🇻🇳VN_109 @WangCai_8
+      - 🇻🇳VN_108 @WangCai_8
+      - 🇻🇳VN_111 @WangCai_8
+      - 🇻🇳VN_112 @WangCai_8
       - 🇻🇳VN_113 @WangCai_8
-      - 🇻🇳VN_114 @WangCai_8
       - 🇻🇳VN_115 @WangCai_8
-      - 🇻🇳VN_116 @WangCai_8
       - 🇻🇳VN_117 @WangCai_8
       - 🇻🇳VN_118 @WangCai_8
       - 🇻🇳VN_119 @WangCai_8
-      - 🇻🇳VN_120 @WangCai_8
       - 🇻🇳VN_121 @WangCai_8
       - 🇻🇳VN_122 @WangCai_8
       - 🇻🇳VN_123 @WangCai_8
-      - 🇻🇳VN_126 @WangCai_8
+      - 🇻🇳VN_124 @WangCai_8
+      - 🇻🇳VN_125 @WangCai_8
+      - 🇻🇳VN_127 @WangCai_8
       - 🇻🇳VN_128 @WangCai_8
       - 🇻🇳VN_129 @WangCai_8
-      - 🇻🇳VN_132 @WangCai_8
-      - 🇻🇳VN_133 @WangCai_8
+      - 🇻🇳VN_130 @WangCai_8
+      - 🇻🇳VN_131 @WangCai_8
       - 🇻🇳VN_134 @WangCai_8
       - 🇻🇳VN_136 @WangCai_8
       - 🇻🇳VN_137 @WangCai_8
       - 🇻🇳VN_138 @WangCai_8
       - 🇻🇳VN_139 @WangCai_8
       - 🇻🇳VN_140 @WangCai_8 2
-      - 🇻🇳VN_141 @WangCai_8 2
-      - 🇻🇳VN_142 @WangCai_8 2
-      - 🇻🇳VN_143 @WangCai_8
-      - 🇻🇳VN_144 @WangCai_8 2
-      - 🇻🇳VN_154 @WangCai_8 2
-      - 🇻🇳VN_183 @WangCai_8 2
+      - 🇻🇳VN_147 @WangCai_8 2
+      - 🇻🇳VN_148 @WangCai_8
+      - 🇻🇳VN_149 @WangCai_8 2
+      - 🇻🇳VN_150 @WangCai_8 2
+      - 🇻🇳VN_154 @WangCai_8
+      - 🇻🇳VN_156 @WangCai_8 2
       - 🇻🇳VN_202 @WangCai_8 2
-      - 🇻🇳VN_203 @WangCai_8
-      - 🇻🇳VN_205 @WangCai_8
-      - 🇻🇳VN_206 @WangCai_8 2
-      - 🇻🇳VN_211 @WangCai_8 2
-      - 🇻🇳VN_220 @WangCai_8 2
-      - 🇻🇳VN_224 @WangCai_8 2
-      - 🇻🇳VN_226 @WangCai_8
-      - 🇻🇳VN_228 @WangCai_8 2
-      - 🇻🇳VN_229 @WangCai_8
+      - 🇻🇳VN_203 @WangCai_8 2
+      - 🇻🇳VN_209 @WangCai_8 2
+      - 🇻🇳VN_214 @WangCai_8
+      - 🇻🇳VN_215 @WangCai_8
+      - 🇻🇳VN_220 @WangCai_8
+      - 🇻🇳VN_221 @WangCai_8
+      - 🇻🇳VN_229 @WangCai_8 2
       - 🇻🇳VN_233 @WangCai_8
-      - 🇻🇳VN_234 @WangCai_8 2
-      - 🇻🇳VN_236 @WangCai_8
+      - 🇻🇳VN_235 @WangCai_8 2
       - 🇻🇳VN_237 @WangCai_8 2
-      - 🇻🇳VN_238 @WangCai_8
-      - 🇻🇳VN_239 @WangCai_8 2
-      - 🇻🇳VN_240 @WangCai_8 2
+      - 🇻🇳VN_240 @WangCai_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇻🇳VN_238 @WangCai_8
+      - 🇻🇳VN_237 @WangCai_8
   - name: 🎯 全球直连
     type: select
     proxies:
