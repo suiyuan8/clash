@@ -442,7 +442,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇻🇳VN_2 @WangCai_8
+      - 🇻🇳VN_12 @WangCai_8
   - name: 🎯 全球直连
     type: select
     proxies:
