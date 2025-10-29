@@ -16,8 +16,8 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇭🇰HK_1 @WangCai_8, server: 42.200.230.54, port: 21200, client-fingerprint: chrome, type: hysteria2, password: 95aa31fa-0a33-4e3d-a1f0-cefc18ce6836, auth: 95aa31fa-0a33-4e3d-a1f0-cefc18ce6836, sni: hk.xn--9kqw1xbnu.shop, skip-cert-verify: true}
-  - {name: 🇭🇰HK_2 @WangCai_8, server: 42.200.230.54, port: 21300, client-fingerprint: chrome, type: hysteria2, password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947, auth: 95aa31fa-0a33-4e3d-a1f0-cefc18ce6836, sni: hk.xn--9kqw1xbnu.shop, skip-cert-verify: true}
-  - {name: 🇭🇰HK_3 @WangCai_8, server: 42.200.230.54, port: 21400, client-fingerprint: chrome, type: hysteria2, password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947, auth: 95aa31fa-0a33-4e3d-a1f0-cefc18ce6836, sni: hk.xn--9kqw1xbnu.shop, skip-cert-verify: true}
+  - {name: 🇭🇰HK_2 @WangCai_8, server: 42.200.230.54, port: 21300, client-fingerprint: chrome, type: hysteria2, password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947, auth: 4a25ab9e-66e3-435a-97a4-276b5c3a1947, sni: hk.xn--9kqw1xbnu.shop, skip-cert-verify: true}
+  - {name: 🇭🇰HK_3 @WangCai_8, server: 42.200.230.54, port: 21400, client-fingerprint: chrome, type: hysteria2, password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947, auth: 4a25ab9e-66e3-435a-97a4-276b5c3a1947, sni: hk.xn--9kqw1xbnu.shop, skip-cert-verify: true}
 proxy-groups:
   - name: 旺财节点
     type: select
