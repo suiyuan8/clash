@@ -1,0 +1,537 @@
+# https://t.me/wangcai_8
+# https://github.com/suiyuan8/clash
+
+#░██╗░░░░░██╗░░█████╗░░███╗░██╗░░██████╗░░█████╗░█████╗ █████╗░
+#░██║░░░░░██║░██╔══██╗░████╗██║██╔════╝░██╔════╝██╔══██╗░██░ ║░
+#░██║░██╔═██║░███████║░██╔████║██║░░██╗░██║░░░░░███████║░██░ ║░
+#░╚██╗██║██╔╝░██╔══██║░██║╚███║██║░░╚██╗██║░░░░░██╔══██║░██░ ║░
+#░░╚███║███╔╝░██║░░██║░██║░╚██║╚██████╔╝░░█████╝██║░░██║█████ ░
+#░░░╚══╝╚══╝░░╚═╝░░╚═╝░░╚═╝░░╚═╝░╚═════╝░░╚════╝  ░╚═╝░╚╝╚═══╝ ░
+#
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: 🇺🇸US_0 @WangCai_8, server: wangcai0.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_1 @WangCai_8, server: wangcai1.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_2 @WangCai_8, server: wangcai2.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_3 @WangCai_8, server: wangcai3.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_4 @WangCai_8, server: wangcai4.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_5 @WangCai_8, server: wangcai5.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_6 @WangCai_8, server: wangcai6.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_7 @WangCai_8, server: wangcai7.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_8 @WangCai_8, server: wangcai8.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_9 @WangCai_8, server: wangcai9.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_10 @WangCai_8, server: wangcai10.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_11 @WangCai_8, server: wangcai11.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_12 @WangCai_8, server: wangcai12.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_13 @WangCai_8, server: wangcai13.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_14 @WangCai_8, server: wangcai14.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_15 @WangCai_8, server: wangcai15.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_16 @WangCai_8, server: wangcai16.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_17 @WangCai_8, server: wangcai17.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_18 @WangCai_8, server: wangcai18.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_19 @WangCai_8, server: wangcai19.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_20 @WangCai_8, server: wangcai20.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_21 @WangCai_8, server: wangcai21.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_22 @WangCai_8, server: wangcai22.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_23 @WangCai_8, server: wangcai23.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_24 @WangCai_8, server: wangcai24.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_25 @WangCai_8, server: wangcai25.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_26 @WangCai_8, server: wangcai26.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_27 @WangCai_8, server: wangcai27.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_28 @WangCai_8, server: wangcai28.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_29 @WangCai_8, server: wangcai29.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_30 @WangCai_8, server: wangcai30.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_31 @WangCai_8, server: wangcai31.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_32 @WangCai_8, server: wangcai32.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_33 @WangCai_8, server: wangcai33.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_34 @WangCai_8, server: wangcai34.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_35 @WangCai_8, server: wangcai35.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_36 @WangCai_8, server: wangcai36.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_37 @WangCai_8, server: wangcai37.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_38 @WangCai_8, server: wangcai38.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_39 @WangCai_8, server: wangcai39.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_40 @WangCai_8, server: wangcai40.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_41 @WangCai_8, server: wangcai41.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_42 @WangCai_8, server: wangcai42.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_43 @WangCai_8, server: wangcai43.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_44 @WangCai_8, server: wangcai44.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_45 @WangCai_8, server: wangcai45.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_46 @WangCai_8, server: wangcai46.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_47 @WangCai_8, server: wangcai47.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_48 @WangCai_8, server: wangcai48.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_49 @WangCai_8, server: wangcai49.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_50 @WangCai_8, server: wangcai50.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_51 @WangCai_8, server: wangcai51.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_52 @WangCai_8, server: wangcai52.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_53 @WangCai_8, server: wangcai53.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_54 @WangCai_8, server: wangcai54.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_55 @WangCai_8, server: wangcai55.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_56 @WangCai_8, server: wangcai56.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_57 @WangCai_8, server: wangcai57.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_58 @WangCai_8, server: wangcai58.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_59 @WangCai_8, server: wangcai59.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_60 @WangCai_8, server: wangcai60.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_61 @WangCai_8, server: wangcai61.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_62 @WangCai_8, server: wangcai62.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_63 @WangCai_8, server: wangcai63.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_64 @WangCai_8, server: wangcai64.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_65 @WangCai_8, server: wangcai65.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_66 @WangCai_8, server: wangcai66.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_67 @WangCai_8, server: wangcai67.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_68 @WangCai_8, server: wangcai68.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_69 @WangCai_8, server: wangcai69.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_70 @WangCai_8, server: wangcai70.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_71 @WangCai_8, server: wangcai71.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_72 @WangCai_8, server: wangcai72.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_73 @WangCai_8, server: wangcai73.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_74 @WangCai_8, server: wangcai74.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_75 @WangCai_8, server: wangcai75.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_76 @WangCai_8, server: wangcai76.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_77 @WangCai_8, server: wangcai77.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_78 @WangCai_8, server: wangcai78.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_79 @WangCai_8, server: wangcai79.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_80 @WangCai_8, server: wangcai80.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_81 @WangCai_8, server: wangcai81.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_82 @WangCai_8, server: wangcai82.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_83 @WangCai_8, server: wangcai83.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_84 @WangCai_8, server: wangcai84.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_85 @WangCai_8, server: wangcai85.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_86 @WangCai_8, server: wangcai86.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_87 @WangCai_8, server: wangcai87.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_88 @WangCai_8, server: wangcai88.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_89 @WangCai_8, server: wangcai89.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_90 @WangCai_8, server: wangcai90.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_91 @WangCai_8, server: wangcai91.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_92 @WangCai_8, server: wangcai92.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_93 @WangCai_8, server: wangcai93.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_94 @WangCai_8, server: wangcai94.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_95 @WangCai_8, server: wangcai95.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_96 @WangCai_8, server: wangcai96.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_97 @WangCai_8, server: wangcai97.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_98 @WangCai_8, server: wangcai98.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_99 @WangCai_8, server: wangcai99.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_100 @WangCai_8, server: wangcai100.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_101 @WangCai_8, server: wangcai101.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_102 @WangCai_8, server: wangcai102.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_103 @WangCai_8, server: wangcai103.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_104 @WangCai_8, server: wangcai104.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_105 @WangCai_8, server: wangcai105.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_106 @WangCai_8, server: wangcai106.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_107 @WangCai_8, server: wangcai107.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_108 @WangCai_8, server: wangcai108.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_109 @WangCai_8, server: wangcai109.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_110 @WangCai_8, server: wangcai110.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_111 @WangCai_8, server: wangcai111.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_112 @WangCai_8, server: wangcai112.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_113 @WangCai_8, server: wangcai113.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_114 @WangCai_8, server: wangcai114.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_115 @WangCai_8, server: wangcai115.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_116 @WangCai_8, server: wangcai116.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_117 @WangCai_8, server: wangcai117.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_118 @WangCai_8, server: wangcai118.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_119 @WangCai_8, server: wangcai119.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_120 @WangCai_8, server: wangcai120.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_121 @WangCai_8, server: wangcai121.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_122 @WangCai_8, server: wangcai122.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_123 @WangCai_8, server: wangcai123.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_124 @WangCai_8, server: wangcai124.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_125 @WangCai_8, server: wangcai125.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_126 @WangCai_8, server: wangcai126.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_127 @WangCai_8, server: wangcai127.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_128 @WangCai_8, server: wangcai128.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_129 @WangCai_8, server: wangcai129.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_130 @WangCai_8, server: wangcai130.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_131 @WangCai_8, server: wangcai131.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_132 @WangCai_8, server: wangcai132.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_133 @WangCai_8, server: wangcai133.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_134 @WangCai_8, server: wangcai134.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_135 @WangCai_8, server: wangcai135.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_136 @WangCai_8, server: wangcai136.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_137 @WangCai_8, server: wangcai137.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_138 @WangCai_8, server: wangcai138.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_139 @WangCai_8, server: wangcai139.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_140 @WangCai_8, server: wangcai140.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_141 @WangCai_8, server: wangcai141.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_142 @WangCai_8, server: wangcai142.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_143 @WangCai_8, server: wangcai143.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_144 @WangCai_8, server: wangcai144.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_145 @WangCai_8, server: wangcai145.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_146 @WangCai_8, server: wangcai146.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_147 @WangCai_8, server: wangcai147.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_148 @WangCai_8, server: wangcai148.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_149 @WangCai_8, server: wangcai149.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_150 @WangCai_8, server: wangcai150.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_151 @WangCai_8, server: wangcai151.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_152 @WangCai_8, server: wangcai152.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_153 @WangCai_8, server: wangcai153.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_154 @WangCai_8, server: wangcai154.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_155 @WangCai_8, server: wangcai155.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_156 @WangCai_8, server: wangcai156.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_157 @WangCai_8, server: wangcai157.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_158 @WangCai_8, server: wangcai158.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_159 @WangCai_8, server: wangcai159.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_160 @WangCai_8, server: wangcai160.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_161 @WangCai_8, server: wangcai161.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_162 @WangCai_8, server: wangcai162.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_163 @WangCai_8, server: wangcai163.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_164 @WangCai_8, server: wangcai164.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_165 @WangCai_8, server: wangcai165.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_166 @WangCai_8, server: wangcai166.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_167 @WangCai_8, server: wangcai167.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_168 @WangCai_8, server: wangcai168.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_169 @WangCai_8, server: wangcai169.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_170 @WangCai_8, server: wangcai170.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_171 @WangCai_8, server: wangcai171.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_172 @WangCai_8, server: wangcai172.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_173 @WangCai_8, server: wangcai173.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_174 @WangCai_8, server: wangcai174.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_175 @WangCai_8, server: wangcai175.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_176 @WangCai_8, server: wangcai176.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_177 @WangCai_8, server: wangcai177.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_178 @WangCai_8, server: wangcai178.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_179 @WangCai_8, server: wangcai179.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_180 @WangCai_8, server: wangcai180.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_181 @WangCai_8, server: wangcai181.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_182 @WangCai_8, server: wangcai182.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_183 @WangCai_8, server: wangcai183.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_184 @WangCai_8, server: wangcai184.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_185 @WangCai_8, server: wangcai185.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_186 @WangCai_8, server: wangcai186.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_187 @WangCai_8, server: wangcai187.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_188 @WangCai_8, server: wangcai188.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_189 @WangCai_8, server: wangcai189.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_190 @WangCai_8, server: wangcai190.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_191 @WangCai_8, server: wangcai191.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_192 @WangCai_8, server: wangcai192.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_193 @WangCai_8, server: wangcai193.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_194 @WangCai_8, server: wangcai194.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_195 @WangCai_8, server: wangcai195.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_196 @WangCai_8, server: wangcai196.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_197 @WangCai_8, server: wangcai197.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_198 @WangCai_8, server: wangcai198.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_199 @WangCai_8, server: wangcai199.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_200 @WangCai_8, server: wangcai200.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_201 @WangCai_8, server: wangcai201.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_202 @WangCai_8, server: wangcai202.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_203 @WangCai_8, server: wangcai203.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_204 @WangCai_8, server: wangcai204.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_205 @WangCai_8, server: wangcai205.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_206 @WangCai_8, server: wangcai206.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_207 @WangCai_8, server: wangcai207.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_208 @WangCai_8, server: wangcai208.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_209 @WangCai_8, server: wangcai209.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_210 @WangCai_8, server: wangcai210.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_211 @WangCai_8, server: wangcai211.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_212 @WangCai_8, server: wangcai212.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_213 @WangCai_8, server: wangcai213.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_214 @WangCai_8, server: wangcai214.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_215 @WangCai_8, server: wangcai215.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_216 @WangCai_8, server: wangcai216.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_217 @WangCai_8, server: wangcai217.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_218 @WangCai_8, server: wangcai218.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_219 @WangCai_8, server: wangcai219.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_220 @WangCai_8, server: wangcai220.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_221 @WangCai_8, server: wangcai221.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_222 @WangCai_8, server: wangcai222.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_223 @WangCai_8, server: wangcai223.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_224 @WangCai_8, server: wangcai224.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_225 @WangCai_8, server: wangcai225.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_226 @WangCai_8, server: wangcai226.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_227 @WangCai_8, server: wangcai227.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_228 @WangCai_8, server: wangcai228.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_229 @WangCai_8, server: wangcai229.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_230 @WangCai_8, server: wangcai230.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_231 @WangCai_8, server: wangcai231.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_232 @WangCai_8, server: wangcai232.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_233 @WangCai_8, server: wangcai233.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_234 @WangCai_8, server: wangcai234.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_235 @WangCai_8, server: wangcai235.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_236 @WangCai_8, server: wangcai236.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_237 @WangCai_8, server: wangcai237.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_238 @WangCai_8, server: wangcai238.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_239 @WangCai_8, server: wangcai239.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_240 @WangCai_8, server: wangcai240.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_241 @WangCai_8, server: wangcai241.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_242 @WangCai_8, server: wangcai242.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_243 @WangCai_8, server: wangcai243.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_244 @WangCai_8, server: wangcai244.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_245 @WangCai_8, server: wangcai245.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_246 @WangCai_8, server: wangcai246.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_247 @WangCai_8, server: wangcai247.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_248 @WangCai_8, server: wangcai248.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_249 @WangCai_8, server: wangcai249.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_250 @WangCai_8, server: wangcai250.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_251 @WangCai_8, server: wangcai251.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_252 @WangCai_8, server: wangcai252.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_253 @WangCai_8, server: wangcai253.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_254 @WangCai_8, server: wangcai254.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+  - {name: 🇺🇸US_255 @WangCai_8, server: wangcai255.000444.cn, port: 443, type: vmess, uuid: a4396fe1-c359-4898-9468-c6e1278df500, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.xinxiwang.eu.org, network: ws, ws-opts: {path: /ray1, headers: {Host: rncf.xinxiwang.eu.org}}}
+proxy-groups:
+  - name: 旺财节点
+    type: select
+    proxies:
+      - 🇺🇸US_0 @WangCai_8
+      - 🇺🇸US_1 @WangCai_8
+      - 🇺🇸US_2 @WangCai_8
+      - 🇺🇸US_3 @WangCai_8
+      - 🇺🇸US_4 @WangCai_8
+      - 🇺🇸US_5 @WangCai_8
+      - 🇺🇸US_6 @WangCai_8
+      - 🇺🇸US_7 @WangCai_8
+      - 🇺🇸US_8 @WangCai_8
+      - 🇺🇸US_9 @WangCai_8
+      - 🇺🇸US_10 @WangCai_8
+      - 🇺🇸US_11 @WangCai_8
+      - 🇺🇸US_12 @WangCai_8
+      - 🇺🇸US_13 @WangCai_8
+      - 🇺🇸US_14 @WangCai_8
+      - 🇺🇸US_15 @WangCai_8
+      - 🇺🇸US_16 @WangCai_8
+      - 🇺🇸US_17 @WangCai_8
+      - 🇺🇸US_18 @WangCai_8
+      - 🇺🇸US_19 @WangCai_8
+      - 🇺🇸US_20 @WangCai_8
+      - 🇺🇸US_21 @WangCai_8
+      - 🇺🇸US_22 @WangCai_8
+      - 🇺🇸US_23 @WangCai_8
+      - 🇺🇸US_24 @WangCai_8
+      - 🇺🇸US_25 @WangCai_8
+      - 🇺🇸US_26 @WangCai_8
+      - 🇺🇸US_27 @WangCai_8
+      - 🇺🇸US_28 @WangCai_8
+      - 🇺🇸US_29 @WangCai_8
+      - 🇺🇸US_30 @WangCai_8
+      - 🇺🇸US_31 @WangCai_8
+      - 🇺🇸US_32 @WangCai_8
+      - 🇺🇸US_33 @WangCai_8
+      - 🇺🇸US_34 @WangCai_8
+      - 🇺🇸US_35 @WangCai_8
+      - 🇺🇸US_36 @WangCai_8
+      - 🇺🇸US_37 @WangCai_8
+      - 🇺🇸US_38 @WangCai_8
+      - 🇺🇸US_39 @WangCai_8
+      - 🇺🇸US_40 @WangCai_8
+      - 🇺🇸US_41 @WangCai_8
+      - 🇺🇸US_42 @WangCai_8
+      - 🇺🇸US_43 @WangCai_8
+      - 🇺🇸US_44 @WangCai_8
+      - 🇺🇸US_45 @WangCai_8
+      - 🇺🇸US_46 @WangCai_8
+      - 🇺🇸US_47 @WangCai_8
+      - 🇺🇸US_48 @WangCai_8
+      - 🇺🇸US_49 @WangCai_8
+      - 🇺🇸US_50 @WangCai_8
+      - 🇺🇸US_51 @WangCai_8
+      - 🇺🇸US_52 @WangCai_8
+      - 🇺🇸US_53 @WangCai_8
+      - 🇺🇸US_54 @WangCai_8
+      - 🇺🇸US_55 @WangCai_8
+      - 🇺🇸US_56 @WangCai_8
+      - 🇺🇸US_57 @WangCai_8
+      - 🇺🇸US_58 @WangCai_8
+      - 🇺🇸US_59 @WangCai_8
+      - 🇺🇸US_60 @WangCai_8
+      - 🇺🇸US_61 @WangCai_8
+      - 🇺🇸US_62 @WangCai_8
+      - 🇺🇸US_63 @WangCai_8
+      - 🇺🇸US_64 @WangCai_8
+      - 🇺🇸US_65 @WangCai_8
+      - 🇺🇸US_66 @WangCai_8
+      - 🇺🇸US_67 @WangCai_8
+      - 🇺🇸US_68 @WangCai_8
+      - 🇺🇸US_69 @WangCai_8
+      - 🇺🇸US_70 @WangCai_8
+      - 🇺🇸US_71 @WangCai_8
+      - 🇺🇸US_72 @WangCai_8
+      - 🇺🇸US_73 @WangCai_8
+      - 🇺🇸US_74 @WangCai_8
+      - 🇺🇸US_75 @WangCai_8
+      - 🇺🇸US_76 @WangCai_8
+      - 🇺🇸US_77 @WangCai_8
+      - 🇺🇸US_78 @WangCai_8
+      - 🇺🇸US_79 @WangCai_8
+      - 🇺🇸US_80 @WangCai_8
+      - 🇺🇸US_81 @WangCai_8
+      - 🇺🇸US_82 @WangCai_8
+      - 🇺🇸US_83 @WangCai_8
+      - 🇺🇸US_84 @WangCai_8
+      - 🇺🇸US_85 @WangCai_8
+      - 🇺🇸US_86 @WangCai_8
+      - 🇺🇸US_87 @WangCai_8
+      - 🇺🇸US_88 @WangCai_8
+      - 🇺🇸US_89 @WangCai_8
+      - 🇺🇸US_90 @WangCai_8
+      - 🇺🇸US_91 @WangCai_8
+      - 🇺🇸US_92 @WangCai_8
+      - 🇺🇸US_93 @WangCai_8
+      - 🇺🇸US_94 @WangCai_8
+      - 🇺🇸US_95 @WangCai_8
+      - 🇺🇸US_96 @WangCai_8
+      - 🇺🇸US_97 @WangCai_8
+      - 🇺🇸US_98 @WangCai_8
+      - 🇺🇸US_99 @WangCai_8
+      - 🇺🇸US_100 @WangCai_8
+      - 🇺🇸US_101 @WangCai_8
+      - 🇺🇸US_102 @WangCai_8
+      - 🇺🇸US_103 @WangCai_8
+      - 🇺🇸US_104 @WangCai_8
+      - 🇺🇸US_105 @WangCai_8
+      - 🇺🇸US_106 @WangCai_8
+      - 🇺🇸US_107 @WangCai_8
+      - 🇺🇸US_108 @WangCai_8
+      - 🇺🇸US_109 @WangCai_8
+      - 🇺🇸US_110 @WangCai_8
+      - 🇺🇸US_111 @WangCai_8
+      - 🇺🇸US_112 @WangCai_8
+      - 🇺🇸US_113 @WangCai_8
+      - 🇺🇸US_114 @WangCai_8
+      - 🇺🇸US_115 @WangCai_8
+      - 🇺🇸US_116 @WangCai_8
+      - 🇺🇸US_117 @WangCai_8
+      - 🇺🇸US_118 @WangCai_8
+      - 🇺🇸US_119 @WangCai_8
+      - 🇺🇸US_120 @WangCai_8
+      - 🇺🇸US_121 @WangCai_8
+      - 🇺🇸US_122 @WangCai_8
+      - 🇺🇸US_123 @WangCai_8
+      - 🇺🇸US_124 @WangCai_8
+      - 🇺🇸US_125 @WangCai_8
+      - 🇺🇸US_126 @WangCai_8
+      - 🇺🇸US_127 @WangCai_8
+      - 🇺🇸US_128 @WangCai_8
+      - 🇺🇸US_129 @WangCai_8
+      - 🇺🇸US_130 @WangCai_8
+      - 🇺🇸US_131 @WangCai_8
+      - 🇺🇸US_132 @WangCai_8
+      - 🇺🇸US_133 @WangCai_8
+      - 🇺🇸US_134 @WangCai_8
+      - 🇺🇸US_135 @WangCai_8
+      - 🇺🇸US_136 @WangCai_8
+      - 🇺🇸US_137 @WangCai_8
+      - 🇺🇸US_138 @WangCai_8
+      - 🇺🇸US_139 @WangCai_8
+      - 🇺🇸US_140 @WangCai_8
+      - 🇺🇸US_141 @WangCai_8
+      - 🇺🇸US_142 @WangCai_8
+      - 🇺🇸US_143 @WangCai_8
+      - 🇺🇸US_144 @WangCai_8
+      - 🇺🇸US_145 @WangCai_8
+      - 🇺🇸US_146 @WangCai_8
+      - 🇺🇸US_147 @WangCai_8
+      - 🇺🇸US_148 @WangCai_8
+      - 🇺🇸US_149 @WangCai_8
+      - 🇺🇸US_150 @WangCai_8
+      - 🇺🇸US_151 @WangCai_8
+      - 🇺🇸US_152 @WangCai_8
+      - 🇺🇸US_153 @WangCai_8
+      - 🇺🇸US_154 @WangCai_8
+      - 🇺🇸US_155 @WangCai_8
+      - 🇺🇸US_156 @WangCai_8
+      - 🇺🇸US_157 @WangCai_8
+      - 🇺🇸US_158 @WangCai_8
+      - 🇺🇸US_159 @WangCai_8
+      - 🇺🇸US_160 @WangCai_8
+      - 🇺🇸US_161 @WangCai_8
+      - 🇺🇸US_162 @WangCai_8
+      - 🇺🇸US_163 @WangCai_8
+      - 🇺🇸US_164 @WangCai_8
+      - 🇺🇸US_165 @WangCai_8
+      - 🇺🇸US_166 @WangCai_8
+      - 🇺🇸US_167 @WangCai_8
+      - 🇺🇸US_168 @WangCai_8
+      - 🇺🇸US_169 @WangCai_8
+      - 🇺🇸US_170 @WangCai_8
+      - 🇺🇸US_171 @WangCai_8
+      - 🇺🇸US_172 @WangCai_8
+      - 🇺🇸US_173 @WangCai_8
+      - 🇺🇸US_174 @WangCai_8
+      - 🇺🇸US_175 @WangCai_8
+      - 🇺🇸US_176 @WangCai_8
+      - 🇺🇸US_177 @WangCai_8
+      - 🇺🇸US_178 @WangCai_8
+      - 🇺🇸US_179 @WangCai_8
+      - 🇺🇸US_180 @WangCai_8
+      - 🇺🇸US_181 @WangCai_8
+      - 🇺🇸US_182 @WangCai_8
+      - 🇺🇸US_183 @WangCai_8
+      - 🇺🇸US_184 @WangCai_8
+      - 🇺🇸US_185 @WangCai_8
+      - 🇺🇸US_186 @WangCai_8
+      - 🇺🇸US_187 @WangCai_8
+      - 🇺🇸US_188 @WangCai_8
+      - 🇺🇸US_189 @WangCai_8
+      - 🇺🇸US_190 @WangCai_8
+      - 🇺🇸US_191 @WangCai_8
+      - 🇺🇸US_192 @WangCai_8
+      - 🇺🇸US_193 @WangCai_8
+      - 🇺🇸US_194 @WangCai_8
+      - 🇺🇸US_195 @WangCai_8
+      - 🇺🇸US_196 @WangCai_8
+      - 🇺🇸US_197 @WangCai_8
+      - 🇺🇸US_198 @WangCai_8
+      - 🇺🇸US_199 @WangCai_8
+      - 🇺🇸US_200 @WangCai_8
+      - 🇺🇸US_201 @WangCai_8
+      - 🇺🇸US_202 @WangCai_8
+      - 🇺🇸US_203 @WangCai_8
+      - 🇺🇸US_204 @WangCai_8
+      - 🇺🇸US_205 @WangCai_8
+      - 🇺🇸US_206 @WangCai_8
+      - 🇺🇸US_207 @WangCai_8
+      - 🇺🇸US_208 @WangCai_8
+      - 🇺🇸US_209 @WangCai_8
+      - 🇺🇸US_210 @WangCai_8
+      - 🇺🇸US_211 @WangCai_8
+      - 🇺🇸US_212 @WangCai_8
+      - 🇺🇸US_213 @WangCai_8
+      - 🇺🇸US_214 @WangCai_8
+      - 🇺🇸US_215 @WangCai_8
+      - 🇺🇸US_216 @WangCai_8
+      - 🇺🇸US_217 @WangCai_8
+      - 🇺🇸US_218 @WangCai_8
+      - 🇺🇸US_219 @WangCai_8
+      - 🇺🇸US_220 @WangCai_8
+      - 🇺🇸US_221 @WangCai_8
+      - 🇺🇸US_222 @WangCai_8
+      - 🇺🇸US_223 @WangCai_8
+      - 🇺🇸US_224 @WangCai_8
+      - 🇺🇸US_225 @WangCai_8
+      - 🇺🇸US_226 @WangCai_8
+      - 🇺🇸US_227 @WangCai_8
+      - 🇺🇸US_228 @WangCai_8
+      - 🇺🇸US_229 @WangCai_8
+      - 🇺🇸US_230 @WangCai_8
+      - 🇺🇸US_231 @WangCai_8
+      - 🇺🇸US_232 @WangCai_8
+      - 🇺🇸US_233 @WangCai_8
+      - 🇺🇸US_234 @WangCai_8
+      - 🇺🇸US_235 @WangCai_8
+      - 🇺🇸US_236 @WangCai_8
+      - 🇺🇸US_237 @WangCai_8
+      - 🇺🇸US_238 @WangCai_8
+      - 🇺🇸US_239 @WangCai_8
+      - 🇺🇸US_240 @WangCai_8
+      - 🇺🇸US_241 @WangCai_8
+      - 🇺🇸US_242 @WangCai_8
+      - 🇺🇸US_243 @WangCai_8
+      - 🇺🇸US_244 @WangCai_8
+      - 🇺🇸US_245 @WangCai_8
+      - 🇺🇸US_246 @WangCai_8
+      - 🇺🇸US_247 @WangCai_8
+      - 🇺🇸US_248 @WangCai_8
+      - 🇺🇸US_249 @WangCai_8
+      - 🇺🇸US_250 @WangCai_8
+      - 🇺🇸US_251 @WangCai_8
+      - 🇺🇸US_252 @WangCai_8
+      - 🇺🇸US_253 @WangCai_8
+      - 🇺🇸US_254 @WangCai_8
+      - 🇺🇸US_255 @WangCai_8
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,旺财节点
+ 
