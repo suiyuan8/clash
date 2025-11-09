@@ -15,7 +15,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸US_1 @WangCai_8, server: 67.209.187.6, port: 15325, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9GfXqoYsCCGkogps, tfo: false}
+  - {name: 🇺🇸US_1 @WangCai_8, server: 67.209.176.56, port: 15325, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9GfXqoYsCCGkogps, tfo: false}
   - {name: 🇺🇸US_2 @WangCai_8, server: 67.209.185.93, port: 15325, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9GfXqoYsCCGkogps, tfo: false}
 proxy-groups:
   - name: 旺财节点
