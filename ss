@@ -1,343 +1,46 @@
-# https://t.me/wangcai_8
-# https://github.com/suiyuan8/clash
-
-#░██╗░░░░░██╗░░█████╗░░███╗░██╗░░██████╗░░█████╗░█████╗ █████╗░
-#░██║░░░░░██║░██╔══██╗░████╗██║██╔════╝░██╔════╝██╔══██╗░██░ ║░
-#░██║░██╔═██║░███████║░██╔████║██║░░██╗░██║░░░░░███████║░██░ ║░
-#░╚██╗██║██╔╝░██╔══██║░██║╚███║██║░░╚██╗██║░░░░░██╔══██║░██░ ║░
-#░░╚███║███╔╝░██║░░██║░██║░╚██║╚██████╔╝░░█████╝██║░░██║█████ ░
-#░░░╚══╝╚══╝░░╚═╝░░╚═╝░░╚═╝░░╚═╝░╚═════╝░░╚════╝  ░╚═╝░╚╝╚═══╝ ░
-#
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
-proxies:
-  - {name: 🇸🇬SG_@WangCai_8, server: 3.0.19.206, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 2, server: 3.1.195.22, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8, server: 3.112.229.1, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 3, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 4, server: 5.44.249.43, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 5, server: 5.44.249.51, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 6, server: 13.212.60.176, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 7, server: 13.212.83.28, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 8, server: 13.212.189.76, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 9, server: 13.212.232.45, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 10, server: 13.213.34.164, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 11, server: 13.214.209.196, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 12, server: 13.214.209.226, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 13, server: 13.215.184.182, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 14, server: 13.215.226.240, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 15, server: 13.215.227.70, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 16, server: 13.228.23.203, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 17, server: 13.229.70.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 18, server: 13.229.120.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 2, server: 13.230.213.154, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 19, server: 18.136.208.241, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 20, server: 18.138.35.43, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 21, server: 18.139.160.226, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 22, server: 18.139.163.18, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 23, server: 18.141.181.229, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 24, server: 18.143.63.164, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 3, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 4, server: 18.181.146.122, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8, server: 23.247.137.64, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 2, server: 23.247.137.67, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 3, server: 23.247.137.68, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 4, server: 23.247.137.72, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 5, server: 23.247.137.73, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 6, server: 23.247.137.74, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 7, server: 23.247.137.76, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 8, server: 23.247.137.158, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 9, server: 23.247.137.159, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 10, server: 23.247.137.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 11, server: 23.247.137.161, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 12, server: 23.247.137.162, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 25, server: 47.128.254.170, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 26, server: 47.129.38.6, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 27, server: 47.129.228.114, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 5, server: 52.69.48.25, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 28, server: 52.77.216.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 6, server: 52.195.228.139, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 7, server: 52.199.164.162, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 29, server: 52.221.182.197, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 8, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 9, server: 54.178.26.105, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 30, server: 54.254.210.13, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 31, server: 54.255.178.200, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 32, server: 54.255.243.110, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8, server: 59.125.62.188, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 2, server: 59.125.62.189, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 3, server: 59.125.62.190, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 4, server: 59.125.62.191, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 5, server: 59.125.62.192, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 6, server: 59.125.75.111, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 7, server: 59.125.75.115, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 8, server: 59.125.75.116, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 9, server: 59.125.75.117, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 10, server: 60.248.221.26, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 11, server: 60.248.221.27, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 12, server: 60.248.221.28, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 13, server: 60.248.221.29, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 14, server: 60.248.221.30, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 15, server: 60.249.14.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 16, server: 60.249.14.39, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 17, server: 60.249.14.94, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 18, server: 60.249.14.95, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 19, server: 60.249.14.96, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 20, server: 60.249.28.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 21, server: 60.249.28.60, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 22, server: 60.249.28.136, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 23, server: 60.249.28.137, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 24, server: 60.249.28.138, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 25, server: 60.249.35.2, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 26, server: 60.249.35.3, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 27, server: 60.249.35.37, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 28, server: 60.249.35.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 29, server: 60.249.35.39, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 30, server: 60.249.35.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 31, server: 60.249.35.60, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 32, server: 60.249.35.94, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 33, server: 60.249.35.95, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 34, server: 60.249.35.96, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 35, server: 60.249.39.170, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 36, server: 60.249.39.171, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 37, server: 60.249.39.202, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 38, server: 60.249.39.203, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 39, server: 60.249.39.204, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 40, server: 61.216.165.29, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 41, server: 61.216.165.30, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 42, server: 61.216.165.233, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 13, server: 88.210.36.106, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 14, server: 88.210.36.107, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 15, server: 88.210.36.108, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 16, server: 88.210.36.109, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 17, server: 95.174.71.27, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 18, server: 95.174.71.28, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 19, server: 95.174.71.29, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 20, server: 95.174.71.30, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 21, server: 95.174.71.96, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 22, server: 95.174.71.98, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 23, server: 95.174.71.99, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 24, server: 95.174.71.101, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 43, server: 118.163.198.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 44, server: 118.163.198.43, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 45, server: 118.163.198.44, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 46, server: 118.163.198.45, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 47, server: 118.163.198.46, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 48, server: 118.163.200.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 49, server: 118.163.200.39, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 50, server: 118.163.200.40, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 51, server: 118.163.200.41, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 52, server: 118.163.200.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 53, server: 125.227.86.44, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 54, server: 125.227.86.45, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 55, server: 125.227.86.46, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 56, server: 125.227.86.47, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 57, server: 125.227.86.48, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 25, server: 134.195.101.58, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 26, server: 134.195.101.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 27, server: 134.195.101.67, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 28, server: 134.195.101.70, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 29, server: 134.195.101.80, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 30, server: 134.195.101.81, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 31, server: 134.195.101.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 32, server: 134.195.101.84, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇺🇸US_@WangCai_8 33, server: 134.195.101.85, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 10, server: 172.104.124.121, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 11, server: 172.104.124.138, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 12, server: 172.105.217.136, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 33, server: 172.236.144.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 34, server: 172.236.145.88, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇸🇬SG_@WangCai_8 35, server: 172.236.145.223, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 13, server: 172.237.4.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 14, server: 172.237.6.53, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇯🇵JP_@WangCai_8 15, server: 172.237.11.141, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 58, server: 210.61.187.236, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 59, server: 210.61.187.237, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 60, server: 210.61.187.238, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 61, server: 210.61.187.239, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 62, server: 210.61.187.240, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 63, server: 211.22.161.134, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 64, server: 211.22.161.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 65, server: 211.22.161.166, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 66, server: 211.22.161.167, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 67, server: 211.22.161.168, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 68, server: 211.72.214.20, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 69, server: 211.72.214.21, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 70, server: 211.72.214.64, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 71, server: 211.72.214.65, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 72, server: 211.72.214.66, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 73, server: 211.75.210.20, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 74, server: 211.75.210.21, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 75, server: 211.75.210.22, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-  - {name: 🇨🇳TW_@WangCai_8 76, server: 211.75.210.24, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)e2322f9:87491}}
-proxy-groups:
-  - name: 旺财节点
-    type: select
-    proxies:
-      - 🇸🇬SG_@WangCai_8
-      - 🇸🇬SG_@WangCai_8 2
-      - 🇯🇵JP_@WangCai_8
-      - 🇸🇬SG_@WangCai_8 3
-      - 🇸🇬SG_@WangCai_8 4
-      - 🇸🇬SG_@WangCai_8 5
-      - 🇸🇬SG_@WangCai_8 6
-      - 🇸🇬SG_@WangCai_8 7
-      - 🇸🇬SG_@WangCai_8 8
-      - 🇸🇬SG_@WangCai_8 9
-      - 🇸🇬SG_@WangCai_8 10
-      - 🇸🇬SG_@WangCai_8 11
-      - 🇸🇬SG_@WangCai_8 12
-      - 🇸🇬SG_@WangCai_8 13
-      - 🇸🇬SG_@WangCai_8 14
-      - 🇸🇬SG_@WangCai_8 15
-      - 🇸🇬SG_@WangCai_8 16
-      - 🇸🇬SG_@WangCai_8 17
-      - 🇸🇬SG_@WangCai_8 18
-      - 🇯🇵JP_@WangCai_8 2
-      - 🇸🇬SG_@WangCai_8 19
-      - 🇸🇬SG_@WangCai_8 20
-      - 🇸🇬SG_@WangCai_8 21
-      - 🇸🇬SG_@WangCai_8 22
-      - 🇸🇬SG_@WangCai_8 23
-      - 🇸🇬SG_@WangCai_8 24
-      - 🇯🇵JP_@WangCai_8 3
-      - 🇯🇵JP_@WangCai_8 4
-      - 🇺🇸US_@WangCai_8
-      - 🇺🇸US_@WangCai_8 2
-      - 🇺🇸US_@WangCai_8 3
-      - 🇺🇸US_@WangCai_8 4
-      - 🇺🇸US_@WangCai_8 5
-      - 🇺🇸US_@WangCai_8 6
-      - 🇺🇸US_@WangCai_8 7
-      - 🇺🇸US_@WangCai_8 8
-      - 🇺🇸US_@WangCai_8 9
-      - 🇺🇸US_@WangCai_8 10
-      - 🇺🇸US_@WangCai_8 11
-      - 🇺🇸US_@WangCai_8 12
-      - 🇸🇬SG_@WangCai_8 25
-      - 🇸🇬SG_@WangCai_8 26
-      - 🇸🇬SG_@WangCai_8 27
-      - 🇯🇵JP_@WangCai_8 5
-      - 🇸🇬SG_@WangCai_8 28
-      - 🇯🇵JP_@WangCai_8 6
-      - 🇯🇵JP_@WangCai_8 7
-      - 🇸🇬SG_@WangCai_8 29
-      - 🇯🇵JP_@WangCai_8 8
-      - 🇯🇵JP_@WangCai_8 9
-      - 🇸🇬SG_@WangCai_8 30
-      - 🇸🇬SG_@WangCai_8 31
-      - 🇸🇬SG_@WangCai_8 32
-      - 🇨🇳TW_@WangCai_8
-      - 🇨🇳TW_@WangCai_8 2
-      - 🇨🇳TW_@WangCai_8 3
-      - 🇨🇳TW_@WangCai_8 4
-      - 🇨🇳TW_@WangCai_8 5
-      - 🇨🇳TW_@WangCai_8 6
-      - 🇨🇳TW_@WangCai_8 7
-      - 🇨🇳TW_@WangCai_8 8
-      - 🇨🇳TW_@WangCai_8 9
-      - 🇨🇳TW_@WangCai_8 10
-      - 🇨🇳TW_@WangCai_8 11
-      - 🇨🇳TW_@WangCai_8 12
-      - 🇨🇳TW_@WangCai_8 13
-      - 🇨🇳TW_@WangCai_8 14
-      - 🇨🇳TW_@WangCai_8 15
-      - 🇨🇳TW_@WangCai_8 16
-      - 🇨🇳TW_@WangCai_8 17
-      - 🇨🇳TW_@WangCai_8 18
-      - 🇨🇳TW_@WangCai_8 19
-      - 🇨🇳TW_@WangCai_8 20
-      - 🇨🇳TW_@WangCai_8 21
-      - 🇨🇳TW_@WangCai_8 22
-      - 🇨🇳TW_@WangCai_8 23
-      - 🇨🇳TW_@WangCai_8 24
-      - 🇨🇳TW_@WangCai_8 25
-      - 🇨🇳TW_@WangCai_8 26
-      - 🇨🇳TW_@WangCai_8 27
-      - 🇨🇳TW_@WangCai_8 28
-      - 🇨🇳TW_@WangCai_8 29
-      - 🇨🇳TW_@WangCai_8 30
-      - 🇨🇳TW_@WangCai_8 31
-      - 🇨🇳TW_@WangCai_8 32
-      - 🇨🇳TW_@WangCai_8 33
-      - 🇨🇳TW_@WangCai_8 34
-      - 🇨🇳TW_@WangCai_8 35
-      - 🇨🇳TW_@WangCai_8 36
-      - 🇨🇳TW_@WangCai_8 37
-      - 🇨🇳TW_@WangCai_8 38
-      - 🇨🇳TW_@WangCai_8 39
-      - 🇨🇳TW_@WangCai_8 40
-      - 🇨🇳TW_@WangCai_8 41
-      - 🇨🇳TW_@WangCai_8 42
-      - 🇺🇸US_@WangCai_8 13
-      - 🇺🇸US_@WangCai_8 14
-      - 🇺🇸US_@WangCai_8 15
-      - 🇺🇸US_@WangCai_8 16
-      - 🇺🇸US_@WangCai_8 17
-      - 🇺🇸US_@WangCai_8 18
-      - 🇺🇸US_@WangCai_8 19
-      - 🇺🇸US_@WangCai_8 20
-      - 🇺🇸US_@WangCai_8 21
-      - 🇺🇸US_@WangCai_8 22
-      - 🇺🇸US_@WangCai_8 23
-      - 🇺🇸US_@WangCai_8 24
-      - 🇨🇳TW_@WangCai_8 43
-      - 🇨🇳TW_@WangCai_8 44
-      - 🇨🇳TW_@WangCai_8 45
-      - 🇨🇳TW_@WangCai_8 46
-      - 🇨🇳TW_@WangCai_8 47
-      - 🇨🇳TW_@WangCai_8 48
-      - 🇨🇳TW_@WangCai_8 49
-      - 🇨🇳TW_@WangCai_8 50
-      - 🇨🇳TW_@WangCai_8 51
-      - 🇨🇳TW_@WangCai_8 52
-      - 🇨🇳TW_@WangCai_8 53
-      - 🇨🇳TW_@WangCai_8 54
-      - 🇨🇳TW_@WangCai_8 55
-      - 🇨🇳TW_@WangCai_8 56
-      - 🇨🇳TW_@WangCai_8 57
-      - 🇺🇸US_@WangCai_8 25
-      - 🇺🇸US_@WangCai_8 26
-      - 🇺🇸US_@WangCai_8 27
-      - 🇺🇸US_@WangCai_8 28
-      - 🇺🇸US_@WangCai_8 29
-      - 🇺🇸US_@WangCai_8 30
-      - 🇺🇸US_@WangCai_8 31
-      - 🇺🇸US_@WangCai_8 32
-      - 🇺🇸US_@WangCai_8 33
-      - 🇯🇵JP_@WangCai_8 10
-      - 🇯🇵JP_@WangCai_8 11
-      - 🇯🇵JP_@WangCai_8 12
-      - 🇸🇬SG_@WangCai_8 33
-      - 🇸🇬SG_@WangCai_8 34
-      - 🇸🇬SG_@WangCai_8 35
-      - 🇯🇵JP_@WangCai_8 13
-      - 🇯🇵JP_@WangCai_8 14
-      - 🇯🇵JP_@WangCai_8 15
-      - 🇨🇳TW_@WangCai_8 58
-      - 🇨🇳TW_@WangCai_8 59
-      - 🇨🇳TW_@WangCai_8 60
-      - 🇨🇳TW_@WangCai_8 61
-      - 🇨🇳TW_@WangCai_8 62
-      - 🇨🇳TW_@WangCai_8 63
-      - 🇨🇳TW_@WangCai_8 64
-      - 🇨🇳TW_@WangCai_8 65
-      - 🇨🇳TW_@WangCai_8 66
-      - 🇨🇳TW_@WangCai_8 67
-      - 🇨🇳TW_@WangCai_8 68
-      - 🇨🇳TW_@WangCai_8 69
-      - 🇨🇳TW_@WangCai_8 70
-      - 🇨🇳TW_@WangCai_8 71
-      - 🇨🇳TW_@WangCai_8 72
-      - 🇨🇳TW_@WangCai_8 73
-      - 🇨🇳TW_@WangCai_8 74
-      - 🇨🇳TW_@WangCai_8 75
-      - 🇨🇳TW_@WangCai_8 76
-rules:
-  - GEOIP,CN,DIRECT
-  - MATCH,旺财节点
-  
+vmess://eyJhZGQiOiIxNzUuMjkuMjIuMTAxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImQyNTQwMzI1LTlhZDYtMzNkNy1iZTg2LTI1OWI1YmJhNGVmOCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjgwMzIiLCJwcyI6IvCfh63wn4ewSEtfQFdhbmdDYWlfOCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxNzUuMjkuMjIuMTAxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImQyNTQwMzI1LTlhZDYtMzNkNy1iZTg2LTI1OWI1YmJhNGVmOCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjgwMTIiLCJwcyI6IvCfh7jwn4esU0dfQFdhbmdDYWlfOCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxNzUuMjkuMjIuMTAxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImQyNTQwMzI1LTlhZDYtMzNkNy1iZTg2LTI1OWI1YmJhNGVmOCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjgwMjEiLCJwcyI6IvCfh6/wn4e1SlBfQFdhbmdDYWlfOCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.14:38388#%F0%9F%87%BB%F0%9F%87%B3VN_14%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.45:38388#%F0%9F%87%BB%F0%9F%87%B3VN_45%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.59:38388#%F0%9F%87%BB%F0%9F%87%B3VN_59%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.71:38388#%F0%9F%87%BB%F0%9F%87%B3VN_71%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.76:38388#%F0%9F%87%BB%F0%9F%87%B3VN_76%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.139:38388#%F0%9F%87%BB%F0%9F%87%B3VN_139%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.142:38388#%F0%9F%87%BB%F0%9F%87%B3VN_142%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.145:38388#%F0%9F%87%BB%F0%9F%87%B3VN_145%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.158:38388#%F0%9F%87%BB%F0%9F%87%B3VN_158%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.159:38388#%F0%9F%87%BB%F0%9F%87%B3VN_159%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.161:38388#%F0%9F%87%BB%F0%9F%87%B3VN_161%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.167:38388#%F0%9F%87%BB%F0%9F%87%B3VN_167%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.168:38388#%F0%9F%87%BB%F0%9F%87%B3VN_168%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.170:38388#%F0%9F%87%BB%F0%9F%87%B3VN_170%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.174:38388#%F0%9F%87%BB%F0%9F%87%B3VN_174%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.179:38388#%F0%9F%87%BB%F0%9F%87%B3VN_179%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.203:38388#%F0%9F%87%BB%F0%9F%87%B3VN_203%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.206:38388#%F0%9F%87%BB%F0%9F%87%B3VN_206%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.209:38388#%F0%9F%87%BB%F0%9F%87%B3VN_209%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.215:38388#%F0%9F%87%BB%F0%9F%87%B3VN_215%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.234:38388#%F0%9F%87%BB%F0%9F%87%B3VN_234%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.17:38388#%F0%9F%87%BB%F0%9F%87%B3VN_17%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.32:38388#%F0%9F%87%BB%F0%9F%87%B3VN_32%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.40:38388#%F0%9F%87%BB%F0%9F%87%B3VN_40%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.41:38388#%F0%9F%87%BB%F0%9F%87%B3VN_41%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.48:38388#%F0%9F%87%BB%F0%9F%87%B3VN_48%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.52:38388#%F0%9F%87%BB%F0%9F%87%B3VN_52%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.64:38388#%F0%9F%87%BB%F0%9F%87%B3VN_64%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.65:38388#%F0%9F%87%BB%F0%9F%87%B3VN_65%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.101:38388#%F0%9F%87%BB%F0%9F%87%B3VN_101%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.106:38388#%F0%9F%87%BB%F0%9F%87%B3VN_106%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.109:38388#%F0%9F%87%BB%F0%9F%87%B3VN_109%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.112:38388#%F0%9F%87%BB%F0%9F%87%B3VN_112%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.117:38388#%F0%9F%87%BB%F0%9F%87%B3VN_117%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.130:38388#%F0%9F%87%BB%F0%9F%87%B3VN_130%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.134:38388#%F0%9F%87%BB%F0%9F%87%B3VN_134%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.135:38388#%F0%9F%87%BB%F0%9F%87%B3VN_135%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.136:38388#%F0%9F%87%BB%F0%9F%87%B3VN_136%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.147:38388#%F0%9F%87%BB%F0%9F%87%B3VN_147%20%40WangCai_8
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.222:38388#%F0%9F%87%BB%F0%9F%87%B3VN_222%20%40WangCai_8
+vmess://eyJhZGQiOiIxNzUuMjkuMjIuMTAxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImQyNTQwMzI1LTlhZDYtMzNkNy1iZTg2LTI1OWI1YmJhNGVmOCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjgwMzIiLCJwcyI6IvCfh63wn4ewSEtfQFdhbmdDYWlfOCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxNzUuMjkuMjIuMTAxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImQyNTQwMzI1LTlhZDYtMzNkNy1iZTg2LTI1OWI1YmJhNGVmOCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjgwMTIiLCJwcyI6IvCfh7jwn4esU0dfQFdhbmdDYWlfOCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiIxNzUuMjkuMjIuMTAxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImQyNTQwMzI1LTlhZDYtMzNkNy1iZTg2LTI1OWI1YmJhNGVmOCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjgwMjEiLCJwcyI6IvCfh6/wn4e1SlBfQFdhbmdDYWlfOCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
