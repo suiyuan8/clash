@@ -7,7 +7,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://shz.al/r6Ft"
+    url: "https://shz.al/~WangCai"
   Airport_02:
     type: http
     interval: 1800
@@ -16,7 +16,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://raw.gitmirror.com/suiyuan8/clash/refs/heads/main/node2"
+    url: ""
 
 
 unified-delay: true
