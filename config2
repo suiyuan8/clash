@@ -1,17 +1,18 @@
 proxy-providers:
   Airport_01:
     type: http
+    url: "https://shz.al/~WangCai"
     interval: 1800
     health-check:
       enable: true
       url: http://www.qualcomm.cn/generate_204
       interval: 300
-    proxy: 🟢 直连
-    url: "https://shz.al/~WangCai"
+    proxy: 直连
 
 unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
+find-process-mode: strict
 
 sniffer:
   enable: true
@@ -32,17 +33,18 @@ sniffer:
     - "+.tmall.com"
     - "+.jd.com"
     - "+.baidu.com"
+    - "+.bilibili.com"
 
 proxies:
   - name: "直连"
     type: direct
     udp: true
 
-# 主选模板
+# ========================================
+# 多策略组定义（12 个，用户可自由切换）
+# ========================================
 main-select: &main
-  - 日本极致
-  - 香港故转
-  - 日本故转
+  - 香港极致
   - 香港自动
   - 日本自动
   - 美国自动
@@ -51,57 +53,44 @@ main-select: &main
   - 日本节点
   - 美国节点
   - 全部节点
+  - 游戏加速
   - 直连
 
 proxy-groups:
-  # 主选组
+
+  # 1. 主策略：用户总入口
   - name: 节点选择
     type: select
     proxies: *main
 
-  # 日本极致（低延迟）
-  - name: 日本极致
+  # 2. 香港极致（<50ms）
+  - name: 香港极致
     type: url-test
     use: [Airport_01]
-    filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"
+    filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"
     url: http://www.qualcomm.cn/generate_204
     interval: 600
     tolerance: 50
     lazy: true
 
-  # 香港故转
-  - name: 香港故转
-    type: load-balance
-    use: [Airport_01]
-    filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"
-    strategy: consistent-hashing
-
-  # 日本故转
-  - name: 日本故转
-    type: load-balance
-    use: [Airport_01]
-    filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"
-    strategy: consistent-hashing
-
-  # 自动选择组
+  # 3. 香港自动（负载均衡）
   - name: 香港自动
-    type: url-test
+    type: load-balance
     use: [Airport_01]
     filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"
-    url: http://www.qualcomm.cn/generate_204
-    interval: 600
-    tolerance: 100
-    lazy: true
+    strategy: consistent-hashing
 
+  # 4. 日本自动（解锁 JP 流媒体）
   - name: 日本自动
     type: url-test
     use: [Airport_01]
     filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"
     url: http://www.qualcomm.cn/generate_204
     interval: 600
-    tolerance: 50
+    tolerance: 100
     lazy: true
 
+  # 5. 美国自动（解锁 Netflix/Disney+）
   - name: 美国自动
     type: url-test
     use: [Airport_01]
@@ -111,6 +100,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
 
+  # 6. 自动选择（全局测速）
   - name: 自动选择
     type: url-test
     include-all: true
@@ -120,7 +110,7 @@ proxy-groups:
     lazy: true
     filter: "^((?!(直连)).)*$"
 
-  # 地区手动选
+  # 7. 地区手动选
   - name: 香港节点
     type: select
     include-all: true
@@ -140,23 +130,31 @@ proxy-groups:
     type: select
     include-all: true
 
-  # 应用分组（复用 *main）
-  - {name: YouTube, type: select, proxies: *main}
-  - {name: Google, type: select, proxies: *main}
-  - {name: ChatGPT, type: select, proxies: *main}
-  - {name: GitHub, type: select, proxies: *main}
-  - {name: OneDrive, type: select, proxies: *main}
-  - {name: Microsoft, type: select, proxies: *main}
-  - {name: TikTok, type: select, proxies: *main}
-  - {name: Telegram, type: select, proxies: *main}
-  - {name: NETFLIX, type: select, proxies: *main}
-  - {name: Speedtest, type: select, proxies: *main}
-  - {name: PayPal, type: select, proxies: *main}
-  - {name: Apple, type: select, proxies: [直连, 节点选择]}
+  # 8. 游戏加速（低延迟 + UDP 优先）
+  - name: 游戏加速
+    type: url-test
+    use: [Airport_01]
+    filter: "(港|HK|日|JP)"
+    url: http://www.qualcomm.cn/generate_204
+    interval: 600
+    tolerance: 100
+    lazy: true
+
+  # 9. 应用专属策略组（可独立切换）
+  - {name: YouTube, type: select, proxies: [日本自动, 香港极致, 美国自动, 自动选择, 直连]}
+  - {name: Netflix, type: select, proxies: [美国自动, 日本自动, 自动选择, 直连]}
+  - {name: Disney+, type: select, proxies: [美国自动, 日本自动, 自动选择]}
+  - {name: ChatGPT, type: select, proxies: [香港极致, 自动选择, 直连]}
+  - {name: Google, type: select, proxies: [香港极致, 自动选择, 直连]}
+  - {name: GitHub, type: select, proxies: [香港极致, 自动选择, 直连]}
+  - {name: Apple, type: select, proxies: [直连, 香港极致]}
+  - {name: Telegram, type: select, proxies: [香港极致, 自动选择, 直连]}
   - {name: 全球直连, type: select, proxies: [直连, 节点选择]}
   - {name: 漏网之鱼, type: select, proxies: *main}
 
-# 规则锚点
+# ========================================
+# 多规则集（精细分流）
+# ========================================
 rule-anchor:
   ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
   domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
@@ -170,15 +168,12 @@ rule-providers:
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/master/ProxyLite.list" }
   ai: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/master/AI.list" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs" }
+  netflix_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs" }
+  disney_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs" }
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs" }
   github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs" }
   telegram_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs" }
-  netflix_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs" }
   paypal_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs" }
-  onedrive_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.mrs" }
-  microsoft_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs" }
-  speedtest_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ookla-speedtest.mrs" }
-  tiktok_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs" }
   geolocation-!cn: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs" }
   cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs" }
   cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs" }
@@ -187,26 +182,42 @@ rule-providers:
   netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs" }
 
 rules:
+  # 【1】本地直连（最高优先级）
   - RULE-SET,private_domain,直连
   - RULE-SET,direct1,直连
   - RULE-SET,apple_cdn,直连
+
+  # 【2】应用专属分流
   - RULE-SET,apple_domain,Apple
-  - RULE-SET,proxylite,节点选择
   - RULE-SET,ai,ChatGPT
   - RULE-SET,github_domain,GitHub
   - RULE-SET,youtube_domain,YouTube
+  - RULE-SET,netflix_domain,Netflix
+  - RULE-SET,disney_domain,Disney+
   - RULE-SET,google_domain,Google
-  - RULE-SET,onedrive_domain,OneDrive
-  - RULE-SET,microsoft_domain,Microsoft
-  - RULE-SET,tiktok_domain,TikTok
-  - RULE-SET,speedtest_domain,Speedtest
   - RULE-SET,telegram_domain,Telegram
-  - RULE-SET,netflix_domain,NETFLIX
-  - RULE-SET,paypal_domain,PayPal
+  - RULE-SET,proxylite,节点选择
+
+  # 【3】地理分流
   - RULE-SET,geolocation-!cn,节点选择
   - RULE-SET,cn_domain,全球直连
-  - RULE-SET,google_ip,Google,no-resolve
-  - RULE-SET,netflix_ip,NETFLIX,no-resolve
-  - RULE-SET,telegram_ip,Telegram,no-resolve
+
+  # 【4】IP 直连（加速解析）
   - RULE-SET,cn_ip,全球直连,no-resolve
+  - RULE-SET,google_ip,Google,no-resolve
+  - RULE-SET,telegram_ip,Telegram,no-resolve
+  - RULE-SET,netflix_ip,Netflix,no-resolve
+
+  # 【5】兜底
   - MATCH,直连
+
+# ========================================
+# 使用建议
+# ========================================
+# 1. 日常浏览 → 节点选择 → 选「香港极致」
+# 2. 看 YouTube → YouTube → 选「日本自动」
+# 3. 看 Netflix → Netflix → 选「美国自动」
+# 4. 玩游戏 → 节点选择 → 选「游戏加速」
+# 5. Apple 服务 → 保持「直连」
+# 6. 疑难网站 → 漏网之鱼 → 手动测试
+# ========================================
