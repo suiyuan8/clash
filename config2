@@ -76,15 +76,6 @@ proxy-groups:
     url: http://captive.apple.com/generate_204
     interval: 600
 
-  - name: 香港极致
-    type: url-test
-    use: [Airport_01]
-    filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"
-    url: http://captive.apple.com/generate_204
-    interval: 600
-    tolerance: 50
-    lazy: true
-
   - name: 香港自动
     type: load-balance
     use: [Airport_01]
@@ -109,29 +100,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
 
-  - name: 台湾极致
-    type: url-test
-    use: [Airport_01]
-    filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$"
-    url: http://captive.apple.com/generate_204
-    interval: 600
-    tolerance: 50
-    lazy: true
-
   - name: 台湾自动
     type: load-balance
     use: [Airport_01]
     filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$"
     strategy: consistent-hashing
-
-  - name: 新加坡极致
-    type: url-test
-    use: [Airport_01]
-    filter: "(?=.*(新|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$"
-    url: http://captive.apple.com/generate_204
-    interval: 600
-    tolerance: 50
-    lazy: true
 
   - name: 新加坡自动
     type: load-balance
@@ -150,27 +123,27 @@ proxy-groups:
 
   - name: 香港节点
     type: select
-    include-all: true
+    use: [subscription]
     filter: "(?i)港|hk|hongkong|hong kong"
 
   - name: 日本节点
     type: select
-    include-all: true
+    use: [subscription]
     filter: "(?i)日|jp|japan"
 
   - name: 美国节点
     type: select
-    include-all: true
+    use: [subscription]
     filter: "(?i)美|us|unitedstates|united states"
 
   - name: 台湾节点
     type: select
-    include-all: true
+    use: [subscription]
     filter: "(?i)台|tw|taiwan"
 
   - name: 新加坡节点
     type: select
-    include-all: true
+    use: [subscription]
     filter: "(?i)新|sg|singapore"
 
   - name: 游戏加速
@@ -185,13 +158,10 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -208,13 +178,10 @@ proxy-groups:
     type: select
     proxies:
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -230,13 +197,10 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -254,13 +218,10 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -278,13 +239,10 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -303,13 +261,10 @@ proxy-groups:
       - 🎥 奈飞节点
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -327,13 +282,10 @@ proxy-groups:
     proxies:
       - 旺财节点
       - 🚀 节点选择
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -350,19 +302,15 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -387,13 +335,10 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -411,13 +356,10 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -435,13 +377,10 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -459,13 +398,10 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -483,13 +419,10 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -507,13 +440,10 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -555,13 +485,10 @@ proxy-groups:
       - 🚀 节点选择
       - DIRECT
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -577,13 +504,10 @@ proxy-groups:
     type: select
     proxies:
       - 旺财节点
-      - 香港极致
       - 香港自动
       - 日本自动
       - 美国自动
-      - 台湾极致
       - 台湾自动
-      - 新加坡极致
       - 新加坡自动
       - 自动选择
       - 香港节点
@@ -593,6 +517,7 @@ proxy-groups:
       - 新加坡节点
       - 游戏加速
       - 直连
+
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
