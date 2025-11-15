@@ -76,20 +76,6 @@ proxy-groups:
     url: http://captive.apple.com/generate_204
     interval: 600
 
-  - name: 节点选择
-    type: select
-    proxies:
-      - 香港极致
-      - 香港自动
-      - 日本自动
-      - 美国自动
-      - 自动选择
-      - 香港节点
-      - 日本节点
-      - 美国节点
-      - 游戏加速
-      - 直连
-
   - name: 香港极致
     type: url-test
     use: [Airport_01]
@@ -159,7 +145,6 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - 节点选择
       - 香港极致
       - 香港自动
       - 日本自动
