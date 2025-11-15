@@ -27,16 +27,6 @@ proxy-providers:
       interval: 300
     proxy: 直连
 
-  Airport_01:
-    type: http
-    url: "https://shz.al/~WangCai"
-    interval: 1800
-    health-check:
-      enable: true
-      url: http://captive.apple.com/generate_204
-      interval: 300
-    proxy: 直连
-
 unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
@@ -78,13 +68,13 @@ proxy-groups:
 
   - name: 香港自动
     type: load-balance
-    use: [Airport_01]
+    use: [subscription]
     filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"
     strategy: consistent-hashing
 
   - name: 日本自动
     type: url-test
-    use: [Airport_01]
+    use: [subscription]
     filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"
     url: http://captive.apple.com/generate_204
     interval: 600
@@ -93,7 +83,7 @@ proxy-groups:
 
   - name: 美国自动
     type: url-test
-    use: [Airport_01]
+    use: [subscription]
     filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"
     url: http://captive.apple.com/generate_204
     interval: 600
@@ -102,13 +92,13 @@ proxy-groups:
 
   - name: 台湾自动
     type: load-balance
-    use: [Airport_01]
+    use: [subscription]
     filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$"
     strategy: consistent-hashing
 
   - name: 新加坡自动
     type: load-balance
-    use: [Airport_01]
+    use: [subscription]
     filter: "(?=.*(新|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$"
     strategy: consistent-hashing
 
@@ -148,7 +138,7 @@ proxy-groups:
 
   - name: 游戏加速
     type: url-test
-    use: [Airport_01]
+    use: [subscription]
     filter: "(港|HK|日|JP|台|TW|新|SG)"
     url: http://captive.apple.com/generate_204
     interval: 600
@@ -517,7 +507,6 @@ proxy-groups:
       - 新加坡节点
       - 游戏加速
       - 直连
-
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
