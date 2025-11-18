@@ -14,7 +14,7 @@ dns:
 proxy-providers:
   subscription:
     type: http
-    url: "https://tt.vg/edon"
+    url: "https://shz.al/~WangCai"
     interval: 3600
 
 proxy-groups:
