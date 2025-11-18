@@ -14,7 +14,7 @@ dns:
 proxy-providers:
   subscription:
     type: http
-    url: "https://shz.al/~WangCai"
+    url: "https://dpaste.com/FX7CFNTTQ.txt"
     interval: 3600
 
 proxy-groups:
