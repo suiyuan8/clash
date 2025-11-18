@@ -10,7 +10,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://dpaste.com/FX7CFNTTQ.txt"
+    url: "https://shz.al/~WangCai"
     override:
       skip-cert-verify: true
       udp: true
