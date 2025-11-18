@@ -14,7 +14,7 @@ dns:
 proxy-providers:
   subscription:
     type: http
-    url: "https://dpaste.com/FX7CFNTTQ.txt"
+    url: "https://tt.vg/edon"
     interval: 3600
 
 proxy-groups:
