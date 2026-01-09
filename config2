@@ -67,7 +67,7 @@ proxy-groups:
     interval: 600
 
   - name: 香港自动
-    type: load-balance
+    type: url-test
     use: [subscription]
     filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"
     strategy: consistent-hashing
@@ -91,13 +91,13 @@ proxy-groups:
     lazy: true
 
   - name: 台湾自动
-    type: load-balance
+    type: url-test
     use: [subscription]
     filter: "(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$"
     strategy: consistent-hashing
 
   - name: 新加坡自动
-    type: load-balance
+    type: url-test
     use: [subscription]
     filter: "(?=.*(新|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$"
     strategy: consistent-hashing
