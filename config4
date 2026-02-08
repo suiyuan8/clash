@@ -9,211 +9,183 @@ geodata-loader: standard
 geo-update-interval: 24
 geox-url:
   geoip: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
-  geosite: >-
-    https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
-  mmdb: >-
-    https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
-  asn: >-
-    https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb
+  geosite: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
+  asn: https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb
 rule-providers:
   category-ai-!cn:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs
     path: ./ruleset/category-ai-!cn.mrs
     interval: 86400
   youtube:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/youtube.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/youtube.mrs
     path: ./ruleset/youtube.mrs
     interval: 86400
   google:
     type: http
     format: mrs
     behavior: ipcidr
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs
     path: ./ruleset/google.mrs
     interval: 86400
   github:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/github.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/github.mrs
     path: ./ruleset/github.mrs
     interval: 86400
   gitlab:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gitlab.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gitlab.mrs
     path: ./ruleset/gitlab.mrs
     interval: 86400
   microsoft:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/microsoft.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/microsoft.mrs
     path: ./ruleset/microsoft.mrs
     interval: 86400
   apple:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/apple.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/apple.mrs
     path: ./ruleset/apple.mrs
     interval: 86400
   facebook:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/facebook.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/facebook.mrs
     path: ./ruleset/facebook.mrs
     interval: 86400
   instagram:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/instagram.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/instagram.mrs
     path: ./ruleset/instagram.mrs
     interval: 86400
   twitter:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/twitter.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/twitter.mrs
     path: ./ruleset/twitter.mrs
     interval: 86400
   tiktok:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/tiktok.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/tiktok.mrs
     path: ./ruleset/tiktok.mrs
     interval: 86400
   linkedin:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/linkedin.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/linkedin.mrs
     path: ./ruleset/linkedin.mrs
     interval: 86400
   netflix:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/netflix.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/netflix.mrs
     path: ./ruleset/netflix.mrs
     interval: 86400
   hulu:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/hulu.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/hulu.mrs
     path: ./ruleset/hulu.mrs
     interval: 86400
   disney:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/disney.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/disney.mrs
     path: ./ruleset/disney.mrs
     interval: 86400
   hbo:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/hbo.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/hbo.mrs
     path: ./ruleset/hbo.mrs
     interval: 86400
   amazon:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/amazon.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/amazon.mrs
     path: ./ruleset/amazon.mrs
     interval: 86400
   bahamut:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/bahamut.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/bahamut.mrs
     path: ./ruleset/bahamut.mrs
     interval: 86400
   steam:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/steam.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/steam.mrs
     path: ./ruleset/steam.mrs
     interval: 86400
   epicgames:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/epicgames.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/epicgames.mrs
     path: ./ruleset/epicgames.mrs
     interval: 86400
   ea:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/ea.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/ea.mrs
     path: ./ruleset/ea.mrs
     interval: 86400
   ubisoft:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/ubisoft.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/ubisoft.mrs
     path: ./ruleset/ubisoft.mrs
     interval: 86400
   blizzard:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/blizzard.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/blizzard.mrs
     path: ./ruleset/blizzard.mrs
     interval: 86400
   geolocation-!cn:
     type: http
     format: mrs
     behavior: domain
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/geolocation-!cn.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/geolocation-!cn.mrs
     path: ./ruleset/geolocation-!cn.mrs
     interval: 86400
   telegram:
     type: http
     format: mrs
     behavior: ipcidr
-    url: >-
-      https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/telegram.mrs
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/telegram.mrs
     path: ./ruleset/telegram.mrs
     interval: 86400
 dns:
@@ -250,6 +222,24 @@ proxy-providers:
       udp: true
 
 proxy-groups:
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    strategy: consistent-hashing
+    use:
+      - wangcai
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    lazy: false
+
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    strategy: round-robin
+    use:
+      - wangcai
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    lazy: false
+
   - name: 🚀 节点选择
     type: select
     use:
@@ -257,6 +247,8 @@ proxy-groups:
     proxies:
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
 
@@ -280,6 +272,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -288,6 +282,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -296,6 +292,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -304,6 +302,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -312,6 +312,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -320,6 +322,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -328,6 +332,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -336,6 +342,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -344,6 +352,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -352,6 +362,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
   - type: select
@@ -360,6 +372,8 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 自动选择
       - 🖐️ 手动切换
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - DIRECT
       - REJECT
 rules:
@@ -389,3 +403,4 @@ rules:
   - RULE-SET,google,🔍 谷歌服务,no-resolve
   - RULE-SET,telegram,📲 电报消息,no-resolve
   - MATCH,🐟 漏网之鱼
+  
