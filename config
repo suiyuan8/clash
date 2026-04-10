@@ -14,8 +14,8 @@ proxy-providers:
     override:
       skip-cert-verify: true
       udp: true
-      down: "50 Mbps"
-      up: "10 Mbps"
+      down: "500 Mbps"
+      up: "100 Mbps"
       
 # 用于下载订阅时指定UA
 global-ua: clash.meta
