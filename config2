@@ -1,0 +1,87 @@
+# https://t.me/wangcai2
+# https://github.com/suiyuan8/clash
+# ==========================================================
+# 功能：双源订阅 + 链式/中转切换
+# 逻辑：[中转链接 ~WangCai] -> [SOCKS5 链接 ~socks5]
+# 内核要求：Mihomo (Clash Meta)
+# ==========================================================
+
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+
+dns:
+  enable: true
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+proxy-providers:
+  # 中转源 (非 SOCKS5)
+  transit-provider:
+    type: http
+    url: "https://shz.al/~WangCai"
+    interval: 1800
+    health-check: {enable: true, url: "http://www.gstatic.com/generate_204", interval: 600}
+    override: {udp: true, skip-cert-verify: true}
+
+  # 落地源 (纯 SOCKS5)
+  landing-provider:
+    type: http
+    url: "https://shz.al/~socks5"
+    interval: 1800
+    health-check: {enable: true, url: "http://www.gstatic.com/generate_204", interval: 600}
+    override:
+      # 链式核心：SOCKS5 通过 中转组 进行握手
+      dialer-proxy: 非socks5手动
+      udp: true
+      skip-cert-verify: true
+
+proxy-groups:
+  # 1. 【核心开关】控制默认出口
+  - name: 模式切换
+    type: select
+    proxies:
+      - socks5手动     # 选这个：走 [中转 + SOCKS5] 链式，IP 是 SOCKS5 的
+      - 非socks5手动   # 选这个：只走 [中转]，IP 是中转机的，速度更快
+
+  # 2. 【中转层】
+  - name: 非socks5手动
+    type: select
+    use:
+      - transit-provider
+    proxies:
+      - DIRECT
+
+  # 3. 【出口层】
+  - name: socks5手动
+    type: select
+    use:
+      - landing-provider
+    proxies:
+      - DIRECT
+
+rules:
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  # 默认规则指向“模式切换”开关
+  - MATCH,模式切换
+
+
+# 说明如下:
+# 在你的 Clash Dashboard（面板）上，你会看到一个 “模式切换” 策略组：
+# 想走链式代理时：在“模式切换”里勾选 socks5手动。
+# 流量路径：你 → 非socks5手动选中的节点 → socks5手动选中的节点 → 网站。
+# 效果：双重跳板，出口 IP 是 SOCKS5 的。
+# 
+# 想追求速度/SOCKS5挂了时：在“模式切换”里勾选 非socks5手动。
+# 流量路径：你 → 非socks5手动选中的节点 → 网站。
+# 效果：单级跳板，出口 IP 是中转机的。
+# 
+# 换句话说，当你发现 SOCKS5 节点集体挂了，或者你追求极速（比如看 4K 视频），不需要隐藏中转机的 IP，那么改为 非socks5手动 会让连接更直接、延迟更低。
+# 
+# 一句话总结：
+# 想玩链式/隐藏 IP，必须用 socks5手动。
+# 想简单省事/低延迟，就用 非socks5手动。
