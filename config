@@ -1,3 +1,6 @@
+# https://t.me/wangcai2
+# https://github.com/suiyuan8/clash
+
 pr: &pr {type: select, proxies: [🚀 节点选择, ♻️ 自动选择, ☢ 负载均衡-散列, ☢ 负载均衡-轮询, 🌐 全部节点, 🇭🇰香港节点,🇨🇳台湾节点, 🇯🇵日本节点, 🇸🇬新加坡节点, 🇰🇷韩国节点, 🇺🇲美国节点, 🇩🇪德国节点, 🇬🇧英国节点, 🧿其它地区,🟢 直连]}
 best: &best {type: url-test, interval: 300, tolerance: 50, lazy: true, use: [aggregator]}
 
@@ -111,9 +114,7 @@ dns:
  
    
 proxies:
-- name: "🟢 直连"
-  type: direct
-  udp: true
+  - {name: "🟢 直连", type: direct, udp: true}
 
   
 # 策略组
