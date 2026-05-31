@@ -1,0 +1,339 @@
+# https://t.me/wangcai_8
+# https://github.com/suiyuan8/clash
+
+Pr: &pr {type: select, proxies: [🚀 节点选择, ♻️ 自动选择, ☢ 负载均衡-散列, ☢ 负载均衡-轮询, 🌐 全部节点, 🇭🇰香港节点, 🇨🇳台湾节点, 🇯🇵日本节点, 🇸🇬新加坡节点, 🇰🇷韩国节点, 🇺🇲美国节点, 🇩🇪德国节点, 🇬🇧英国节点, 🧿其它地区, 🟢 直连]}
+
+proxies:
+  - {name: "🟢 直连", type: direct, udp: true}
+  - {name: 🇮🇹IT_@WangCai_8, server: 2.37.90.54, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8, server: 3.99.110.253, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8, server: 12.202.180.10, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 2, server: 12.221.146.147, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8, server: 13.213.82.137, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 3, server: 18.119.146.56, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇯🇵JP_@WangCai_8, server: 18.182.134.122, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 4, server: 20.42.108.114, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 5, server: 23.94.74.98, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 6, server: 23.148.146.179, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 2, server: 23.191.80.98, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 7, server: 24.225.10.211, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇭CH_@WangCai_8, server: 31.7.62.50, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 8, server: 34.216.155.5, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8, server: 35.179.47.184, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 9, server: 37.120.147.146, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇱PL_@WangCai_8, server: 37.120.156.18, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇱PL_@WangCai_8 2, server: 37.120.156.34, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇯🇵JP_@WangCai_8 2, server: 37.120.210.66, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇯🇵JP_@WangCai_8 3, server: 37.120.210.146, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 2, server: 37.120.233.18, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 3, server: 37.120.233.34, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 4, server: 37.120.233.50, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇱PL_@WangCai_8 3, server: 37.233.103.46, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇪🇨EC_@WangCai_8, server: 38.165.231.71, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 10, server: 44.198.49.169, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 11, server: 44.228.137.206, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 12, server: 44.239.226.15, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇰🇿KZ_@WangCai_8, server: 45.8.98.150, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 13, server: 45.32.133.102, port: 8443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 5, server: 51.11.40.232, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 6, server: 51.11.47.202, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 7, server: 51.11.47.210, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 8, server: 51.11.47.216, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 2, server: 51.79.173.71, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 9, server: 51.132.44.126, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_@WangCai_8, server: 51.158.243.91, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8, server: 51.161.152.170, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 14, server: 52.55.81.168, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 3, server: 52.221.158.80, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 15, server: 66.64.100.66, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 16, server: 66.115.182.130, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 17, server: 68.235.56.51, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 18, server: 68.235.56.59, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 3, server: 69.87.223.151, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 19, server: 71.43.26.234, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 20, server: 72.253.150.106, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇪SE_@WangCai_8, server: 79.142.76.197, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇪SE_@WangCai_8 2, server: 79.142.77.63, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇪🇸ES_@WangCai_8, server: 82.102.17.178, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 4, server: 82.102.25.50, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 5, server: 82.102.25.210, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 10, server: 84.17.50.193, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇭🇰HK_@WangCai_8, server: 84.17.57.113, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇱AL_@WangCai_8, server: 87.120.103.226, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇱AL_@WangCai_8 2, server: 87.120.103.242, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8, server: 87.249.132.97, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8 2, server: 87.249.132.97, port: 9443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇹IT_@WangCai_8 2, server: 91.243.118.217, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇹IT_@WangCai_8 3, server: 93.42.177.250, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇪PE_@WangCai_8, server: 95.173.223.78, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇹IT_@WangCai_8 4, server: 95.229.15.89, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 2, server: 103.1.212.242, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 3, server: 103.1.213.210, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇻🇳VN_@WangCai_8, server: 103.9.79.185, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇻🇳VN_@WangCai_8 2, server: 103.9.79.218, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇳IN_@WangCai_8, server: 103.26.207.94, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 4, server: 103.62.50.130, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 5, server: 103.62.50.130, port: 9443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 6, server: 103.77.232.74, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 7, server: 103.77.234.210, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇩ID_@WangCai_8, server: 103.87.68.50, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇩ID_@WangCai_8 2, server: 103.87.68.146, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 8, server: 103.107.197.146, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 6, server: 103.107.198.226, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 7, server: 103.107.198.242, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇿NZ_@WangCai_8, server: 103.108.94.162, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 9, server: 103.108.95.226, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 10, server: 103.137.14.34, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 21, server: 104.244.210.242, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇿🇦ZA_@WangCai_8, server: 108.181.120.26, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇹IT_@WangCai_8 5, server: 109.116.41.154, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇱🇻LV_@WangCai_8, server: 109.248.147.66, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇱🇻LV_@WangCai_8 2, server: 109.248.149.34, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 11, server: 116.90.72.242, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇿NZ_@WangCai_8 2, server: 116.90.75.226, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇺AU_@WangCai_8 12, server: 116.206.228.178, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇭PH_@WangCai_8, server: 128.1.209.254, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇳IN_@WangCai_8 2, server: 129.154.248.18, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇭PH_@WangCai_8 2, server: 129.227.103.90, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇪🇸ES_@WangCai_8 2, server: 130.195.250.18, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇪🇸ES_@WangCai_8 3, server: 130.195.250.34, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇯🇵JP_@WangCai_8 4, server: 138.2.62.137, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇦PA_@WangCai_8, server: 138.186.142.202, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8 3, server: 138.201.56.241, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8 4, server: 141.17.83.73, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8 5, server: 141.17.83.78, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇫🇷FR_@WangCai_8, server: 141.94.16.4, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 4, server: 142.44.210.129, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇭🇰HK_@WangCai_8 2, server: 146.70.9.226, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇭🇰HK_@WangCai_8 3, server: 146.70.9.242, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇧🇪BE_@WangCai_8, server: 146.70.123.98, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇧🇪BE_@WangCai_8 2, server: 146.70.176.242, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇭🇺HU_@WangCai_8, server: 146.70.203.18, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇸RS_@WangCai_8, server: 146.70.221.18, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇸RS_@WangCai_8 2, server: 146.70.221.34, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇪SE_@WangCai_8 3, server: 146.70.242.130, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇪SE_@WangCai_8 4, server: 146.70.242.146, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇹AT_@WangCai_8, server: 146.70.244.2, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇹AT_@WangCai_8 2, server: 146.70.244.18, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇷GR_@WangCai_8, server: 149.22.85.65, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇷GR_@WangCai_8 2, server: 149.22.85.78, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇹PT_@WangCai_8, server: 149.22.86.1, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇹PT_@WangCai_8 2, server: 149.22.86.14, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 22, server: 149.22.88.65, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8 6, server: 149.36.50.1, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8 7, server: 149.36.50.129, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8 8, server: 149.36.50.157, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_@WangCai_8 2, server: 149.36.51.129, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇭🇰HK_@WangCai_8 4, server: 149.40.54.129, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 23, server: 149.40.56.130, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 24, server: 149.50.212.206, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇪SE_@WangCai_8 5, server: 149.50.216.65, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 25, server: 149.88.21.129, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 26, server: 149.88.21.140, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇲🇽MX_@WangCai_8, server: 149.88.22.33, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇲🇽MX_@WangCai_8 2, server: 149.88.22.46, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇪IE_@WangCai_8, server: 149.88.96.1, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇪IE_@WangCai_8 2, server: 149.88.96.12, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 27, server: 149.102.227.77, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇫🇷FR_@WangCai_8 2, server: 149.102.245.65, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇧🇷BR_@WangCai_8, server: 149.102.251.193, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇧🇷BR_@WangCai_8 2, server: 149.102.251.206, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇵🇱PL_@WangCai_8 4, server: 151.115.54.133, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 8, server: 154.26.137.244, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 9, server: 154.26.138.78, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 10, server: 154.26.138.156, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 11, server: 154.26.138.157, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 12, server: 154.26.138.166, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 13, server: 154.26.138.186, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 14, server: 154.26.138.216, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 15, server: 154.26.138.229, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 16, server: 154.26.138.233, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 17, server: 154.26.138.236, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 18, server: 154.26.138.239, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 19, server: 154.26.138.240, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 20, server: 154.26.138.241, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 21, server: 154.26.138.244, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 22, server: 154.26.138.246, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 23, server: 154.26.138.248, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 24, server: 154.26.138.249, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 25, server: 154.26.138.253, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 26, server: 154.26.139.7, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 27, server: 154.26.139.14, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 28, server: 154.26.139.23, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 29, server: 154.26.139.24, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 30, server: 154.26.139.27, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 31, server: 154.26.139.29, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇭🇷HR_@WangCai_8, server: 154.47.29.161, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇭🇷HR_@WangCai_8 2, server: 154.47.29.174, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 32, server: 156.146.56.97, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 33, server: 156.146.56.110, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 28, server: 162.217.114.50, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 29, server: 162.244.227.36, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇿🇦ZA_@WangCai_8 2, server: 165.73.248.90, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇳IN_@WangCai_8 3, server: 165.231.253.66, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇳IN_@WangCai_8 4, server: 165.231.253.210, port: 9443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇳IN_@WangCai_8 5, server: 165.231.253.242, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇳IN_@WangCai_8 6, server: 165.231.253.242, port: 9443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 30, server: 167.88.60.226, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 31, server: 167.88.60.242, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8 9, server: 178.200.186.204, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_@WangCai_8 3, server: 178.208.78.58, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇹IT_@WangCai_8 6, server: 178.237.4.200, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 5, server: 181.215.52.6, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 6, server: 181.215.52.6, port: 9443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 7, server: 181.215.52.11, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 8, server: 181.215.52.11, port: 9443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 9, server: 181.215.52.16, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 10, server: 181.215.52.40, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 11, server: 181.215.52.40, port: 9443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 12, server: 181.215.52.101, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 13, server: 181.215.52.101, port: 9443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 14, server: 181.215.52.122, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇪DE_@WangCai_8 10, server: 185.44.107.166, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_@WangCai_8 4, server: 185.53.129.141, port: 9090, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇧🇬BG_@WangCai_8, server: 185.94.192.210, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇹IT_@WangCai_8 7, server: 185.183.105.130, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇮🇹IT_@WangCai_8 8, server: 185.183.105.146, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇿CZ_@WangCai_8, server: 185.216.35.66, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇿CZ_@WangCai_8 2, server: 185.216.35.130, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 11, server: 185.235.0.2, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 12, server: 185.235.0.34, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 13, server: 185.235.0.66, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 14, server: 185.235.0.98, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇰DK_@WangCai_8, server: 185.245.84.50, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇩🇰DK_@WangCai_8 2, server: 185.245.84.50, port: 9443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 34, server: 185.250.38.135, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 35, server: 185.250.38.137, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇦🇷AR_@WangCai_8, server: 190.103.176.146, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 32, server: 192.34.83.226, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 33, server: 192.171.18.154, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇿CZ_@WangCai_8 3, server: 193.35.104.196, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇺RU_@WangCai_8, server: 194.186.179.62, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇸🇬SG_@WangCai_8 36, server: 194.233.73.140, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇪GE_@WangCai_8, server: 195.54.178.210, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇿🇦ZA_@WangCai_8 3, server: 197.242.155.133, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇿🇦ZA_@WangCai_8 4, server: 197.242.155.197, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇿🇦ZA_@WangCai_8 5, server: 197.242.159.23, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 34, server: 198.54.133.235, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 35, server: 198.147.22.186, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_@WangCai_8 36, server: 199.217.104.226, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 15, server: 206.223.161.47, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 16, server: 206.223.183.13, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 17, server: 206.223.183.16, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇨🇦CA_@WangCai_8 18, server: 206.223.183.21, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 15, server: 212.102.63.1, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 16, server: 212.102.63.31, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇬🇧GB_@WangCai_8 17, server: 212.102.63.61, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_@WangCai_8 5, server: 212.159.194.125, port: 443, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+
+proxy-groups:
+  - {name: 🚀 节点选择, type: select, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Proxy.png, proxies: [☢ 负载均衡-散列, ☢ 负载均衡-轮询, ♻️ 自动选择, 🌐 全部节点, 🇭🇰香港节点, 🇨🇳台湾节点, 🇯🇵日本节点, 🇸🇬新加坡节点, 🇰🇷韩国节点, 🇺🇲美国节点, 🇩🇪德国节点, 🇬🇧英国节点, 🧿其它地区, 🟢 直连]}
+  - {name: ♻️ 自动选择, type: url-test, include-all: true, url: http://www.gstatic.com/generate_204, interval: 300, tolerance: 20, filter: "^((?!(直连)).)*$", icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Auto.png}
+  - {name: ☢ 负载均衡-散列, type: load-balance, strategy: consistent-hashing, include-all: true, url: http://www.gstatic.com/generate_204, interval: 180, filter: "^((?!(直连)).)*$", icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Round_Robin_1.png }
+  - {name: ☢ 负载均衡-轮询, type: load-balance, strategy: round-robin, include-all: true, url: http://www.gstatic.com/generate_204, interval: 180, filter: "^((?!(直连)).)*$", icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Round_Robin.png }
+  - {name: 🌐 全部节点, type: select, include-all: true, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Final.png }
+
+  - {name: 📹 YouTube, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/YouTube.png }
+  - {name: 🍀 Google, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Google_Search.png }
+  - {name: 📹 哔哩哔哩, type: select, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/bilibili_2.png, proxies: [🟢 直连, 🚀 节点选择, 🇭🇰香港节点, 🇨🇳台湾节点]}
+  - {name: 🎵 Spotify, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Spotify.png }
+  - {name: 📹 巴哈姆特, type: select, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Bahamut.png, proxies: [🇨🇳台湾节点, 🚀 节点选择, 🟢 直连]}
+  - {name: 🤖 AI, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/AI.png }
+  - {name: 🐬 OneDrive, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/OneDrive.png }
+  - {name: 🪟 Microsoft, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Microsoft.png }
+  - {name: 🎵 TikTok, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/TikTok_1.png }
+  - {name: 📲 Telegram, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Telegram_X.png }
+  - {name: 🎥 NETFLIX, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Netflix.png }
+  - {name: 📖 Notion, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Notion.png }
+  - {name: 💶 PayPal, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/PayPal.png }
+  - {name: 🍎 Apple, type: select, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Apple.png, proxies: [🟢 直连, 🚀 节点选择, 🍎 Apple直连, 🇭🇰香港节点]}
+  - {name: 🍎 Apple直连, type: select, proxies: [🟢 直连, 🚀 节点选择]}
+  - {name: 🎯 全球直连, type: select, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Proxy.png, proxies: [🟢 直连, 🚀 节点选择]}
+  - {name: 🐟 漏网之鱼, <<: *pr, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Lab.png }
+
+  - {name: 🇭🇰香港节点, type: url-test, include-all: true, filter: "HK|Hong Kong|港", url: http://www.gstatic.com/generate_204, interval: 300, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Hong_Kong.png}
+  - {name: 🇨🇳台湾节点, type: url-test, include-all: true, filter: "TW|Taiwan|台", url: http://www.gstatic.com/generate_204, interval: 300, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Taiwan.png}
+  - {name: 🇸🇬新加坡节点, type: url-test, include-all: true, filter: "SG|Singapore|坡", url: http://www.gstatic.com/generate_204, interval: 300, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Singapore.png}
+  - {name: 🇯🇵日本节点, type: url-test, include-all: true, filter: "JP|Japan|日", url: http://www.gstatic.com/generate_204, interval: 300, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Japan.png}
+  - {name: 🇺🇲美国节点, type: url-test, include-all: true, filter: "US|United States|美", url: http://www.gstatic.com/generate_204, interval: 300, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/United_States.png}
+  - {name: 🇰🇷韩国节点, type: url-test, include-all: true, filter: "KR|Korea|韩", url: http://www.gstatic.com/generate_204, interval: 300, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Korea.png}
+  - {name: 🇬🇧英国节点, type: url-test, include-all: true, filter: "GB|UK|Great Britain|英", url: http://www.gstatic.com/generate_204, interval: 300, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/United_Kingdom.png}
+  - {name: 🇩🇪德国节点, type: url-test, include-all: true, filter: "DE|Germany|德", url: http://www.gstatic.com/generate_204, interval: 300, icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Germany.png}
+  - {name: 🧿其它地区, type: select, include-all: true, filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|港|hk|台|tw|日|jp|新|sg|美|us|英|gb|德|de|韩|kr)).*", icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Global.png}
+  
+external-controller: 127.0.0.1:9090
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+
+sniffer:
+  enable: true
+  sniff:
+    HTTP: {ports: [80, 8080-8880], override-destination: true}
+    TLS: {ports: [443, 8443]}
+    QUIC: {ports: [443, 8443]}
+  skip-domain: ["Mijia Cloud", "dlg.io.mi.com", "+.push.apple.com", "+.apple.com"]
+
+tun:
+  enable: true
+  stack: mixed
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack: ["any:53"]
+
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: [223.5.5.5, 119.29.29.29]
+  nameserver: [https://doh.pub/dns-query, https://dns.alidns.com/dns-query]
+  fallback: [https://1.1.1.1/dns-query, 8.8.8.8, tls://dns.google:853]
+  fallback-filter: {geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4, 0.0.0.0/8, 127.0.0.0/8]}
+
+rule-providers:
+  ai_ip: {type: http, interval: 86400, behavior: ipcidr, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/ai.mrs"}
+  bahamut_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/bahamut.mrs"}
+  bilibili_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/bilibili.mrs"}
+  spotify_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.mrs"}
+  youtube_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
+  google_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
+  telegram_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
+  netflix_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
+  notion_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/notion.mrs"}
+  paypal_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs"}
+  onedrive_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.mrs"}
+  microsoft_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
+  apple_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple-cn.mrs"}
+  tiktok_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
+  geolocation-!cn: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"}
+  cn_domain: {type: http, interval: 86400, behavior: domain, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
+  cn_ip: {type: http, interval: 86400, behavior: ipcidr, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
+  google_ip: {type: http, interval: 86400, behavior: ipcidr, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
+  telegram_ip: {type: http, interval: 86400, behavior: ipcidr, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
+  netflix_ip: {type: http, interval: 86400, behavior: ipcidr, format: mrs, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
+
+rules:
+  - RULE-SET,apple_domain,🍎 Apple
+  - RULE-SET,ai_ip,🤖 AI
+  - RULE-SET,bilibili_domain,📹 哔哩哔哩
+  - RULE-SET,spotify_domain,🎵 Spotify
+  - RULE-SET,bahamut_domain,📹 巴哈姆特
+  - RULE-SET,youtube_domain,📹 YouTube
+  - RULE-SET,google_domain,🍀 Google
+  - RULE-SET,onedrive_domain,🐬 OneDrive
+  - RULE-SET,microsoft_domain,🪟 Microsoft
+  - RULE-SET,tiktok_domain,🎵 TikTok
+  - RULE-SET,telegram_domain,📲 Telegram
+  - RULE-SET,netflix_domain,🎥 NETFLIX
+  - RULE-SET,notion_domain,📖 Notion
+  - RULE-SET,paypal_domain,💶 PayPal
+  - RULE-SET,geolocation-!cn,🚀 节点选择
+  - RULE-SET,cn_domain,🎯 全球直连
+  - RULE-SET,google_ip,🍀 Google,no-resolve
+  - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
+  - RULE-SET,telegram_ip,📲 Telegram,no-resolve
+  - RULE-SET,cn_ip,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
