@@ -1,0 +1,38 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+ipv6: false
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 8.8.8.8
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+
+proxies:
+  - {name: 🇷🇴RO_146 @WangCai_8, server: 84.239.14.146, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_147 @WangCai_8, server: 84.239.14.147, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_148 @WangCai_8, server: 84.239.14.148, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_149 @WangCai_8, server: 84.239.14.149, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_150 @WangCai_8, server: 84.239.14.150, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_151 @WangCai_8, server: 84.239.14.151, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_152 @WangCai_8, server: 84.239.14.152, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_153 @WangCai_8, server: 84.239.14.153, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_154 @WangCai_8, server: 84.239.14.154, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_155 @WangCai_8, server: 84.239.14.155, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_156 @WangCai_8, server: 84.239.14.156, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_157 @WangCai_8, server: 84.239.14.157, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_158 @WangCai_8, server: 84.239.14.158, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_159 @WangCai_8, server: 84.239.14.159, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+  - {name: 🇷🇴RO_160 @WangCai_8, server: 84.239.14.160, port: 9002, type: http, tls: true, skip-cert-verify: true} 
+
+proxy-groups:
+  - name: 全部节点
+    type: select
+    include-all: true
+    url: http://www.gstatic.com/generate_204
+rules:
+  - MATCH,全部节点
