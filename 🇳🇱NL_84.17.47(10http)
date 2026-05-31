@@ -1,0 +1,33 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+ipv6: false
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 8.8.8.8
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+
+proxies:
+  - {name: 🇳🇱NL_122 @WangCai_8, server: 84.17.47.122, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_123 @WangCai_8, server: 84.17.47.123, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_124 @WangCai_8, server: 84.17.47.124, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_125 @WangCai_8, server: 84.17.47.125, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_126 @WangCai_8, server: 84.17.47.126, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_146 @WangCai_8, server: 84.17.47.146, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_147 @WangCai_8, server: 84.17.47.147, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_148 @WangCai_8, server: 84.17.47.148, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_149 @WangCai_8, server: 84.17.47.149, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇳🇱NL_150 @WangCai_8, server: 84.17.47.150, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+
+proxy-groups:
+  - name: 全部节点
+    type: select
+    include-all: true
+    url: http://www.gstatic.com/generate_204
+rules:
+  - MATCH,全部节点
