@@ -1,0 +1,72 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+ipv6: false
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 8.8.8.8
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+
+proxies:
+  - {name: 🇺🇸US_2 @WangCai_8, server: 156.146.59.2, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_3 @WangCai_8, server: 156.146.59.3, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_4 @WangCai_8, server: 156.146.59.4, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_5 @WangCai_8, server: 156.146.59.5, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_6 @WangCai_8, server: 156.146.59.6, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_7 @WangCai_8, server: 156.146.59.7, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_8 @WangCai_8, server: 156.146.59.8, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_9 @WangCai_8, server: 156.146.59.9, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_10 @WangCai_8, server: 156.146.59.10, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_11 @WangCai_8, server: 156.146.59.11, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_12 @WangCai_8, server: 156.146.59.12, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_13 @WangCai_8, server: 156.146.59.13, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_14 @WangCai_8, server: 156.146.59.14, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_15 @WangCai_8, server: 156.146.59.15, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_16 @WangCai_8, server: 156.146.59.16, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_17 @WangCai_8, server: 156.146.59.17, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_18 @WangCai_8, server: 156.146.59.18, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_19 @WangCai_8, server: 156.146.59.19, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_20 @WangCai_8, server: 156.146.59.20, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_21 @WangCai_8, server: 156.146.59.21, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_22 @WangCai_8, server: 156.146.59.22, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_23 @WangCai_8, server: 156.146.59.23, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_24 @WangCai_8, server: 156.146.59.24, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_25 @WangCai_8, server: 156.146.59.25, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_27 @WangCai_8, server: 156.146.59.27, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_28 @WangCai_8, server: 156.146.59.28, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_29 @WangCai_8, server: 156.146.59.29, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_30 @WangCai_8, server: 156.146.59.30, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_31 @WangCai_8, server: 156.146.59.31, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_32 @WangCai_8, server: 156.146.59.32, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_33 @WangCai_8, server: 156.146.59.33, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_34 @WangCai_8, server: 156.146.59.34, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_35 @WangCai_8, server: 156.146.59.35, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_36 @WangCai_8, server: 156.146.59.36, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_37 @WangCai_8, server: 156.146.59.37, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_38 @WangCai_8, server: 156.146.59.38, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_39 @WangCai_8, server: 156.146.59.39, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_40 @WangCai_8, server: 156.146.59.40, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_41 @WangCai_8, server: 156.146.59.41, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_42 @WangCai_8, server: 156.146.59.42, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_43 @WangCai_8, server: 156.146.59.43, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_44 @WangCai_8, server: 156.146.59.44, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_45 @WangCai_8, server: 156.146.59.45, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_46 @WangCai_8, server: 156.146.59.46, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_47 @WangCai_8, server: 156.146.59.47, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_48 @WangCai_8, server: 156.146.59.48, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_49 @WangCai_8, server: 156.146.59.49, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_50 @WangCai_8, server: 156.146.59.50, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+
+proxy-groups:
+  - name: 全部节点
+    type: select
+    include-all: true
+    url: http://www.gstatic.com/generate_204
+rules:
+  - MATCH,全部节点
+  
