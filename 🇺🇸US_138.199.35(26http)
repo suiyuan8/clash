@@ -1,0 +1,49 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+ipv6: false
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 8.8.8.8
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+
+proxies:
+  - {name: 🇺🇸US_195 @WangCai_8, server: 138.199.35.195, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_196 @WangCai_8, server: 138.199.35.196, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_197 @WangCai_8, server: 138.199.35.197, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_198 @WangCai_8, server: 138.199.35.198, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_199 @WangCai_8, server: 138.199.35.199, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_200 @WangCai_8, server: 138.199.35.200, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_201 @WangCai_8, server: 138.199.35.201, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_202 @WangCai_8, server: 138.199.35.202, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_203 @WangCai_8, server: 138.199.35.203, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_204 @WangCai_8, server: 138.199.35.204, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_205 @WangCai_8, server: 138.199.35.205, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_206 @WangCai_8, server: 138.199.35.206, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_207 @WangCai_8, server: 138.199.35.207, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_208 @WangCai_8, server: 138.199.35.208, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_209 @WangCai_8, server: 138.199.35.209, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_210 @WangCai_8, server: 138.199.35.210, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_211 @WangCai_8, server: 138.199.35.211, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_212 @WangCai_8, server: 138.199.35.212, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_213 @WangCai_8, server: 138.199.35.213, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_214 @WangCai_8, server: 138.199.35.214, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_215 @WangCai_8, server: 138.199.35.215, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_216 @WangCai_8, server: 138.199.35.216, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_217 @WangCai_8, server: 138.199.35.217, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_218 @WangCai_8, server: 138.199.35.218, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_219 @WangCai_8, server: 138.199.35.219, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+  - {name: 🇺🇸US_220 @WangCai_8, server: 138.199.35.220, port: 9002, type: http, sin: https://t.me/WangCai2🇨🇳, tls: true, skip-cert-verify: true} 
+
+proxy-groups:
+  - name: 全部节点
+    type: select
+    include-all: true
+    url: http://www.gstatic.com/generate_204
+rules:
+  - MATCH,全部节点
